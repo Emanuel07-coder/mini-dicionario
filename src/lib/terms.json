@@ -2416,8 +2416,861 @@
     "translation": "Aparar / Trim",
     "definition": "Função que remove espaços em branco inúteis do início e do final de uma string.",
     "example": "Sempre uso o .trim() no e-mail do usuário para evitar erros de login por causa de um espaço extra."
+  },
+  {
+    "term": "Ubuntu",
+    "translation": "Ubuntu",
+    "definition": "Uma das distribuições Linux mais populares, baseada no Debian e focada em facilidade de uso.",
+    "example": "Instalei o Ubuntu no meu computador para começar a estudar desenvolvimento backend."
+  },
+  {
+    "term": "UI (User Interface)",
+    "translation": "Interface do Usuário",
+    "definition": "Tudo aquilo que o usuário vê e interage em um software (botões, cores, fontes e layouts).",
+    "example": "O designer de UI escolheu cores contrastantes para melhorar a visibilidade do botão."
+  },
+  {
+    "term": "UX (User Experience)",
+    "translation": "Experiência do Usuário",
+    "definition": "A sensação e a facilidade com que um usuário interage com um produto, focando na eficiência e satisfação.",
+    "example": "Melhorar a UX do checkout reduziu a taxa de abandono de carrinho em 20%."
+  },
+  {
+    "term": "URL (Uniform Resource Locator)",
+    "translation": "Localizador Uniforme de Recursos",
+    "definition": "O endereço único e exclusivo de um recurso na internet (como uma página web ou imagem).",
+    "example": "A URL do meu portfólio é https://meu-site.vercel.app."
+  },
+  {
+    "term": "URI (Uniform Resource Identifier)",
+    "translation": "Identificador Uniforme de Recursos",
+    "e-definition": "Uma string de caracteres que identifica um nome ou recurso, englobando tanto URLs quanto URNs.",
+    "example": "Toda URL é tecnicamente uma URI, mas nem toda URI é uma URL."
+  },
+  {
+    "term": "Unicode",
+    "translation": "Unicode",
+    "definition": "Padrão internacional de codificação de caracteres que permite representar textos de qualquer idioma do mundo.",
+    "example": "O Unicode permite que o seu site exiba emojis e caracteres chineses corretamente."
+  },
+  {
+    "term": "UPS (Uninterruptible Power Supply)",
+    "translation": "Nobreak / Fonte de Alimentação Ininterrupta",
+    "definition": "Dispositivo que fornece energia temporária a computadores e servidores em caso de queda de luz.",
+    "example": "O servidor do banco de dados está conectado a um UPS para evitar perda de dados em apagões."
+  },
+  {
+    "term": "USB (Universal Serial Bus)",
+    "translation": "Barramento Serial Universal",
+    "definition": "Padrão de conexão para periféricos (teclados, mouses, pendrives) que permite a comunicação entre hardware.",
+    "example": "Conectei o teclado USB para digitar o código mais rápido."
+  },
+  {
+    "term": "Up-time",
+    "translation": "Tempo de Atividade",
+    "definition": "A quantidade de tempo que um sistema ou servidor permanece online e disponível para os usuários.",
+    "example": "Nossa infraestrutura de nuvem garante um up-time de 99.9% ao ano."
+  },
+  {
+    "term": "Uplink",
+    "translation": "Uplink / Link de Subida",
+    "definition": "A conexão de rede que envia dados de um dispositivo local para um servidor remoto ou internet.",
+    "example": "O uplink lento está dificultando o upload do vídeo para o YouTube."
+  },
+  {
+    "term": "URL Encoder",
+    "translation": "Codificador de URL",
+    "definition": "Processo de converter caracteres especiais de uma URL em formatos que podem ser transmitidos via HTTP.",
+    "example": "Espaços em URLs são convertidos para '%20' pelo URL encoder."
+  },
+  {
+    "term": "User-agent",
+    "translation": "Agente do Usuário",
+    "definition": "Uma string enviada pelo navegador no cabeçalho HTTP que identifica o browser e o sistema operacional.",
+    "example": "O servidor usa o user-agent para saber se deve entregar a versão mobile ou desktop do site."
+  },
+  {
+    "term": "User Story",
+    "translation": "História de Usuário",
+    "definition": "No Agile, é a descrição simples de uma funcionalidade do ponto de vista do usuário final.",
+    "example": "A User Story diz: 'Como usuário, eu quero recuperar minha senha para acessar minha conta'."
+  },
+  {
+    "term": "Utility",
+    "translation": "Utilitário",
+    "definition": "Um pequeno programa projetado para realizar uma tarefa de manutenção específica no sistema.",
+    "example": "Usei um utilitário de disco para verificar se havia setores corrompidos no HD."
+  },
+  {
+    "term": "UUID (Universally Unique Identifier)",
+    "translation": "Identificador Único Universal",
+    "definition": "Um código de 128 bits que garante que um ID seja único no mundo inteiro, evitando colisões.",
+    "example": "Usei UUID para gerar IDs de pedidos em vez de números sequenciais."
+  },
+  {
+    "term": "Unix",
+    "translation": "Unix",
+    "definition": "Sistema operacional multiusuário e multitarefa que serviu de base para o Linux e o macOS.",
+    "example": "A filosofia Unix é criar ferramentas pequenas que fazem apenas uma coisa e fazem bem."
+  },
+  {
+    "term": "Unmount",
+    "translation": "Desmontar",
+    "definition": "No sistema de arquivos, é a ação de desconectar logicamente um disco ou partição do sistema.",
+    "example": "Sempre dê 'unmount' no pendrive antes de removê-lo para evitar corrupção de dados."
+  },
+  {
+    "term": "Unzip",
+    "translation": "Descompactar / Unzip",
+    "definition": "Ato de extrair arquivos de um formato compactado (.zip) para restaurar seu tamanho original.",
+    "example": "Baixei o projeto do GitHub como ZIP e usei o unzip para extrair a pasta."
+  },
+  {
+    "term": "Upstream",
+    "translation": "Upstream",
+    "definition": "O fluxo de dados que vai do cliente para o servidor, ou a fonte original de um código em open source.",
+    "example": "Fiz o push das minhas alterações para o upstream do repositório oficial."
+  },
+  {
+    "term": "Update",
+    "translation": "Atualização / Update",
+    "definition": "Processo de atualizar um software para uma versão mais recente com correções ou melhorias.",
+    "example": "Fiz o update do Next.js para a versão 16 para usar as novas funções de renderização."
+  },
+  {
+    "term": "Upgrade",
+    "translation": "Atualização de Nível / Upgrade",
+    "definition": "Substituição de um componente ou software por um modelo superior ou versão majoritária.",
+    "example": "Fiz um upgrade da memória RAM de 8GB para 16GB para rodar o Docker melhor."
+  },
+  {
+    "term": "URI Scheme",
+    "translation": "Esquema de URI",
+    "definition": "A parte inicial de uma URI que define o protocolo de comunicação (ex: http, ftp, mailto).",
+    "example": "O esquema 'mailto:' abre automaticamente o aplicativo de e-mail do usuário."
+  },
+  {
+    "term": "Unit",
+    "translation": "Unidade",
+    "definition": "A menor parte testável de um software, geralmente uma única função ou método.",
+    "example": "Um teste de unidade verifica se a função 'soma' retorna o valor correto."
+  },
+  {
+    "term": "Unique",
+    "translation": "Único",
+    "definition": "Restrição de banco de dados que impede a inserção de valores duplicados em uma coluna.",
+    "example": "A coluna 'email' na tabela de usuários deve ser UNIQUE."
+  },
+  {
+    "term": "Unstable",
+    "translation": "Instável",
+    "definition": "Versão de um software que ainda está em testes e pode apresentar bugs ou travar.",
+    "example": "Não instale a versão unstable em produção; use a versão Stable."
+  },
+  {
+    "term": "Up-to-date",
+    "translation": "Atualizado",
+    "definition": "Estado de um software ou dependência que está na versão mais recente disponível.",
+    "example": " la verifiquei se todas as dependências do package.json estavam up-to-date."
+  },
+  {
+    "term": "Undo",
+    "translation": "Desfazer / Undo",
+    "definition": "Ação de reverter a última alteração feita em um documento ou código.",
+    "example": "Usei Ctrl + Z para dar undo no erro que cometi no código."
+  },
+  {
+    "term": "Underflow",
+    "translation": "Underflow",
+    "definition": "Erro que ocorre quando um número é pequeno demais para ser representado pelo tipo de dado.",
+    "example": "O underflow ocorreu ao tentar dividir um número por um valor imenso."
+  },
+  {
+    "term": "User-centric",
+    "translation": "Centrado no Usuário",
+    "definition": "Abordagem de design que coloca as necessidades e limitações do usuário final no centro do projeto.",
+    "example": "O design centrado no usuário evita que funcionalidades inúteis sejam adicionadas ao app."
+  },
+  {
+    "term": "UTF-8",
+    "translation": "UTF-8",
+    "definition": "A codificação de caracteres mais comum da internet, baseada no Unicode.",
+    "example": "Configurei o arquivo HTML para usar charset UTF-8 para suportar acentos."
+  },
+  {
+    "term": "Value",
+    "translation": "Valor",
+    "definition": "O dado armazenado em uma variável ou a resposta de uma expressão.",
+    "example": "O valor da variável 'total' é 163."
+  },
+  {
+    "term": "Variable",
+    "translation": "Variável",
+    "definition": "Espaço na memória do computador usado para armazenar dados que podem mudar durante a execução.",
+    "example": "Declarei a variável 'userName' para guardar o nome do cliente."
+  },
+  {
+    "term": "Vector",
+    "translation": "Vetor",
+    "definition": "Uma lista dinâmica de elementos, comum em C++ (std::vector) ou representações matemáticas de IA.",
+    "example": "Usei um vetor para armazenar as coordenadas de cada ponto do gráfico."
+  },
+  {
+    "term": "Version",
+    "translation": "Versão",
+    "definition": "Identificador numérico (ex: v1.0.2) que indica o estágio de evolução de um software.",
+    "example": "A versão 2.0 do app trouxe mudanças completas no layout."
+  },
+  {
+    "term": "Virtual Machine (VM)",
+    "translation": "Máquina Virtual",
+    "definition": "Emulação de um computador físico dentro de outro, permitindo rodar múltiplos sistemas operacionais.",
+    "example": "Usei VirtualBox para criar uma VM de Linux dentro do meu Windows."
+  },
+  {
+    "term": "Virtualization",
+    "translation": "Virtualização",
+    "definition": "Tecnologia que permite criar representações virtuais de recursos de hardware (servidores, rede, storage).",
+    "example": "A virtualização permite que um único servidor físico hospede 10 servidores virtuais."
+  },
+  {
+    "term": "VGA (Video Graphics Array)",
+    "translation": "VGA",
+    "definition": "Padrão antigo de conexão analógica de vídeo para monitores.",
+    "example": "O monitor antigo usava cabo VGA, mas o novo usa HDMI."
+  },
+  {
+    "term": "VPN (Virtual Private Network)",
+    "translation": "Rede Privada Virtual",
+    "definition": "Túnel criptografado que permite conectar-se a uma rede remota com segurança, escondendo o IP real.",
+    "example": "Usei a VPN da empresa para acessar o banco de dados de produção com segurança."
+  },
+  {
+    "term": "Virtual Memory",
+    "translation": "Memória Virtual",
+    "definition": "Técnica onde o sistema usa parte do HD como se fosse RAM quando a memória física acaba.",
+    "example": "O sistema começou a ficar lento porque estava usando muita memória virtual (swap)."
+  },
+  {
+    "term": "Visual Studio",
+    "translation": "Visual Studio",
+    "definition": "IDE robusta da Microsoft focada em C#, .NET e desenvolvimento Windows.",
+    "example": "O Visual Studio é diferente do VS Code; ele é muito mais pesado e completo."
+  },
+  {
+    "term": "Vim",
+    "translation": "Vim",
+    "definition": "Editor de texto avançado via linha de comando, conhecido por sua alta produtividade e curva de aprendizado.",
+    "example": "Muitos administradores de sistema usam o Vim para editar arquivos no servidor Linux."
+  },
+  {
+    "term": "V-sync (Vertical Sync)",
+    "translation": "Sincronização Vertical",
+    "definition": "Técnica que sincroniza a taxa de atualização do monitor com a de renderização da GPU para evitar 'rasgos' na imagem.",
+    "example": "Ativei o V-sync no jogo para eliminar o screen tearing."
+  },
+  {
+    "term": "V-RAM",
+    "translation": "VRAM (Video RAM)",
+    "definition": "Memória dedicada da placa de vídeo para armazenar texturas e buffers de imagem.",
+    "example": "Para rodar jogos em 4K, é necessário ter pelo menos 8GB de VRAM."
+  },
+  {
+    "term": "VLAN (Virtual Local Area Network)",
+    "translation": "Rede Local Virtual",
+    "definition": "Divisão lógica de uma rede física em várias redes menores para aumentar a segurança e performance.",
+    "example": "Criei uma VLAN separada para as câmeras de segurança da empresa."
+  },
+  {
+    "term": "VoIP (Voice over IP)",
+    "translation": "Voz sobre IP",
+    "definition": "Tecnologia que permite fazer chamadas de voz usando a internet em vez de linhas telefônicas analógicas.",
+    "example": " la usei VoIP para fazer reuniões com a equipe via Skype e Zoom."
+  },
+  {
+    "term": "Volume",
+    "translation": "Volume",
+    "definition": "Espaço de armazenamento lógico em um disco rígido, podendo ser formatado com um sistema de arquivos.",
+    "example": "Criei um novo volume no HD para separar os documentos dos jogos."
+  },
+  {
+    "term": "V-model",
+    "translation": "Modelo em V",
+    "definition": "Modelo de desenvolvimento de software que correlaciona cada fase de desenvolvimento com uma fase de teste.",
+    "example": "O Modelo em V é muito comum em indústrias onde a segurança é crítica, como a aeroespacial."
+  },
+  {
+    "term": "Vaporware",
+    "translation": "Vaporware",
+    "definition": "Software ou hardware anunciado por uma empresa, mas que nunca é lançado ou demora anos para sair.",
+    "example": "Aquele novo console foi anunciado há 5 anos, mas nunca saiu; virou um vaporware."
+  },
+  {
+    "term": "V-lookup",
+    "translation": "V-lookup (Procv)",
+    "definition": "Função de planilhas (Excel/Sheets) que busca um valor em uma coluna e retorna um dado de outra coluna.",
+    "example": "Usei o V-lookup para encontrar o preço do produto usando apenas o código dele."
+  },
+  {
+    "term": "Valid",
+    "translation": "Válido",
+    "definition": "Estado de um dado que atende a todos os requisitos e regras de validação definidos.",
+    "example": "O sistema verifica se o formato do e-mail é válido antes de salvar no banco."
+  },
+  {
+    "term": "Validator",
+    "translation": "Validador",
+    "definition": "Função ou ferramenta que verifica se a entrada de dados está correta.",
+    "example": "Usei o validador do W3C para checar se meu HTML tinha erros de sintaxe."
+  },
+  {
+    "term": "Value-added",
+    "translation": "Valor Agregado",
+    "definition": "Melhoria adicional em um serviço ou produto que o torna mais atraente para o cliente final.",
+    "example": "Oferecer suporte 24h é um valor agregado importante para serviços de nuvem."
+  },
+  {
+    "term": "Variable-length",
+    "translation": "Comprimento Variável",
+    "definition": "Tipo de dado que não tem um tamanho fixo, como as strings em JavaScript.",
+    "example": "Campos de texto em bancos de dados costumam ser de comprimento variável (VARCHAR)."
+  },
+  {
+    "term": "Vertex",
+    "translation": "Vértice",
+    "definition": "Ponto de interseção em um grafo ou o canto de um polígono em modelagem 3D.",
+    "example": "Um triângulo possui três vértices conectados por arestas."
+  },
+  {
+    "term": "V-shape",
+    "translation": "Forma em V",
+    "definition": "Padrão de análise de dados ou comportamento de sinal que sobe e desce rapidamente.",
+    "example": "O gráfico de latência apresentou um v-shape durante o pico de acessos."
+  },
+  {
+    "term": "Web",
+    "translation": "Web / Teia",
+    "definition": "Sistema de documentos interconectados via hiperlinks, acessíveis através da internet.",
+    "example": "A Web mudou a forma como as pessoas consomem informação no mundo."
+  },
+  {
+    "term": "Website",
+    "translation": "Site / Website",
+    "definition": "Conjunto de páginas web relacionadas que são hospedadas sob um único domínio.",
+    "example": "Criei um website para hospedar meu dicionário de tecnologia."
+  },
+  {
+    "term": "Web Service",
+    "translation": "Serviço Web",
+    "definition": "Software que disponibiliza funcionalidades para outros sistemas via rede, geralmente usando XML ou JSON.",
+    "example": "O serviço de pagamento do Stripe é um web service consumido por milhares de lojas."
+  },
+  {
+    "term": "Web Socket",
+    "translation": "Web Socket",
+    "definition": "Protocolo que permite comunicação bidirecional em tempo real entre cliente e servidor.",
+    "example": "Usei Web Sockets para criar um chat onde as mensagens aparecem instantaneamente."
+  },
+  {
+    "term": "WebAssembly (Wasm)",
+    "translation": "WebAssembly",
+    "definition": "Formato binário que permite rodar código de linguagens como C++ e Rust no navegador com performance nativa.",
+    "example": "O Figma utiliza WebAssembly para que o editor de design seja extremamente fluido."
+  },
+  {
+    "term": "WebGL",
+    "translation": "WebGL",
+    "definition": "API de JavaScript para renderizar gráficos 2D e 3D complexos diretamente no navegador.",
+    "example": "Usei WebGL para criar um efeito de partículas 3D no fundo do site."
+  },
+  {
+    "term": "Webpack",
+    "translation": "Webpack",
+    "definition": "Empacotador de módulos que transforma diversos arquivos JS, CSS e Imagens em um único arquivo otimizado.",
+    "example": "O Webpack minifica o código para que o site carregue mais rápido no mobile."
+  },
+  {
+    "term": "Widget",
+    "translation": "Widget",
+    "definition": "Pequeno componente de interface que exibe informações rápidas ou oferece uma função simples.",
+    "example": "Adicionei um widget de clima no canto superior do meu dashboard."
+  },
+  {
+    "term": "Wi-Fi",
+    "translation": "Wi-Fi",
+    "definition": "Tecnologia de rede sem fio baseada no padrão IEEE 802.11 para conexão de dispositivos à internet.",
+    "example": "A rede Wi-Fi do escritório é protegida por senha WPA3."
+  },
+  {
+    "term": "WSDL (Web Services Description Language)",
+    "translation": "Linguagem de Descrição de Web Services",
+    "definition": "Arquivo XML que descreve as funções e parâmetros disponíveis em um serviço SOAP.",
+    "example": "Li o arquivo WSDL para entender quais métodos a API do banco oferecia."
+  },
+  {
+    "term": "WAN (Wide Area Network)",
+    "translation": "Rede de Longa Distância",
+    "definition": "Rede de computadores que abrange grandes distâncias geográficas, como cidades ou países. A Internet é a maior WAN.",
+    "example": "A empresa usa uma WAN para conectar a filial de Nova York com a de Tóquio."
+  },
+  {
+    "term": "Window",
+    "translation": "Janela / Window",
+    "definition": "Área visual independente no sistema operacional onde um aplicativo é executado.",
+    "example": "O sistema operacional Windows organiza as aplicações em janelas."
+  },
+  {
+    "term": "Windowing",
+    "translation": "Windowing",
+    "definition": "Técnica de processamento de sinais onde um sinal longo é dividido em segmentos menores (janelas).",
+    "example": "Usei windowing para analisar a frequência do áudio em pequenos intervalos."
+  },
+  {
+    "term": "Win32",
+    "translation": "Win32",
+    "definition": "API de programação clássica para criar aplicações de 32 bits para o sistema operacional Windows.",
+    "example": "Muitos softwares antigos ainda dependem da API Win32 para funcionar."
+  },
+  {
+    "term": "Word",
+    "translation": "Palavra / Word",
+    "definition": "Unidade básica de dados que o processador consegue manipular de uma vez (ex: 32 bits ou 64 bits).",
+    "example": "Um processador de 64 bits pode processar uma word de 64 bits por ciclo."
+  },
+  {
+    "term": "Word wrap",
+    "translation": "Quebra de Linha Automática",
+    "definition": "Recurso de editores de texto que move automaticamente as palavras para a linha seguinte ao atingir a margem.",
+    "example": "Ativei o word wrap no VS Code para não precisar de barra de rolagem horizontal."
+  },
+  {
+    "term": "Work-flow",
+    "translation": "Fluxo de Trabalho",
+    "definition": "Sequência de passos necessários para completar uma tarefa, desde o planejamento até a entrega.",
+    "example": "O workflow do nosso time começa com o planejamento no Trello e termina no deploy da Vercel."
+  },
+  {
+    "term": "Working Directory",
+    "translation": "Diretório de Trabalho",
+    "definition": "A pasta atual onde o terminal ou o programa está operando no momento.",
+    "example": "Mudei o working directory para a pasta 'lib' para rodar o script de teste."
+  },
+  {
+    "term": "Worm",
+    "translation": "Worm / Verme",
+    "definition": "Malware que se propaga automaticamente por redes, infectando outros computadores sem precisar de interação humana.",
+    "example": "O worm se espalhou rapidamente pela rede local explorando uma falha no SMB."
+  },
+  {
+    "term": "Write-protected",
+    "translation": "Protegido contra Escrita",
+    "definition": "Estado de um arquivo ou disco que impede qualquer alteração ou exclusão de dados.",
+    "example": "O cartão SD está write-protected, não consigo apagar as fotos."
+  },
+  {
+    "term": "Write-through",
+    "translation": "Escrita Direta",
+    "definition": "Estratégia de cache onde os dados são escritos simultaneamente no cache e no armazenamento principal.",
+    "example": "O write-through garante que os dados não sejam perdidos se o sistema travar."
+  },
+  {
+    "term": "Write-back",
+    "translation": "Escrita Posterior",
+    "definition": "Estratégia de cache onde os dados são escritos primeiro no cache e somente depois enviados ao disco.",
+    "example": "O write-back é mais rápido que o write-through, mas corre risco de perda de dados em quedas de energia."
+  },
+  {
+    "term": "Wrong-way",
+    "translation": "Sentido Inverso",
+    "definition": "Erro de lógica onde o fluxo de dados percorre o caminho oposto ao esperado.",
+    "example": "O erro de wrong-way na API causou o envio de dados do servidor para o cliente."
+  },
+  {
+    "term": "Wrap",
+    "translation": "Envolver / Wrap",
+    "definition": "Criação de uma nova função ou classe que envolve outra para adicionar funcionalidades sem alterar o original.",
+    "example": "Fiz um wrap na função de fetch para adicionar automaticamente o token de autenticação."
+  },
+  {
+    "term": "Wrapper",
+    "translation": "Wrapper / Envelopador",
+    "definition": "Um componente ou classe que 'embrulha' outro para adaptar sua interface ou adicionar comportamento.",
+    "example": "Criei um wrapper de layout para que todas as páginas do site tivessem o mesmo menu."
+  },
+  {
+    "term": "WPA (Wi-Fi Protected Access)",
+    "translation": "WPA",
+    "definition": "Protocolo de segurança para redes Wi-Fi que criptografa os dados transmitidos entre o dispositivo e o roteador.",
+    "example": "Sempre use WPA2 ou WPA3, pois o WEP antigo é fácil de hackear."
+  },
+  {
+    "term": "WPA2",
+    "translation": "WPA2",
+    "definition": "Versão aprimorada do protocolo WPA que utiliza criptografia AES para maior segurança.",
+    "example": "O roteador da empresa está configurado com WPA2-Enterprise."
+  },
+  {
+    "term": "WPA3",
+    "translation": "WPA3",
+    "definition": "A versão mais recente e segura do protocolo Wi-Fi, protegendo contra ataques de força bruta.",
+    "example": " la atualizei meu roteador para suportar WPA3 e aumentar a segurança da minha rede."
+  },
+  {
+    "term": "Wye",
+    "translation": "Conexão em Y",
+    "definition": "Tipo de conexão elétrica em sistemas trifásicos, usada em algumas fontes de alimentação de servidores.",
+    "example": "A instalação elétrica do data center utiliza a conexão em wye para estabilidade."
+  },
+  {
+    "term": "XML (Extensible Markup Language)",
+    "translation": "Linguagem de Marcação Extensível",
+    "definition": "Linguagem de marcação usada para transportar e armazenar dados de forma estruturada e legível.",
+    "example": "O arquivo de configuração do Maven é escrito em XML."
+  },
+  {
+    "term": "XHTML (Extensible HyperText Markup Language)",
+    "translation": "XHTML",
+    "definition": "Uma versão mais rígida do HTML que segue as regras do XML, exigindo que todas as tags sejam fechadas.",
+    "example": "No XHTML, você não pode deixar a tag <br> aberta; deve usar <br />."
+  },
+  {
+    "term": "XSS (Cross-site Scripting)",
+    "translation": "Scripting entre Sites",
+    "definition": "Vulnerabilidade onde um hacker injeta scripts maliciosos em páginas web para roubar cookies de usuários.",
+    "example": "Sanitizar as entradas do usuário é a melhor forma de prevenir ataques de XSS."
+  },
+  {
+    "term": "XSLT (Extensible Stylesheet Language Transformations)",
+    "translation": "XSLT",
+    "definition": "Linguagem usada para transformar documentos XML em outros formatos, como HTML ou texto plano.",
+    "example": "Usei XSLT para transformar a lista de produtos em XML em uma tabela HTML."
+  },
+  {
+    "term": "X.509",
+    "translation": "X.509",
+    "definition": "Padrão internacional para certificados digitais usados em chaves públicas (PKI), essencial para o HTTPS.",
+    "example": "O certificado SSL do site segue o padrão X.509 para ser reconhecido pelos navegadores."
+  },
+  {
+    "term": "X-axis",
+    "translation": "Eixo X",
+    "definition": "A dimensão horizontal em gráficos, coordenadas cartesianas ou renderização de imagens.",
+    "example": "O eixo X do gráfico representa a passagem do tempo em segundos."
+  },
+  {
+    "term": "X-coordinate",
+    "translation": "Coordenada X",
+    "definition": "O valor numérico que define a posição horizontal de um ponto em um plano.",
+    "example": "Mudei a coordenada X do botão para centralizá-lo na tela."
+  },
+  {
+    "term": "X-frame-options",
+    "translation": "X-Frame-Options",
+    "definition": "Cabeçalho HTTP que indica se o navegador deve permitir que a página seja exibida dentro de um IFrame.",
+    "example": "Configurei X-Frame-Options como 'DENY' para evitar ataques de Clickjacking."
+  },
+  {
+    "term": "X-forwarded-for",
+    "translation": "X-Forwarded-For",
+    "definition": "Cabeçalho HTTP usado por proxies para identificar o endereço IP original do cliente.",
+    "example": "Como o site está atrás de um load balancer, uso o X-forwarded-for para saber o IP real do usuário."
+  },
+  {
+    "term": "X-ref (Cross-reference)",
+    "translation": "Referência Cruzada",
+    "definition": "Um link ou menção a outra parte de um documento ou código para fornecer contexto adicional.",
+    "example": "Adicionei uma x-ref no arquivo de documentação para levar o usuário à seção de instalação."
+  },
+  {
+    "term": "X-ray (Software)",
+    "translation": "Raio-X de Software",
+    "definition": "Termo usado para ferramentas de análise profunda que permitem ver a estrutura interna de um binário ou memória.",
+    "example": "O depurador fez um x-ray da stack trace para encontrar onde a função falhou."
+  },
+  {
+    "term": "X-platform",
+    "translation": "Multiplataforma / Cross-platform",
+    "definition": "Software desenvolvido para rodar em múltiplos sistemas operacionais sem a necessidade de reescrever o código.",
+    "example": "O Flutter é excelente para criar apps x-platform para Android e iOS simultaneamente."
+  },
+  {
+    "term": "X-scaling",
+    "translation": "Escalonamento no Eixo X",
+    "e-definition": "Ajuste de proporção horizontal de um elemento gráfico ou imagem.",
+    "example": "O x-scaling inadequado deixou a imagem do logo esticada horizontalmente."
+  },
+  {
+    "term": "X-value",
+    "translation": "Valor X",
+    "definition": "A variável independente em uma função matemática ou a posição horizontal de um dado.",
+    "example": "O x-value no gráfico de performance indica a quantidade de requisições por segundo."
+  },
+  {
+    "term": "X-index",
+    "translation": "Índice X",
+    "definition": "Referência a uma coluna ou dimensão horizontal em estruturas de dados matriciais.",
+    "example": "Acesse o elemento da matriz usando o x-index 5 e o y-index 2."
+  },
+  {
+    "term": "X-component",
+    "translation": "Componente X",
+    "definition": "A parte de um vetor ou força que atua apenas na direção horizontal.",
+    "example": "Calculamos o x-component da velocidade para saber a direção do movimento do personagem."
+  },
+  {
+    "term": "YAML (YAML Ain't Markup Language)",
+    "translation": "YAML",
+    "definition": "Formato de serialização de dados legível por humanos, muito usado para arquivos de configuração (como Docker Compose).",
+    "example": "Escrevi o arquivo de configuração do Kubernetes usando a sintaxe YAML."
+  },
+  {
+    "term": "Yarn",
+    "translation": "Yarn",
+    "definition": "Gerenciador de pacotes JavaScript criado pelo Facebook, alternativa ao npm, focado em performance e segurança.",
+    "example": "Usei o Yarn para instalar as dependências do Next.js mais rapidamente."
+  },
+  {
+    "term": "Yottabyte",
+    "translation": "Yottabyte (YB)",
+    "definition": "A maior unidade de medida de armazenamento de dados oficialmente reconhecida (10^24 bytes).",
+    "example": "A quantidade de dados gerados globalmente por dia está se aproximando de alguns yottabytes."
+  },
+  {
+    "term": "Yobibyte",
+    "translation": "Yobibyte (YiB)",
+    "definition": "Unidade de medida de dados baseada em potência de 2, equivalente a 2^80 bytes.",
+    "example": " la usei a medida yobibyte para calcular o espaço exato em disco de alta precisão."
+  },
+  {
+    "term": "Y-axis",
+    "translation": "Eixo Y",
+    "definition": "A dimensão vertical em gráficos e coordenadas, representando geralmente a dependência ou valor.",
+    "example": "O eixo Y do gráfico mostra a porcentagem de CPU utilizada."
+  },
+  {
+    "term": "Yellow-box (Testing)",
+    "translation": "Teste de Caixa Amarela",
+    "definition": "Técnica de teste que combina a caixa branca (conhece o código) e a caixa preta (foca na função).",
+    "example": "O teste de caixa amarela permitiu que eu focasse nos caminhos mais críticos do código."
+  },
+  {
+    "term": "Yield",
+    "translation": "Produzir / Yield",
+    "definition": "Palavra-chave em linguagens como JS e Python usada em funções geradoras para retornar valores pausadamente.",
+    "example": "Usei o yield para criar um iterador que retorna um termo do dicionário por vez."
+  },
+  {
+    "term": "Y-intercept",
+    "translation": "Intercepto Y",
+    "definition": "O ponto onde uma reta cruza o eixo vertical em um gráfico matemático.",
+    "example": "No gráfico de custo de servidor, o y-intercept representa a taxa fixa mensal."
+  },
+  {
+    "term": "Y-coordinate",
+    "translation": "Coordenada Y",
+    "definition": "O valor numérico que define a posição vertical de um ponto em um plano.",
+    "example": "Ajustei a coordenada Y para mover o banner para o topo da página."
+  },
+  {
+    "term": "YouTube API",
+    "translation": "API do YouTube",
+    "definition": "Interface de programação que permite que desenvolvedores busquem vídeos e gerenciem canais programaticamente.",
+    "example": "Usei a YouTube API para exibir os tutoriais de programação no meu site."
+  },
+  {
+    "term": "Yoke",
+    "translation": "Yoke / Junção",
+    "definition": "Sincronização de dois processos ou fluxos de dados para que operem em uníssono.",
+    "example": "O sistema de yoke garantiu que o vídeo e o áudio estivessem perfeitamente sincronizados."
+  },
+  {
+    "term": "Young-modulo",
+    "translation": "Módulo de Young",
+    "definition": "Constante física usada em simulações de computação gráfica para definir a elasticidade de materiais.",
+    "example": "No motor de física do jogo, ajustei o módulo de Young para que a borracha quicasse mais."
+  },
+  {
+    "term": "Y-value",
+    "translation": "Valor Y",
+    "definition": "A variável dependente em uma equação ou a posição vertical de um dado.",
+    "example": "Se o y-value for zero, o elemento estará alinhado com a base do container."
+  },
+  {
+    "term": "Y-index",
+    "translation": "Índice Y",
+    "definition": "Referência à linha em uma estrutura de dados bidimensional (matriz).",
+    "example": "Acessei a célula da tabela usando o x-index 2 e o y-index 10."
+  },
+  {
+    "term": "Zip",
+    "translation": "Zip / Compactar",
+    "definition": "Formato de compressão de arquivos que reduz o tamanho dos dados para facilitar o armazenamento e envio.",
+    "example": " la compactei todos os assets do site em um arquivo .zip para enviar ao cliente."
+  },
+  {
+    "term": "Z-index",
+    "translation": "Z-index",
+    "definition": "Propriedade do CSS que controla a ordem de empilhamento dos elementos (quem fica na frente de quem).",
+    "example": "Defini o z-index do menu como 1000 para que ele ficasse acima de qualquer outro conteúdo."
+  },
+  {
+    "term": "Zero-day (Exploit)",
+    "translation": "Ataque de Dia Zero",
+    "definition": "Vulnerabilidade de segurança desconhecida pelo fabricante, que é explorada por hackers antes de existir um patch.",
+    "example": "O ataque zero-day derrubou vários servidores antes que a Microsoft pudesse lançar a correção."
+  },
+  {
+    "term": "Z-buffer",
+    "translation": "Z-buffer",
+    "definition": "Memória usada em computação gráfica para determinar quais objetos estão na frente de outros e devem ser renderizados.",
+    "example": "O z-buffer evita que o computador renderize pixels que estão escondidos atrás de outras paredes no jogo."
+  },
+  {
+    "term": "Zombie Process",
+    "translation": "Processo Zumbi",
+    "definition": "Um processo que terminou sua execução mas ainda consta na tabela de processos do sistema operacional.",
+    "example": "O servidor Linux estava lento porque havia centenas de processos zumbis consumindo IDs."
+  },
+  {
+    "term": "Z-wave",
+    "translation": "Z-Wave",
+    "definition": "Protocolo de comunicação sem fio de baixa energia usado para automação residencial (IoT).",
+    "example": "Usei sensores Z-Wave para controlar a iluminação da casa via smartphone."
+  },
+  {
+    "term": la "Z-axis",
+    "translation": "Eixo Z",
+    "definition": "A dimensão de profundidade em um espaço 3D.",
+    "example": "Movi o objeto no eixo Z para criar a sensação de profundidade na cena."
+  },
+  {
+    "term": "Zone (DNS)",
+    "translation": "Zona de DNS",
+    "definition": "Uma porção do espaço de nomes do DNS administrada por uma única entidade.",
+    "example": "A zona do domínio 'meusite.com' contém todos os registros A e MX."
+  },
+  {
+    "term": "Zone File",
+    "translation": "Arquivo de Zona",
+    "definition": "Arquivo de texto que contém todos os registros de DNS para uma zona específica.",
+    "example": "Editei o zone file para adicionar um novo subdomínio de API."
+  },
+  {
+    "term": "Zero-trust",
+    "translation": "Confiança Zero",
+    "definition": "Modelo de segurança onde nenhum usuário ou dispositivo é confiável por padrão, exigindo verificação constante.",
+    "example": "Implementamos a arquitetura zero-trust para exigir MFA em todos os acessos internos."
+  },
+  {
+    "term": "Z-score",
+    "translation": "Z-score / Escore Z",
+    "definition": "Medida estatística que indica quantos desvios padrão um valor está longe da média.",
+    "example": "Usei o z-score para identificar anomalias nos logs de acesso ao servidor."
+  },
+  {
+    "term": "Zip-archive",
+    "translation": "Arquivo Zip",
+    "definition": "Um container que agrupa múltiplos arquivos e pastas em um único arquivo compactado.",
+    "example": "O zip-archive facilitou a transferência de todo o código-fonte via e-mail."
+  },
+  {
+    "term": "Z-compression",
+    "translation": "Compressão Z",
+    "definition": "Algoritmos de compressão baseados em lazos (como o Deflate), usados em arquivos .zip e .png.",
+    "example": "A compressão z reduz drasticamente o tamanho de arquivos de texto repetitivos."
+  },
+  {
+    "term": "Zoning",
+    "translation": "Zoneamento",
+    "definition": "Divisão de uma rede ou sistema em zonas de segurança diferentes para isolar falhas ou ataques.",
+    "example": " la usei zoning para separar a rede de convidados da rede administrativa da empresa."
+  },
+  {
+    "term": "Zero-padding",
+    "translation": "Preenchimento de Zeros",
+    "definition": "Técnica de adicionar zeros à esquerda ou direita de um número para atingir um comprimento fixo.",
+    "example": "Usei zero-padding para que o ID '5' virasse '005', mantendo a ordenação correta."
+  },
+  {
+    "term": "Zero-offset",
+    "translation": "Deslocamento Zero",
+    "definition": "Quando o ponto de referência de um cálculo de memória ou posição é exatamente o início (índice 0).",
+    "example": "Arrays em JavaScript utilizam zero-offset, começando a contar do elemento 0."
+  },
+  {
+    "term": "Zero-sum",
+    "translation": "Soma Zero",
+    "definition": "Situação em que o ganho de um participante é exatamente igual à perda de outro.",
+    "example": "Algumas estratégias de trading de alta frequência operam em lógica de soma zero."
+  },
+  {
+    "term": "Zero-knowledge proof",
+    "translation": "Prova de Conhecimento Zero",
+    "definition": "Método criptográfico que permite provar que você sabe algo sem revelar a informação em si.",
+    "example": "Zk-proofs são a base de novas blockchains focadas em privacidade total."
+  },
+  {
+    "term": "Zero-based indexing",
+    "translation": "Indexação Baseada em Zero",
+    "definition": "Convenção de programação onde o primeiro elemento de uma lista é acessado pelo índice 0.",
+    "example": "No Python, se você quer o primeiro item de uma lista, usa-se list[0]."
+  },
+  {
+    "term": "Zombie",
+    "translation": "Zumbi",
+    "definition": "Processo que terminou mas ainda ocupa espaço na tabela de processos do sistema operacional.",
+    "example": "Limpamos todos os processos zumbis para liberar recursos do kernel."
+  },
+  {
+    "term": "Z-order",
+    "translation": "Ordem Z",
+    "definition": "A sequência de empilhamento de elementos em uma interface gráfica (quem está acima de quem).",
+    "example": "A janela do alerta deve ter a maior z-order para ficar sempre no topo."
+  },
+  {
+    "term": "Z-fighting",
+    "translation": "Z-fighting",
+    "definition": "Erro gráfico onde dois polígonos na mesma profundidade 'lutam' para aparecer, causando cintilação.",
+    "example": "O z-fighting aconteceu porque as duas texturas da parede estavam na mesma coordenada Z."
+  },
+  {
+    "term": "Z-scale",
+    "translation": "Escala Z",
+    "definition": "Ajuste de proporção na dimensão de profundidade em modelos 3D.",
+    "example": " la alterei o z-scale do modelo para que a mesa não parecesse achatada."
+  },
+  {
+    "term": "Zilch",
+    "translation": "Zero / Nada",
+    "definition": "Gíria técnica para indicar que não há dados, resultados ou memória disponível.",
+    "example": "Tentei buscar o erro nos logs, mas não encontrei zilch."
+  },
+  {
+    "term": "Zone",
+    "translation": "Zona",
+    "definition": "Área delimitada de controle em redes, domínios ou sistemas de arquivos.",
+    "example": "A zona de segurança do servidor impede o acesso externo direto ao banco."
+  },
+  {
+    "term": "Zip-file",
+    "translation": "Arquivo Zip",
+    "definition": "Arquivo comprimido que agrupa múltiplos arquivos em um único pacote.",
+    "example": "Enviei o zip-file com todo o projeto para o cliente via e-mail."
+  },
+  {
+    "term": "Zoetrope (digital)",
+    "translation": "Zoetrópio Digital",
+    "definition": "Técnica de animação primitiva aplicada digitalmente para criar loops de movimento.",
+    "example": "Usei a lógica de zoetrópio digital para criar o ícone de carregamento do site."
+  },
+  {
+    "term": "Zoom",
+    "translation": "Zoom / Ampliação",
+    "definition": "Ação de aumentar ou diminuir a escala de visualização de uma interface ou imagem.",
+    "example": "Implementei a função de zoom para que o usuário pudesse ver detalhes do código."
   }
 ]
+
 
 
 
