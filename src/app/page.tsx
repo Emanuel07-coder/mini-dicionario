@@ -28,11 +28,25 @@ function HomeContent({ searchParams }: { searchParams: HomeSearchParams }) {
   const total = getAllTerms().length;
   const letters = LETTERS;
   const qRaw = searchParams?.q;
+  
+  // 1. Saneamento rigoroso do termo de busca
   const q = Array.isArray(qRaw) ? qRaw[0] ?? "" : qRaw ?? "";
-  const results = q ? searchTerms(q) : [];
+  const searchTerm = q.trim(); // Remove espaços inúteis no início e fim
+
+  // 2. Busca protegida para evitar erro de servidor
+  let results = [];
+  try {
+    if (searchTerm) {
+      results = searchTerms(searchTerm);
+    }
+  } catch (error) {
+    console.error("Erro ao buscar termos no servidor:", error);
+    results = []; // Se der erro, retorna lista vazia em vez de derrubar o site
+  }
 
   return (
     <GlossaryLayout>
+      {/* ... restante do código (o JSX permanece igual) ... */}
       <section className="mb-12 text-center sm:text-left">
         <h1 className="font-mono text-4xl tracking-tight text-cyan-200">
           Mini-dicionário <span className="text-zinc-500">Tech</span>
@@ -45,7 +59,6 @@ function HomeContent({ searchParams }: { searchParams: HomeSearchParams }) {
 
       <section className="mb-12">
         <div className="max-w-2xl mx-auto">
-          {/* Substituído o <form> pelo componente <SearchForm /> */}
           <SearchForm defaultValue={q} />
 
           {results.length > 0 && (
@@ -66,6 +79,13 @@ function HomeContent({ searchParams }: { searchParams: HomeSearchParams }) {
               </ul>
             </div>
           )}
+          
+          {/* Feedback caso a busca não retorne nada */}
+          {searchTerm && results.length === 0 && (
+            <div className="mt-6 text-center p-4 rounded-xl bg-white/[0.02] border border-white/5 text-zinc-500 text-sm">
+              Nenhum termo encontrado para "{searchTerm}".
+            </div>
+          )}
         </div>
       </section>
 
@@ -73,7 +93,6 @@ function HomeContent({ searchParams }: { searchParams: HomeSearchParams }) {
         <h2 className="mb-6 font-mono text-xs uppercase tracking-widest text-zinc-500 text-center">
           Navegação Alfabética
         </h2>
-        {/* AJUSTE DE RESPONSIVIDADE: grid-cols-3 no mobile, 6 no tablet, 13 no desktop */}
         <div className="grid grid-cols-3 sm:grid-cols-6 md:grid-cols-13 gap-2 max-w-4xl mx-auto">
           {letters.map((l) => (
             <Link
