@@ -311,822 +311,256 @@
   { "term": "J-Tree", "translation": "J-Tree", "definition": "Componente de interface gráfica do Java Swing para exibir dados em árvore.", "example": "Usei o JTree para criar a navegação de pastas do software." },
   { "term": "J la (No-Op)", "translation": "No-Operation", "definition": "Instrução de computador que não realiza nenhuma operação, usada para temporização.", "example": " O processador executa um NOP para esperar o hardware responder." },
   { "term": "JavaFX", "translation": "JavaFX", "definition": "Framework para criar interfaces gráficas ricas e modernas com a linguagem Java.", "example": " a aplicação de desktop foi feita com JavaFX para ter um visual moderno." },
-  {
-    "term": "K-Means",
-    "translation": "K-Means",
-    "definition": "Um algoritmo de aprendizado não supervisionado usado para agrupar dados em K clusters distintos.",
-    "example": "Usei K-Means para agrupar clientes com comportamentos de compra semelhantes."
-  },
-  {
-    "term": "Kebab-case",
-    "translation": "Kebab-case",
-    "definition": "Estilo de escrita onde todas as letras são minúsculas e as palavras são separadas por hifens.",
-    "example": "Em URLs, é comum usar kebab-case, como em /meu-mini-dicionario."
-  },
-  {
-    "term": "Kernel",
-    "translation": "Núcleo do Sistema",
-    "definition": "A parte central do sistema operacional que gerencia a comunicação entre o hardware e o software.",
-    "example": "O Kernel do Linux é a base para centenas de outras distribuições."
-  },
-  {
-    "term": "Key",
-    "translation": "Chave",
-    "definition": "Um identificador único usado em bancos de dados (Primary Key) ou para autenticação em APIs (API Key).",
-    "example": "Não compartilhe sua API Key publicamente no GitHub."
-  },
-  {
-    "term": "Keylogger",
-    "translation": "Capturador de Teclas",
-    "definition": "Software malicioso que registra cada tecla digitada pelo usuário para roubar senhas.",
-    "example": "O antivírus detectou um keylogger tentando capturar a senha do banco."
-  },
-  {
-    "term": "Kilobyte",
-    "translation": "Kilobyte (KB)",
-    "definition": "Unidade de medida de dados equivalente a 1.024 bytes.",
-    "example": "Um arquivo de texto simples geralmente ocupa apenas alguns kilobytes."
-  },
-  {
-    "term": "Kubernetes (K8s)",
-    "translation": "Kubernetes",
-    "definition": "Plataforma de código aberto para automatizar a implantação, escalonamento e gerenciamento de containers.",
-    "example": "O Kubernetes orquestra centenas de pods para manter o sistema estável."
-  },
-  {
-    "term": "Lambda Function",
-    "translation": "Função Lambda",
-    "definition": "Uma função anônima, sem nome, geralmente usada para operações rápidas e curtas.",
-    "example": "Em Python, as lambdas são ótimas para filtrar listas rapidamente."
-  },
-  {
-    "term": "Latency",
-    "translation": "Latência",
-    "definition": "O tempo de atraso entre o envio de uma solicitação e o recebimento da resposta na rede.",
-    "example": "A latência alta prejudica a experiência em jogos online competitivos."
-  },
-  {
-    "term": "Layer",
-    "translation": "Camada",
-    "definition": "Nível de abstração em um sistema (ex: Camada de Apresentação, Camada de Dados).",
-    "example": "O modelo OSI divide a comunicação de rede em sete camadas distintas."
-  },
-  {
-    "term": "Layout",
-    "translation": "Layout / Arranjo",
-    "definition": "A organização visual dos elementos em uma interface de usuário.",
-    "example": "O layout do site muda automaticamente para se ajustar a telas de celulares."
-  },
-  {
-    "term": "Legacy Code",
-    "translation": "Código Legado",
-    "definition": "Código antigo que ainda é usado, mas que costuma ser difícil de manter ou atualizar.",
-    "example": "A empresa gasta metade do tempo dos devs corrigindo bugs em código legado de 10 anos atrás."
-  },
-  {
-    "term": "Library",
-    "translation": "Biblioteca",
-    "definition": "Conjunto de funções e classes pré-escritas que podem ser importadas para agilizar o desenvolvimento.",
-    "example": "O React é tecnicamente uma biblioteca, não um framework completo."
-  },
-  {
-    "term": "Linting",
-    "translation": "Linting / Análise Estática",
-    "definition": "Processo de análise do código para encontrar erros de sintaxe ou desvios de estilo.",
-    "example": "O ESLint avisa quando você declara uma variável mas nunca a utiliza."
-  },
-  {
-    "term": "Linux",
-    "translation": "Linux",
-    "definition": "Um kernel de sistema operacional de código aberto, base para diversas distribuições como Ubuntu e Debian.",
-    "example": "A maioria dos servidores de nuvem do mundo roda alguma versão de Linux."
-  },
-  {
-    "term": "Localhost",
-    "translation": "Localhost / Hospedeiro Local",
-    "definition": "O endereço de rede que aponta para o próprio computador onde o software está rodando (IP 127.0.0.1).",
-    "example": "Acesse http://localhost:3000 para ver seu site durante o desenvolvimento."
-  },
-  {
-    "term": "Load Balancer",
-    "translation": "Balanceador de Carga",
-    "definition": "Dispositivo que distribui o tráfego de rede entre vários servidores para evitar sobrecarga.",
-    "example": "O load balancer envia requisições para o servidor menos ocupado no momento."
-  },
-  {
-    "term": "Log",
-    "translation": "Log / Registro",
-    "definition": "Arquivo de texto que registra eventos, erros e transações de um sistema ao longo do tempo.",
-    "example": "Verifiquei os logs do servidor e descobri que o erro acontecia apenas às 3 da manhã."
-  },
-  {
-    "term": "Logic Bomb",
-    "translation": "Bomba Lógica",
-    "definition": "Código malicioso que permanece inativo até que uma condição específica seja atendida (como uma data).",
-    "example": "O malware continha uma bomba lógica programada para apagar os dados no dia 1º de janeiro."
-  },
-  {
-    "term": "Loop",
-    "translation": "Laço / Loop",
-    "definition": "Estrutura que repete um bloco de código enquanto uma condição for verdadeira.",
-    "example": "Um loop infinito pode travar o navegador se não houver uma condição de parada."
-  },
-  {
-    "term": "Low-code",
-    "translation": "Low-code",
-    "definition": "Plataformas de desenvolvimento que exigem pouca escrita de código, usando interfaces visuais (arrasta e solta).",
-    "example": "Muitas empresas usam low-code para criar protótipos de apps rapidamente."
-  },
-  {
-    "term": "Main",
-    "translation": "Principal / Main",
-    "definition": "A função ou o ponto de entrada onde a execução de um programa começa.",
-    "example": "Em C++, o código começa a ser executado a partir da função int main()."
-  },
-  {
-    "term": "Mainframe",
-    "translation": "Mainframe",
-    "e-definition": "Computador de altíssima potência usado por grandes instituições para processar volumes massivos de dados.",
-    "example": "Bancos utilizam mainframes para processar milhões de transações bancárias por segundo."
-  },
-  {
-    "term": "Map",
-    "translation": "Mapear / Map",
-    "definition": "Método de array que transforma cada elemento de uma lista em um novo valor.",
-    "example": "Usei o .map() para transformar a lista de termos em componentes HTML."
-  },
-  {
-    "term": "Markdown",
-    "translation": "Markdown",
-    "definition": "Linguagem de marcação leve usada para formatar texto simples em HTML (muito usada no GitHub).",
-    "example": "Escrevi a documentação do projeto usando Markdown para criar negritos e listas."
-  },
-  {
-    "term": "Malware",
-    "translation": "Software Malicioso",
-    "definition": "Termo genérico para qualquer software criado para causar danos, roubar dados ou infiltrar-se em sistemas.",
-    "example": "O ransomware é um tipo perigoso de malware que sequestra arquivos."
-  },
-  {
-    "term": "Many-to-Many",
-    "translation": "Muitos-para-Muitos",
-    "definition": "Relacionamento em bancos de dados onde múltiplos registros de uma tabela se ligam a múltiplos de outra.",
-    "example": "Um aluno pode ter várias disciplinas e uma disciplina tem vários alunos (Muitos-para-Muitos)."
-  },
-  {
-    "term": "Master-Slave",
-    "translation": "Mestre-Escravo",
-    "definition": "Modelo de arquitetura onde um dispositivo (mestre) controla um ou mais dispositivos subordinados (escravos).",
-    "example": "Em clusters de banco de dados, o mestre recebe as escritas e os escravos apenas as leituras."
-  },
-  {
-    "term": "Matrix",
-    "translation": "Matriz",
-    "definition": "Estrutura de dados bidimensional (tabela) composta por linhas e colunas.",
-    "example": "Usei uma matriz para representar o tabuleiro de um jogo de xadrez."
-  },
-  {
-    "term": "Memory Leak",
-    "translation": "Vazamento de Memória",
-    "definition": "Erro onde o programa reserva memória mas esquece de liberá-la, consumindo toda a RAM do sistema.",
-    "example": "O app começou a travar porque tinha um memory leak no loop de renderização."
-  },
-  {
-    "term": "Merge",
-    "translation": "Mesclar / Merge",
-    "definition": "No Git, é a ação de unir as alterações de duas branches diferentes em uma só.",
-    "example": "Fiz o merge da branch de 'correções' para a branch 'main'."
-  },
-  {
-    "term": "Metadata",
-    "translation": "Metadados",
-    "definition": "Dados que descrevem outros dados (ex: a data de criação de um arquivo é um metadado do arquivo).",
-    "example": "As tags de SEO no HTML são metadados que ajudam o Google a indexar o site."
-  },
-  {
-    "term": "Microservices",
-    "translation": "Microserviços",
-    "definition": "Arquitetura onde a aplicação é dividida em pequenos serviços independentes que se comunicam via API.",
-    "example": "A Netflix usa microserviços para que o sistema de recomendações não afete o player de vídeo."
-  },
-  {
-    "term": "Middleware",
-    "translation": "Middleware / Software Intermediário",
-    "definition": "Software que fica entre a requisição e a resposta, podendo alterar ou validar os dados.",
-    "example": "Criei um middleware para verificar se o usuário está logado antes de acessar a página de perfil."
-  },
-  {
-    "term": "Mock",
-    "translation": "Simulação / Mock",
-    "definition": "Criação de objetos ou APIs fictícias que imitam o comportamento real para fins de teste.",
-    "example": "Criei um mock da API de pagamento para testar o checkout sem gastar dinheiro real."
-  },
-  {
-    "term": "Module",
-    "translation": "Módulo",
-    "definition": "Uma parte isolada e reutilizável de um programa, geralmente organizada em arquivos separados.",
-    "example": "Separei a lógica de cálculos matemáticos em um módulo chamado mathUtils.js."
-  },
-  {
-    "term": "Monolith",
-    "translation": "Monólito",
-    "definition": "Arquitetura de software onde todas as funções do sistema estão em um único bloco de código.",
-    "example": " la migrei meu app monólito para microserviços para conseguir escalar melhor."
-  },
-  {
-    "term": "Monoid",
-    "translation": "Monoide",
-    "definition": "Conceito matemático usado em programação funcional para descrever operações que podem ser combinadas.",
-    "example": "Somas de números formam um monoide pois têm um elemento neutro (zero)."
-  },
-  {
-    "term": "Mutation",
-    "translation": "Mutação",
-    "definition": "Ato de alterar o valor de um objeto ou array original em vez de criar uma nova cópia.",
-    "example": "Evite a mutação de estado no React; use o useState para criar novos estados."
-  },
-  {
-    "term": "MVC (Model-View-Controller)",
-    "translation": "Modelo-Visão-Controlador",
-    "definition": "Padrão de arquitetura que separa os dados (Model), a interface (View) e a lógica (Controller).",
-    "example": "O framework Django segue rigorosamente o padrão MVC."
-  },
-  {
-    "term": "NaN (Not a Number)",
-    "translation": "Não é um Número",
-    "definition": "Valor especial no JavaScript que indica que uma operação matemática resultou em algo indefinido.",
-    "example": "Tentar dividir 'texto' por 2 resulta em NaN."
-  },
-  {
-    "term": "Namespace",
-    "translation": "Espaço de Nomes",
-    "definition": "Contêiner que organiza nomes de identificadores para evitar conflitos entre bibliotecas diferentes.",
-    "example": "Usei namespaces para diferenciar as classes de 'Usuário' do sistema de 'Admin'."
-  },
-  {
-    "term": "Native",
-    "translation": "Nativo",
-    "definition": "Software desenvolvido especificamente para um hardware ou sistema operacional (ex: app nativo iOS).",
-    "example": "Apps nativos costumam ter performance superior a apps híbridos."
-  },
-  {
-    "term": "Networking",
-    "translation": "Redes de Computadores",
-    "definition": "Área da computação focada na conexão e comunicação entre diferentes dispositivos.",
-    "example": "O curso de networking ensina como configurar roteadores e switches."
-  },
-  {
-    "term": "Node.js",
-    "translation": "Node.js",
-    "definition": "Ambiente de execução JavaScript no servidor, permitindo criar APIs e ferramentas de CLI.",
-    "example": "O Node.js usa o motor V8 do Chrome para executar código JS fora do navegador."
-  },
-  {
-    "term": "NoSQL",
-    "translation": "Não Relacional / NoSQL",
-    "definition": "Bancos de dados que não usam tabelas fixas e SQL, sendo ideais para dados flexíveis (como JSON).",
-    "example": "O MongoDB é o exemplo mais popular de banco de dados NoSQL."
-  },
-  {
-    "term": "Normalization",
-    "translation": "Normalização",
-    "definition": "Processo de organizar dados em um banco relacional para eliminar redundâncias e inconsistências.",
-    "example": "A normalização de tabelas evita que o nome do cliente seja repetido em dez pedidos diferentes."
-  },
-  {
-    "term": "Null",
-    "translation": "Nulo",
-    "definition": "Valor que representa a ausência intencional de qualquer objeto ou valor.",
-    "example": "Se o usuário não preencher a bio, o campo no banco de dados ficará como null."
-  },
-  {
-    "term": "NumPy",
-    "translation": "NumPy",
-    "definition": "Biblioteca fundamental de Python para computação científica e manipulação de matrizes.",
-    "example": "Usei NumPy para processar os dados estatísticos do experimento."
-  },
-  {
-    "term": "Object",
-    "translation": "Objeto",
-    "definition": "Instância de uma classe que agrupa dados (propriedades) e comportamentos (métodos).",
-    "example": "Criei um objeto 'Usuario' com as propriedades nome, idade e email."
-  },
-  {
-    "term": "Obfuscation",
-    "translation": "Ofuscação",
-    "definition": "Técnica de tornar o código fonte difícil de ler para humanos, mas ainda funcional para a máquina.",
-    "example": "Muitas empresas ofuscam o código JS antes do deploy para dificultar a engenharia reversa."
-  },
-  {
-    "term": "Observable",
-    "translation": "Observável",
-    "definition": "Padrão de programação reativa onde um objeto notifica outros sobre mudanças no seu estado.",
-    "example": "Usei RxJS para criar um observable que detecta cada tecla digitada no campo de busca."
-  },
-  {
-    "term": "OAuth (Open Authorization)",
-    "translation": "OAuth",
-    "definition": "Protocolo padrão para autorização que permite que sites acessem dados de outros sem saber a senha.",
-    "example": "O botão 'Login com Google' utiliza o protocolo OAuth."
-  },
-  {
-    "term": "OOP (Object Oriented Programming)",
-    "translation": "Programação Orientada a Objetos",
-    "definition": "Paradigma de programação baseado em classes e objetos, focando em herança e polimorfismo.",
-    "example": "Java e C# são linguagens fortemente baseadas em OOP."
-  },
-  {
-    "term": "Octet",
-    "translation": "Octeto",
-    "definition": "Unidade de medida de dados composta por exatamente 8 bits.",
-    "example": "O endereço IPv4 é composto por quatro octetos."
-  },
-  {
-    "term": "Offset",
-    "translation": "Deslocamento / Offset",
-    "definition": "A distância entre o início de um bloco de memória e um ponto específico dentro dele.",
-    "example": "O ponteiro do arquivo foi movido com um offset de 10 bytes para pular o cabeçalho."
-  },
-  {
-    "term": "On-premise",
-    "translation": "Local / No Local",
-    "definition": "Software ou hardware instalado fisicamente nas dependências da própria empresa, em vez de na nuvem.",
-    "example": "A empresa decidiu manter o banco de dados on-premise por questões de segurança máxima."
-  },
-  {
-    "term": "Open Source",
-    "translation": "Código Aberto",
-    "definition": "Software cujo código-fonte é disponibilizado publicamente para qualquer pessoa estudar, mudar e distribuir.",
-    "example": "O Linux e o VS Code são exemplos de softwares open source."
-  },
-  {
-    "term": "Optimization",
-    "translation": "Otimização",
-    "definition": "Processo de modificar um sistema para que ele utilize menos recursos (tempo, memória) e seja mais rápido.",
-    "example": "Fiz a otimização das imagens do site, reduzindo o tempo de carregamento em 2 segundos."
-  },
-  {
-    "term": "Operator",
-    "translation": "Operador",
-    "definition": "Símbolo que realiza operações básicas em variáveis (ex: +, -, *, /, ==).",
-    "example": "O operador '===' no JavaScript verifica se o valor e o tipo são iguais."
-  },
-  {
-    "term": "Order of Complexity",
-    "translation": "Complexidade de Tempo (Big O)",
-    "definition": "Medida matemática que descreve como o tempo de execução de um algoritmo cresce conforme os dados aumentam.",
-    "example": "A busca binária tem uma complexidade de tempo O(log n), sendo muito eficiente."
-  },
-  {
-    "term": "Output",
-    "translation": "Saída",
-    "definition": "A informação final produzida por um computador ou programa após processar os dados.",
-    "example": "O output da função deve ser um booleano indicando se a senha é válida."
-  },
-  {
-    "term": "Overclock",
-    "translation": "Overclock",
-    "definition": "Aumentar a frequência de clock de um hardware acima do limite de fábrica para ganhar performance.",
-    "example": "O overclock no processador aumentou a velocidade de renderização do vídeo."
-  },
-  {
-    "term": "Overflow",
-    "translation": "Estouro / Overflow",
-    "definition": "Erro que ocorre quando um cálculo resulta em um número maior do que o espaço de memória reservado para ele.",
-    "example": "Um integer overflow pode fazer com que um número positivo se torne negativo repentinamente."
-  },
-  {
-    "term": "Overriding",
-    "translation": "Sobrescrita",
-    "definition": "Ato de redefinir um método de uma classe pai dentro de uma classe filha para mudar seu comportamento.",
-    "example": "A classe 'Gato' faz o overriding do método 'emitirSom()' da classe 'Animal'."
-  },
-  {
-    "term": "Overloading",
-    "translation": "Sobrecarga",
-    "definition": "Técnica onde uma função tem o mesmo nome, mas aceita diferentes tipos ou quantidades de argumentos.",
-    "example": "Criei a função 'imprimir()' com overloading para aceitar tanto strings quanto números."
-  },
-  {
-    "term": "Package",
-    "translation": "Pacote",
-    "definition": "Conjunto de arquivos e bibliotecas agrupados para facilitar a distribuição de software.",
-    "example": "O npm é o gerenciador de pacotes mais usado no ecossistema Node.js."
-  },
-  {
-    "term": "Padding",
-    "translation": "Preenchimento / Padding",
-    "definition": "Espaço interno entre o conteúdo de um elemento e sua borda no CSS.",
-    "example": "Aumentei o padding do botão para que o texto não ficasse encostado nas bordas."
-  },
-  {
-    "term": "Page Object Model (POM)",
-    "translation": "Modelo de Objeto de Página",
-    "definition": "Padrão de design usado em testes automatizados para separar a lógica de teste da estrutura da página.",
-    "example": "Usei POM para que, se o botão de login mudar de ID, eu precise alterar em apenas um lugar."
-  },
-  {
-    "term": "Pagination",
-    "translation": "Paginação",
-    "definition": "Técnica de dividir um grande conjunto de dados em páginas menores para melhorar a performance.",
-    "example": "Implementei a paginação para exibir apenas 20 termos por vez no dicionário."
-  },
-  {
-    "term": "Palindrome",
-    "translation": "Palíndromo",
-    "definition": "Uma string que é lida da mesma forma de trás para frente (ex: 'arara').",
-    "example": "Criei um algoritmo simples para verificar se uma palavra é um palíndromo."
-  },
-  {
-    "term": "Panel",
-    "translation": "Painel",
-    "definition": "Área da interface de usuário que organiza controles ou informações relacionadas.",
-    "example": "O painel de controle da Vercel mostra todos os deploys do projeto."
-  },
-  {
-    "term": "Paradigm",
-    "translation": "Paradigma",
-    "definition": "Estilo ou abordagem fundamental de programação (ex: Imperativo, Declarativo, Funcional).",
-    "example": "A programação orientada a objetos é um paradigma baseado em classes e objetos."
-  },
-  {
-    "term": "Parallelism",
-    "translation": "Paralelismo",
-    "definition": "Execução simultânea de várias tarefas em múltiplos processadores físicos.",
-    "example": "O paralelismo reduz o tempo de renderização de vídeos em alta resolução."
-  },
-  {
-    "term": "Parameter",
-    "translation": "Parâmetro",
-    "definition": "Variável definida na assinatura de uma função para receber valores durante a chamada.",
-    "example": "A função 'soma(a, b)' possui dois parâmetros: a e b."
-  },
-  {
-    "term": "Parse",
-    "translation": "Analisar / Processar",
-    "definition": "Ato de analisar uma string ou arquivo para transformá-lo em uma estrutura de dados (como um objeto).",
-    "example": "O comando JSON.parse() transforma a string recebida da API em um objeto JS."
-  },
-  {
-    "term": "Parser",
-    "translation": "Analisador Sintático",
-    "definition": "Software que lê um código-fonte e o converte em uma representação intermediária (como a AST).",
-    "example": "O parser do TypeScript identifica erros de sintaxe antes mesmo de rodar o código."
-  },
-  {
-    "term": "Patch",
-    "translation": "Correção / Patch",
-    "definition": "Atualização rápida de software para corrigir um bug específico ou falha de segurança.",
-    "example": "A Microsoft lançou um patch de segurança para corrigir a vulnerabilidade no Windows."
-  },
-  {
-    "term": "Payload",
-    "translation": "Carga Útil / Payload",
-    "definition": "A parte principal dos dados transmitidos em uma requisição HTTP, excluindo os cabeçalhos.",
-    "example": "O payload da requisição POST contém as informações do novo usuário."
-  },
-  {
-    "term": "Peer-to-Peer (P2P)",
-    "translation": "Par a Par",
-    "definition": "Rede onde os computadores se comunicam diretamente sem a necessidade de um servidor central.",
-    "example": "O BitTorrent utiliza a rede P2P para distribuir arquivos grandes."
-  },
-  {
-    "term": "Pentest",
-    "translation": "Teste de Intrusão",
-    "definition": "Simulação de um ataque hacker para encontrar vulnerabilidades em um sistema.",
-    "example": "A empresa contratou um especialista em pentest para testar a segurança do app."
-  },
-  {
-    "term": "Performance",
-    "translation": "Desempenho / Performance",
-    "definition": "Medida de quão eficiente um software é em termos de tempo de resposta e uso de recursos.",
-    "example": "Otimizei as imagens para melhorar a performance de carregamento do site."
-  },
-  {
-    "term": "Persistence",
-    "translation": "Persistência",
-    "definition": "Capacidade de dados serem salvos em um armazenamento não volátil (como HD) para durarem após o desligamento.",
-    "example": " la usei o LocalStorage para garantir a persistência do tema escuro no navegador."
-  },
-  {
-    "term": "Phishing",
-    "translation": "Phishing / Pesca de Dados",
-    "definition": "Técnica de engenharia social para enganar usuários e roubar senhas através de sites falsos.",
-    "example": "Recebi um e-mail de phishing fingindo ser do banco para roubar minha senha."
-  },
-  {
-    "term": "Pipeline",
-    "translation": "Pipeline / Fluxo de Trabalho",
-    "definition": "Série de etapas automatizadas que o código percorre desde o commit até a produção.",
-    "example": "O pipeline de CI/CD roda os testes automaticamente antes de fazer o deploy."
-  },
-  {
-    "term": "Plain Text",
-    "translation": "Texto Plano",
-    "definition": "Texto sem qualquer formatação (negrito, cores, fontes), como arquivos .txt.",
-    "example": "A senha foi enviada em plain text, o que é um erro grave de segurança."
-  },
-  {
-    "term": "Plugin",
-    "translation": "Plugin / Complemento",
-    "definition": "Software que adiciona funcionalidades extras a um programa principal.",
-    "example": "Instalei um plugin de autocompletar código no meu VS Code."
-  },
-  {
-    "term": "Pod",
-    "translation": "Pod",
-    "definition": "A menor unidade de execução no Kubernetes, que pode conter um ou mais containers.",
-    "example": "O Kubernetes reiniciou o pod automaticamente após a falha do container."
-  },
-  {
-    "term": "Pointer",
-    "translation": "Ponteiro",
-    "definition": "Variável que armazena o endereço de memória de outra variável.",
-    "example": "Em C++, ponteiros são poderosos mas podem causar erros se não forem bem gerenciados."
-  },
-  {
-    "term": "Polymorphism",
-    "translation": "Polimorfismo",
-    "definition": "Capacidade de diferentes classes tratarem a mesma operação de maneiras diferentes.",
-    "example": "Tanto 'Cachorro' quanto 'Gato' herdam de 'Animal' e implementam o método 'emitirSom' de formas distintas."
-  },
-  {
-    "term": "Polyfill",
-    "translation": "Polyfill",
-    "definition": "Código JavaScript que fornece funcionalidades modernas a navegadores antigos que não as suportam.",
-    "example": "Usei um polyfill para que o método .includes() funcionasse no Internet Explorer."
-  },
-  {
-    "term": "Pool",
-    "translation": "Pool / Piscina de Recursos",
-    "definition": "Conjunto de recursos pré-alocados (como conexões de banco) para evitar a sobrecarga de criar novos.",
-    "example": "O connection pool do banco de dados permite que 50 usuários consultem dados simultaneamente."
-  },
-  {
-    "term": "Port",
-    "translation": "Porta",
-    "definition": "Número que identifica um processo específico em um servidor (ex: 80 para HTTP, 443 para HTTPS).",
-    "example": "Meu servidor local está rodando na porta 3000."
-  },
-  {
-    "term": "Portability",
-    "translation": "Portabilidade",
-    "definition": "Capacidade de um software rodar em diferentes plataformas sem precisar de alterações no código.",
-    "example": "O Java oferece alta portabilidade graças à sua máquina virtual (JVM)."
-  },
-  {
-    "term": "POST Request",
-    "translation": "Requisição POST",
-    "definition": "Método HTTP usado para enviar novos dados ao servidor para criar um recurso.",
-    "example": "Usei uma requisição POST para cadastrar o novo termo no dicionário."
-  },
-  {
-    "term": "PR (Pull Request)",
-    "translation": "Solicitação de Alteração",
-    "definition": "Ação de propor mudanças de código em um repositório para que sejam revisadas e aceitas.",
-    "example": "Abri um PR com a correção do bug de busca para que o líder do projeto aprovasse."
-  },
-  {
-    "term": "Query",
-    "translation": "Consulta / Query",
-    "definition": "Uma solicitação de informação feita a um banco de dados ou sistema de busca.",
-    "example": "A query SQL selecionou todos os usuários que moram em São Paulo."
-  },
-  {
-    "term": "Queue",
-    "translation": "Fila",
-    "definition": "Estrutura de dados onde o primeiro elemento a entrar é o primeiro a sair (FIFO).",
-    "example": "Usei uma fila para processar as mensagens de e-mail na ordem de chegada."
-  },
-  {
-    "term": "Quality Assurance (QA)",
-    "translation": "Garantia de Qualidade",
-    "definition": "Processo de testar o software para garantir que ele atenda aos requisitos e esteja livre de bugs.",
-    "example": "O time de QA encontrou um erro crítico no fluxo de pagamento."
-  },
-  {
-    "term": "Qubit",
-    "translation": "Qubit",
-    "definition": "A unidade básica de informação em computação quântica, podendo ser 0, 1 ou ambos ao mesmo tempo.",
-    "example": "Qubits permitem que computadores quânticos resolvam problemas complexos muito mais rápido."
-  },
-  {
-    "term": "Quorum",
-    "translation": "Quorum",
-    "definition": "Número mínimo de nós em um sistema distribuído que devem concordar para validar uma operação.",
-    "example": "O cluster de banco de dados não aceitou a escrita pois não atingiu o quorum de nós."
-  },
-  {
-    "term": "QuickSort",
-    "translation": "QuickSort",
-    "e-definition": "Algoritmo de ordenação eficiente que divide a lista em partes menores usando um pivô.",
-    "example": "O QuickSort é amplamente usado por ter um desempenho médio excelente."
-  },
-  {
-    "term": "Quadratic Time",
-    "translation": "Tempo Quadrático",
-    "definition": "Complexidade de tempo O(n²), onde o tempo de execução cresce proporcionalmente ao quadrado dos dados.",
-    "example": "Dois loops aninhados geralmente resultam em um tempo quadrático."
-  },
-  {
-    "term": "Query Parameter",
-    "translation": "Parâmetro de Query",
-    "definition": "Informações adicionais passadas no final de uma URL após o ponto de interrogação.",
-    "example": "Na URL /search?q=react, 'q' é o parâmetro de query e 'react' é o valor."
-  },
-  {
-    "term": "Query String",
-    "translation": "String de Consulta",
-    "definition": "A parte da URL que contém os parâmetros de busca.",
-    "example": "A query string é usada para filtrar resultados em sites de e-commerce."
-  },
-  {
-    "term": "Quantization",
-    "translation": "Quantização",
-    "definition": "Processo de reduzir a precisão de números (ex: de 32 bits para 8 bits) para economizar memória em modelos de IA.",
-    "example": "A quantização permitiu que o modelo de IA rodasse em um celular com pouca RAM."
-  },
-  {
-    "term": "Quota",
-    "translation": "Cota",
-    "definition": "Limite máximo de recursos (como requisições por minuto) que um usuário pode consumir de uma API.",
-    "example": "A cota gratuita da API do Google Maps é de 200 requisições por dia."
-  },
-  {
-    "term": "Queueing Theory",
-    "translation": "Teoria de Filas",
-    "definition": "Estudo matemático do congestionamento de sistemas, usado para otimizar servidores e redes.",
-    "example": "A teoria de filas ajudou a empresa a decidir quantos servidores eram necessários para o pico de acessos."
-  },
-  {
-    "term": "Qualified Name",
-    "translation": "Nome Qualificado",
-    "definition": "Referência completa a um identificador, incluindo seu namespace ou caminho de pasta.",
-    "example": "Em vez de usar apenas 'User', usei 'Auth.User' para evitar conflito com 'Database.User'."
-  },
-  {
-    "term": "Quantile",
-    "translation": "Quantil",
-    "definition": "Valor que divide um conjunto de dados em intervalos iguais (como quartis ou percentis).",
-    "example": "O 95º percentil de latência mostra o tempo de resposta para 95% dos usuários."
-  },
-  {
-    "term": "Quinary",
-    "translation": "Quinário",
-    "definition": "Sistema numérico de base 5.",
-    "example": "Embora raro, o sistema quinário pode ser usado em estudos específicos de computação."
-  },
-  {
-    "term": "Query Execution Plan",
-    "translation": "Plano de Execução de Query",
-    "definition": "Roteiro criado pelo banco de dados para determinar a maneira mais eficiente de recuperar os dados.",
-    "example": "Analisei o plano de execução para descobrir por que a query estava demorando 10 segundos."
-  },
-  {
-    "term": "Quick Access",
-    "translation": "Acesso Rápido",
-    "definition": "Recurso de sistemas de arquivos que permite fixar pastas usadas com frequência.",
-    "example": "Fixei a pasta do projeto de dicionário no acesso rápido do explorador de arquivos."
-  },
-  {
-    "term": "Quittance",
-    "translation": "Quitação",
-    "definition": "Termo usado em sistemas financeiros para indicar que uma obrigação ou dívida foi paga.",
-    "example": "O sistema gerou automaticamente a quitação do boleto após a confirmação do pagamento."
-  },
-  {
-    "term": "RAM (Random Access Memory)",
-    "translation": "Memória de Acesso Aleatório",
-    "definition": "Memória volátil de alta velocidade onde o computador armazena os dados dos programas em execução.",
-    "example": "Se você abrir muitas abas no Chrome, consumirá toda a sua memória RAM."
-  },
-  {
-    "term": "RAID (Redundant Array of Independent Disks)",
-    "translation": "Matriz Redundante de Discos Independentes",
-    "definition": "Técnica de combinar vários discos rígidos para aumentar a performance ou a segurança dos dados.",
-    "example": "O RAID 1 espelha os dados em dois discos; se um falhar, o sistema continua funcionando."
-  },
-  {
-    "term": "Range",
-    "translation": "Intervalo / Range",
-    "definition": "Um conjunto de valores entre um limite mínimo e um máximo.",
-    "example": "O input do site tem um range de 1 a 100 para a nota do termo."
-  },
-  {
-    "term": "Raspberry Pi",
-    "translation": "Raspberry Pi",
-    "definition": "Computador de placa única, barato e pequeno, usado para prototipagem e projetos de IoT.",
-    "example": "Usei um Raspberry Pi para criar um servidor de DNS privado em casa."
-  },
-  {
-    "term": "Raster",
-    "translation": "Raster (Imagem)",
-    "definition": "Imagem composta por pixels (como JPG e PNG), que perde qualidade ao ser ampliada.",
-    "example": "Imagens raster são ideais para fotos, mas para logos usamos vetores (SVG)."
-  },
-  {
-    "term": "Rate Limit",
-    "translation": "Limite de Taxa",
-    "definition": "Mecanismo que restringe o número de requisições que um usuário pode fazer em um intervalo de tempo.",
-    "example": "A API do GitHub tem um rate limit para evitar que bots derrubem o servidor."
-  },
-  {
-    "term": "Raw Data",
-    "translation": "Dados Brutos",
-    "definition": "Informações que ainda não foram processadas, limpas ou organizadas.",
-    "example": "Antes de gerar o gráfico, precisamos limpar os raw data vindos do sensor."
-  },
-  {
-    "term": "Ray Tracing",
-    "translation": "Traçado de Raios",
-    "definition": "Técnica de renderização gráfica que simula o comportamento físico da luz para criar reflexos realistas.",
-    "example": "O novo jogo usa ray tracing para criar reflexos perfeitos em superfícies de vidro."
-  },
-  {
-    "term": "Read-only",
-    "translation": "Somente Leitura",
-    "definition": "Permissão de acesso que permite ler um arquivo ou dado, mas proíbe qualquer alteração.",
-    "example": "O arquivo de configuração do sistema está marcado como read-only por segurança."
-  },
-  {
-    "term": "Real-time",
-    "translation": "Tempo Real",
-    "definition": "Sistemas que processam dados e respondem a eventos quase instantaneamente.",
-    "example": "O chat do WhatsApp funciona em tempo real usando WebSockets."
-  },
-  {
-    "term": "Rebase",
-    "translation": "Rebase",
-    "definition": "No Git, é o processo de mover a base de uma branch para um commit mais recente de outra branch.",
-    "example": "Usei o git rebase para manter o histórico do projeto linear e limpo."
-  },
-  {
-    "term": "Recovery",
-    "translation": "Recuperação",
-    "definition": "Processo de restaurar dados ou sistemas após uma falha catastrófica.",
-    "example": " la usei o backup semanal para fazer o recovery do banco de dados após a queda."
-  },
-  {
-    "term": "Redundancy",
-    "translation": "Redundância",
-    "definition": "Duplicação de componentes críticos para garantir que o sistema continue funcionando se um falhar.",
-    "example": "Temos redundância de internet com dois provedores diferentes para nunca ficar offline."
-  },
-  {
-    "term": "Refactor",
-    "translation": "Refatorar",
-    "definition": "Processo de reorganizar o código interno para torná-lo mais limpo e eficiente, sem mudar sua função.",
-    "example": "Vou refatorar essa função de busca para que ela seja mais legível."
-  },
-  {
-    "term": "Reflection",
-    "translation": "Reflexão",
-    "definition": "Capacidade de um programa examinar e modificar sua própria estrutura em tempo de execução.",
-    "example": "O Java usa reflection para ler as anotações de uma classe durante a inicialização."
-  },
-  {
-    "term": "Regression",
-    "translation": "Regressão",
-    "definition": "Quando uma nova alteração no código faz com que funcionalidades que já funcionavam parem de funcionar.",
-    "example": "O novo botão de busca causou uma regressão no filtro de letras."
-  },
-  {
-    "term": "Render",
-    "translation": "Renderizar",
-    "definition": "Processo de transformar código ou modelos matemáticos em uma imagem ou página visual.",
-    "example": "O navegador leva alguns milissegundos para renderizar o HTML e CSS."
-  },
-  {
-    "term": "Requirement",
-    "translation": "Requisito",
-    "definition": "Descrição de uma funcionalidade ou restrição que o software deve obrigatoriamente atender.",
-    "example": "Um requisito do projeto é que o site carregue em menos de 2 segundos."
-  },
-  {
-    "term": "Resource",
-    "translation": "Recurso",
-    "definition": "Qualquer item de valor para o sistema, como memória, CPU, arquivos ou endpoints de API.",
-    "example": "A aplicação está consumindo muitos recursos de memória RAM."
-  },
-  {
-    "term": "Response",
-    "translation": "Resposta",
-    "definition": "O conjunto de dados enviado pelo servidor de volta ao cliente após uma requisição HTTP.",
-    "example": "A response da API retornou o código 200, indicando que a operação foi bem-sucedida."
-  },
-  {
-    "term": "Reverse Proxy",
-    "translation": "Proxy Reverso",
-    "definition": "Servidor que recebe requisições de clientes e as redireciona para um ou mais servidores internos.",
-    "example": "Usamos o Nginx como reverse proxy para distribuir o tráfego entre nossos microserviços."
-  },
-  {
-    "term": "Root",
-    "translation": "Raiz / Root",
-    "definition": "O nível mais alto da hierarquia de diretórios em um sistema ou o usuário com permissões totais no Linux.",
-    "example": "O arquivo package.json deve estar na raiz (root) do projeto."
-  },
+ [
+  { "term": "K-Means", "translation": "K-Means", "definition": "Algoritmo de aprendizado não supervisionado que agrupa dados em K clusters distintos.", "example": "Usei K-Means para agrupar clientes com comportamentos de compra semelhantes." },
+  { "term": "Kebab-case", "translation": "Kebab-case", "definition": "Estilo de escrita onde palavras são minúsculas e separadas por hifens.", "example": "Em URLs, é comum usar kebab-case, como em /meu-mini-dicionario." },
+  { "term": "Kernel", "translation": "Núcleo do Sistema", "definition": "A parte central do SO que gerencia a comunicação entre hardware e software.", "example": "O Kernel do Linux é a base para centenas de outras distribuições." },
+  { "term": "Key", "translation": "Chave", "definition": "Identificador único usado em bancos de dados ou para autenticação em APIs.", "example": "Não compartilhe sua API Key publicamente no GitHub." },
+  { "term": "Keylogger", "translation": "Capturador de Teclas", "definition": "Software malicioso que registra teclas digitadas para roubar senhas.", "example": "O antivírus detectou um keylogger tentando capturar a senha do banco." },
+  { "term": "Kilobyte", "translation": "Kilobyte (KB)", "definition": "Unidade de medida de dados equivalente a 1.024 bytes.", "example": "Um arquivo de texto simples geralmente ocupa alguns kilobytes." },
+  { "term": "Kubernetes (K8s)", "translation": "Kubernetes", "definition": "Plataforma para automatizar a implantação e gerenciamento de containers.", "example": "O Kubernetes orquestra pods para manter o sistema estável." },
+  { "term": "Lambda Function", "translation": "Função Lambda", "definition": "Função anônima, sem nome, usada para operações rápidas e curtas.", "example": "Em Python, as lambdas são ótimas para filtrar listas rapidamente." },
+  { "term": "K-fold Cross-validation", "translation": "Validação Cruzada K-fold", "definition": "Técnica de IA para avaliar a performance de um modelo dividindo os dados em K partes.", "example": "Usei K-fold para garantir que o modelo de IA não estivesse com overfit." },
+  { "term": "K-Nearest Neighbors (KNN)", "translation": "K-Vizinhos Mais Próximos", "definition": "Algoritmo de classificação que atribui a classe mais comum entre os vizinhos mais próximos.", "example": "O KNN foi usado para classificar a imagem como 'cachorro' ou 'gato'." },
+  { "term": "Keystore", "translation": "Repositório de Chaves", "definition": "Arquivo que armazena chaves criptográficas e certificados de segurança.", "example": "A keystore do Android é necessária para assinar o app." },
+  { "term": "Kilohertz", "translation": "Kilohertz (kHz)", "definition": "Unidade de frequência equivalente a mil ciclos por segundo.", "example": "O processador opera em Gigahertz, mas o áudio é medido em Kilohertz." },
+  { "term": "Kinematic", "translation": "Cinemática", "definition": "Estudo do movimento de pontos e objetos, essencial para motores de jogos.", "example": "A cinemática inversa permite que o braço do robô alcance o objeto." },
+  { "term": "K-map (Karnaugh Map)", "translation": "Mapa de Karnaugh", "definition": "Método visual para simplificar expressões lógicas booleanas.", "example": "Usei o Mapa de Karnaugh para reduzir o número de portas lógicas no circuito." },
+  { "term": "K-sorted", "translation": "K-ordenado", "definition": "Um array onde cada elemento está a no máximo K posições de sua posição final.", "example": "Algoritmos de ordenação eficientes podem ser usados em arrays k-sorted." },
+  { "term": "Kerberos", "translation": "Kerberos", "definition": "Protocolo de autenticação de rede que usa tickets para provar a identidade.", "example": "O Active Directory do Windows utiliza o protocolo Kerberos." },
+  { "term": "K-index", "translation": "Índice K", "definition": "Medida de distúrbios geomagnéticos que afetam as comunicações de rádio.", "example": "Um K-index alto pode causar interferências em satélites." },
+  { "term": "Kibibyte", "translation": "Kibibyte (KiB)", "definition": "Unidade de medida baseada em potência de 2 (1024 bytes), diferente do KB (1000).", "example": " la usei Kibibytes para ter precisão matemática no cálculo de memória." },
+  { "term": "Kilo-ops", "translation": "Kilo-operações", "definition": "Medida de performance que indica mil operações por segundo.", "example": "A API processa 50 kilo-ops por segundo em média." },
+  { "term": "Key-value store", "translation": "Armazenamento Chave-Valor", "definition": "Banco de dados não relacional onde dados são salvos como pares de chave e valor.", "example": "O Redis é o armazenamento chave-valor mais rápido do mercado." },
+  { "term": "K-level", "translation": "Nível K", "definition": "Termo usado em redes para definir camadas de prioridade de tráfego.", "example": "Temos prioridade de nível K para o tráfego de voz sobre IP." },
+  { "term": "K-shell", "translation": "K-shell", "definition": "A camada mais interna de elétrons em um átomo, base para a computação de semicondutores.", "example": "O estudo da k-shell é vital para a fabricação de chips de silício." },
+  { "term": "K-type", "translation": "Tipo K", "definition": "Classificação de laços ou tipos de laço em algoritmos de busca.", "example": " la utilizei laços do tipo K para otimizar a recursividade." },
+  { "term": "K-value", "translation": "Valor K", "definition": "Constante usada em diversas fórmulas de física e matemática computacional.", "example": "A constante K define a sensibilidade do sensor de pressão." },
+  { "term": "K-matrix", "translation": "Matriz K", "definition": "Matriz usada em engenharia estrutural e simulações computacionais de estresse.", "example": "A matriz K calcula a deformação da ponte sob carga." },
+  { "term": "Kilobit", "translation": "Kilobit (kb)", "definition": "Unidade de medida de velocidade de rede (1.000 bits por segundo).", "example": "A conexão antiga de modem tinha apenas alguns kilobits por segundo." },
+  { "term": "K-means++", "translation": "K-means++", "e-definition": "Uma melhoria do K-means que escolhe os centros iniciais de forma mais inteligente.", "example": "O K-means++ converge mais rápido que o K-means tradicional." },
+  { "term": "Keyframe", "translation": "Keyframe / Quadro-chave", "definition": "No vídeo e animação, é o frame que define o início ou fim de uma mudança.", "example": "Criei keyframes para fazer o logo deslizar da esquerda para a direita." },
+  { "term": "Knowledge Base", "translation": "Base de Conhecimento", "definition": "Repositório centralizado de informações e soluções para suporte técnico.", "example": " a documentação do Next.js é a base de conhecimento oficial do framework." },
+  { "term": "K-sort", "translation": "K-sort", "definition": "Técnica de ordenação aplicada a conjuntos de dados massivos divididos em K partes.", "example": " la usei k-sort para organizar terabytes de dados em disco." },
+
+  { "term": "Lambda", "translation": "Lambda", "definition": "Função anônima, sem nome, usada para operações rápidas e curtas.", "example": "Em Python, as lambdas são ótimas para filtrar listas rapidamente." },
+  { "term": "Latency", "translation": "Latência", "definition": "Tempo de atraso entre o envio de uma solicitação e a resposta na rede.", "example": "A latência alta prejudica a experiência em jogos online competitivos." },
+  { "term": "Layer", "translation": "Camada", "definition": "Nível de abstração em um sistema (ex: Camada de Apresentação).", "example": "O modelo OSI divide a rede em sete camadas distintas." },
+  { "term": "Layout", "translation": "Layout / Arranjo", "definition": "Organização visual dos elementos em uma interface de usuário.", "example": "O layout do site muda automaticamente para telas de celulares." },
+  { "term": "Legacy Code", "translation": "Código Legado", "definition": "Código antigo que ainda é usado, mas difícil de manter ou atualizar.", "example": " la gasto metade do tempo corrigindo bugs em código legado." },
+  { "term": "Library", "translation": "Biblioteca", "definition": "Conjunto de funções pré-escritas que podem ser importadas para agilizar o desenvolvimento.", "example": "O React é tecnicamente uma biblioteca." },
+  { "term": "Linting", "translation": "Linting", "definition": "Análise do código para encontrar erros de sintaxe ou desvios de estilo.", "example": "O ESLint avisa quando você declara uma variável e não a utiliza." },
+  { "term": "Linux", "translation": "Linux", "definition": "Kernel de SO de código aberto, base para Ubuntu e Debian.", "example": "A maioria dos servidores de nuvem roda Linux." },
+  { "term": "Localhost", "translation": "Localhost", "definition": "Endereço que aponta para o próprio computador (IP 127.0.0.1).", "example": "Acesse http://localhost:3000 para ver seu site." },
+  { "term": "Load Balancer", "translation": "Balanceador de Carga", "definition": "Dispositivo que distribui o tráfego entre vários servidores.", "example": "O load balancer evita que um único servidor fique sobrecarregado." },
+  { "term": "Log", "translation": "Log / Registro", "definition": "Arquivo que registra eventos e erros de um sistema ao longo do tempo.", "example": "Verifiquei os logs e descobri que o erro ocorria às 3 da manhã." },
+  { "term": "Logic Bomb", "translation": "Bomba Lógica", "definition": "Código malicioso que permanece inativo até que uma condição seja atendida.", "example": "A bomba lógica apagou os dados no dia 1º de janeiro." },
+  { "term": "Loop", "translation": "Laço / Loop", "definition": "Estrutura que repete um bloco de código enquanto uma condição for verdadeira.", "example": "Um loop infinito pode travar o navegador." },
+  { "term": "Low-code", "translation": "Low-code", "definition": "Plataformas que exigem pouca escrita de código, usando interfaces visuais.", "example": "Usei low-code para criar um protótipo de app rapidamente." },
+  { "term": "Lisp", "translation": "Lisp", "definition": "Linguagem de programação antiga, focada em processamento de listas e IA.", "example": "A linguagem Lisp influenciou quase todas as linguagens modernas." },
+  { "term": "Linter", "translation": "Linter", "definition": "Ferramenta que analisa o código em busca de erros programáticos.", "example": "O linter apontou que faltava um ponto e vírgula na linha 10." },
+  { "term": "Load Average", "translation": "Média de Carga", "definition": "Medida de quantos processos estão aguardando a CPU no sistema Linux.", "example": "O load average estava em 10.0, indicando que o servidor estava lento." },
+  { "term": "LDAP", "translation": "Lightweight Directory Access Protocol", "definition": "Protocolo para acessar e gerenciar informações de diretórios de usuários.", "example": " a empresa usa LDAP para centralizar o login de todos os funcionários." },
+  { "term": "L3 Switch", "translation": "Switch de Camada 3", "definition": "Switch que consegue fazer roteamento de pacotes, não apenas encaminhamento.", "example": "Usei um L3 Switch para dividir a rede em sub-redes diferentes." },
+  { "term": "L4 Switch", "translation": "Switch de Camada 4", "definition": "Switch que toma decisões de tráfego baseadas em portas TCP/UDP.", "example": "L4 switches são usados para balanceamento de carga de alta performance." },
+  { "term": "Layer 2", "translation": "Camada 2", "definition": "A camada de enlace de dados do modelo OSI, onde operam os switches e MAC addresses.", "example": "O problema de rede estava na camada 2, com um loop de switch." },
+  { "term": "L2TP", "translation": "Layer 2 Tunneling Protocol", "definition": "Protocolo de túnel usado para lógicas de VPN.", "example": " l la configurei a VPN usando o protocolo L2TP." },
+  { "term": "L3 Routing", "translation": "Roteamento de Camada 3", "definition": "Processo de mover pacotes entre diferentes redes usando endereços IP.", "example": "O roteamento de camada 3 é a base de como a internet funciona." },
+  { "term": "Lazy Loading", "translation": "Carregamento Preguiçoso", "definition": "Técnica de carregar imagens ou dados apenas quando eles entram na tela.", "example": " la usei lazy loading para as fotos do blog não pesarem o site." },
+  { "term": "Linear Search", "translation": "Busca Linear", "definition": "Algoritmo simples que percorre cada item de uma lista até achar o alvo.", "example": "A busca linear é lenta para listas grandes, mas fácil de implementar." },
+  { "term": "Linked List", "translation": "Lista Ligada", "definition": "Estrutura de dados onde cada elemento aponta para o próximo através de um ponteiro.", "example": "Listas ligadas são ótimas para inserir elementos rapidamente." },
+  { "term": "Lock-in", "translation": "Lock-in (Dependência)", "definition": "Situação onde a empresa fica dependente de um único fornecedor de software.", "example": " la evitei o lock-in usando bancos de dados open source." },
+  { "term": "Long Polling", "translation": "Long Polling", "definition": "Técnica onde o cliente faz a requisição e o servidor segura a resposta até ter novos dados.", "example": "O long polling era usado antes dos WebSockets para chats em tempo real." },
+  { "term": "LTO (Link Time Optimization)", "translation": "Otimização de Tempo de Link", "definition": "Técnica de compilação que otimiza o código final analisando todo o programa.", "example": " la ativei o LTO para reduzir o tamanho do executável final." },
+  { "term": "Lua", "translation": "Lua", "definition": "Linguagem de script leve e rápida, muito usada para criar mods de jogos.", "example": "O jogo Roblox usa uma versão de Lua para a criação de mapas." },
+
+  { "term": "Main", "translation": "Principal / Main", "definition": "A função ou ponto de entrada onde a execução de um programa começa.", "example": "Em C++, o código começa na função int main()." },
+  { "term": "Mainframe", "translation": "Mainframe", "definition": "Computador de altíssima potência usado por bancos e governos.", "example": " la usei um mainframe para processar milhões de transações bancárias." },
+  { "term": "Map", "translation": "Mapear / Map", "definition": "Método de array que transforma cada elemento de uma lista em um novo valor.", "example": " la usei .map() para criar a lista de termos no React." },
+  { "term": "Markdown", "translation": "Markdown", "definition": "Linguagem de marcação leve usada para formatar texto simples em HTML.", "example": " la escrevi o README do projeto usando Markdown." },
+  { "term": "Malware", "translation": "Software Malicioso", "definition": "Termo genérico para qualquer software criado para causar danos ou roubar dados.", "example": "O ransomware é um tipo perigoso de malware." },
+  { "term": "Many-to-Many", "translation": "Muitos-para-Muitos", "definition": "Relacionamento onde múltiplos registros de uma tabela ligam-se a múltiplos de outra.", "example": "Alunos e disciplinas têm um relacionamento muitos-para-muitos." },
+  { "term": "Master-Slave", "translation": "Mestre-Escravo", "definition": "Modelo onde um servidor (mestre) controla outros servidores subordinados (escravos).", "example": "O mestre recebe as escritas e os escravos as leituras do banco." },
+  { "term": "Matrix", "translation": "Matriz", "definition": "Estrutura de dados bidimensional composta por linhas e colunas.", "example": " la usei uma matriz para representar o tabuleiro do jogo." },
+  { "term": "Memory Leak", "translation": "Vazamento de Memória", "definition": "Erro onde o programa reserva memória mas esquece de liberá-la.", "example": "O app travou devido a um memory leak no loop de renderização." },
+  { "term": "Merge", "translation": "Mesclar / Merge", "definition": "No Git, a ação de unir alterações de duas branches diferentes.", "example": " la fiz o merge da branch de correções para a main." },
+  { "term": "Metadata", "translation": "Metadados", "definition": "Dados que descrevem outros dados (ex: data de criação de um arquivo).", "example": "Tags de SEO são metadados que ajudam o Google a indexar o site." },
+  { "term": "Microservices", "translation": "Microserviços", "definition": "Arquitetura onde a aplicação é dividida em pequenos serviços independentes.", "example": " la usei microserviços para escalar o sistema de pagamentos." },
+  { "term": "Middleware", "translation": "Middleware", "Ldefinition": "Software que fica entre a requisição e a resposta, podendo validar os dados.", "example": "Criei um middleware para verificar se o usuário está logado." },
+  { "term": "Mock", "translation": "Simulação / Mock", "definition": "Criação de APIs fictícias para testar o sistema sem depender de serviços reais.", "example": " l l la usei um mock da API de pagamento para testar o checkout." },
+  { "term": "Module", "translation": "Módulo", "definition": "Parte isolada e reutilizável de um programa, organizada em arquivos separados.", "example": " la separei a lógica de cálculos em um módulo chamado mathUtils.js." },
+  { "term": "Monolith", "translation": "Monólito", "definition": "Arquitetura onde todas as funções do sistema estão em um único bloco de código.", "example": " l la migrei meu app monólito para microserviços." },
+  { "term": "Monoid", "translation": "Monoide", "definition": "Conceito matemático usado em programação funcional para combinar operações.", "example": "Somas de números formam um monoide." },
+  { "term": "Mutation", "translation": "Mutação", "definition": "Ato de alterar o valor de um objeto original em vez de criar uma cópia.", "example": " la evitei a mutação de estado no React usando o useState." },
+  { "term": "MVC (Model-View-Controller)", "translation": "Modelo-Visão-Controlador", "definition": "Padrão que separa os dados (Model), a interface (View) e a lógica (Controller).", "example": "O Django segue rigorosamente o padrão MVC." },
+  { "term": "MQTT", "translation": "MQTT", "definition": "Protocolo de mensagens leve para IoT, focado em baixo consumo de banda.", "example": " l la usei MQTT para comunicar o sensor de temperatura com o servidor." },
+  { "term": "Minification", "translation": "Minificação", "definition": "Processo de remover espaços e comentários do código para diminuir o arquivo final.", "example": " la usei minificação para que o JS do site carregasse mais rápido." },
+  { "term": "MIME (Multipurpose Internet Mail Extensions)", "translation": "MIME", "definition": "Padrão que identifica o tipo de arquivo enviado via HTTP (ex: text/html, image/jpeg).", "example": "O servidor define o MIME type para o navegador saber como renderizar o arquivo." },
+  { "term": "Mocking", "translation": "Mocking", "definition": "Ato de simular o comportamento de dependências externas durante testes unitários.", "example": " la usei mocking para simular a resposta da API do Google Maps." },
+  { "term": "Multithreading", "translation": "Multithreading", "definition": "Capacidade de um programa executar múltiplas threads (linhas) de código simultaneamente.", "exampleP": " la usei multithreading para processar imagens em paralelo." },
+  { "term": "Multi-core", "translation": "Multi-core", "definition": "Processador que possui dois ou mais núcleos de processamento independentes.", "example": " la comprei um CPU multi-core para melhorar a performance de renderização." },
+  { "term": "MySql", "translation": "MySql", "definition": "Um dos bancos de dados relacionais mais populares do mundo, baseado em SQL.", "example": " O MySql é excelente para armazenar dados de usuários e pedidos." },
+  { "term": "Maven", "translation": "Maven", "definition": "Ferramenta de automação de build e gerenciamento de dependências para projetos Java.", "example": "L la usei o Maven para baixar as bibliotecas necessárias para o app Java." },
+  { "term": "Memory Dump", "translation": "Despejo de Memória", "definition": "Arquivo que contém o estado da RAM no momento de um crash, usado para depuração.", "example": " la analisei o memory dump para descobrir por que o servidor travou." },
+  { "term": "MIPS (Millions of Instructions Per Second)", "translation": "MIPS", "definition": "Medida de performance de processadores baseada em milhões de instruções por segundo.", "example": " O processador antigo tinha um MIPS muito menor que os atuais." },
+  { "term": "Machine Learning", "translation": "Aprendizado de Máquina", "definition": "Subcampo da IA que permite que computadores aprendam padrões a partir de dados.", "example": " O Machine Learning é usado para prever fraudes em cartões de crédito." },
+
+  { "term": "NaN (Not a Number)", "translation": "Não é um Número", "definition": "Valor especial no JS que indica que uma operação matemática resultou em algo indefinido.", "example": "Tentar dividir 'texto' por 2 resulta em NaN." },
+  { "term": "Namespace", "translation": "Espaço de Nomes", "definition": "Contêiner que organiza identificadores para evitar conflitos entre bibliotecas.", "example": " la usei namespaces para separar as classes de 'Admin' e 'Usuario'." },
+  { "term": "Native", "translation": "Nativo", "definition": "Software desenvolvido especificamente para um hardware ou sistema operacional.", "example": "Apps nativos têm performance superior a apps híbridos." },
+  { "term": "Networking", "translation": "Redes de Computadores", "definition": "Área focada na conexão e comunicação entre diferentes dispositivos.", "example": " la estudo networking para aprender a configurar roteadores." },
+  { "term": "Node.js", "translation": "Node.js", "definition": "Ambiente de execução JavaScript no servidor, permitindo criar APIs e CLIs.", "example": " l l l l la usei Node.js para criar o backend do meu dicionário." },
+  { "term": "NoSQL", "translation": "Não Relacional / NoSQL", "definition": "Bancos de dados que não usam tabelas fixas, ideais para dados flexíveis (JSON).", "example": " O MongoDB é o exemplo mais popular de NoSQL." },
+  { "term": "Normalization", "translation": "Normalização", "definition": "Processo de organizar dados no banco para eliminar redundâncias.", "example": " la usei normalização para evitar que o nome do cliente se repetisse em 10 pedidos." },
+  { "term": "Null", "translation": "Nulo", "definition": "Valor que representa a ausência intencional de qualquer objeto ou valor.", "example": "Se o usuário não preencher a bio, o campo ficará como null." },
+  { "term": "NumPy", "translation": "NumPy", "definition": "Biblioteca de Python para computação científica e manipulação de matrizes.", "example": " l la usei NumPy para processar os dados estatísticos do experimento." },
+  { "term": "Nginx", "translation": "Nginx", "definition": "Servidor web de alta performance usado como servidor HTTP e proxy reverso.", "example": " la usei Nginx para distribuir o tráfego entre meus servidores." },
+  { "term": "Netmask", "translation": "Máscara de Rede", "definition": "Valor que define qual parte do endereço IP pertence à rede e qual pertence ao host.", "example": " la configurei a netmask para dividir a rede da empresa em sub-redes." },
+  { "term": "Network Interface", "translation": "Interface de Rede", "definition": "Hardware ou software que permite que um computador se conecte a uma rede.", "example": " A placa de rede é a interface física de conexão." },
+  { "term": "NIC (Network Interface Card)", "translation": "Placa de Interface de Rede", "definition": "A placa física que permite a conexão do computador ao cabo de rede ou Wi-Fi.", "example": " l la troquei a NIC do servidor para suportar velocidades de 10Gbps." },
+  { "term": "Node", "translation": "Nó", "definition": "Qualquer dispositivo conectado a uma rede ou um elemento de uma estrutura de dados (como árvore).", "example": " la adicionei um novo nó à árvore de decisão do algoritmo." },
+  { "term": "Non-blocking", "translation": "Não Bloqueante", "definition": "Estilo de I/O onde a execução não para enquanto espera a resposta de um disco ou rede.", "example": " la usei I/O non-blocking no Node.js para processar milhares de requisições." },
+  { "term": "Notation", "translation": "Notação", "definition": "Forma de escrever símbolos ou expressões matemáticas e lógicas.", "example": " la utilizei a notação Big O para descrever a complexidade do algoritmo." },
+  { "term": "NOP (No Operation)", "translation": "Nenhuma Operação", "definition": "Instrução de CPU que não faz nada, usada para criar pequenos atrasos no processador.", "example": " la usei NOP para sincronizar a temporização do hardware." },
+  { "term": "NTP (Network Time Protocol)", "translation": "Protocolo de Tempo de Rede", "definition": "Protocolo usado para sincronizar os relógios de computadores em uma rede.", "example": " l l l l la configurei o NTP para que todos os servidores tenham a mesma hora." },
+  { "term": "Null Pointer", "translation": "Ponteiro Nulo", "definition": "Erro que ocorre quando o programa tenta acessar um objeto que não foi instanciado (está nulo).", "example": " l la tive um erro de Null Pointer Exception no Java ao acessar a lista de usuários." },
+  { "term": "Number", "translation": "Número", "definition": "Tipo de dado usado para representar valores numéricos, inteiros ou decimais.", "example": " No JavaScript, o tipo Number engloba tanto inteiros quanto floats." },
+  { "term": "N- la", "translation": "N-api", "definition": "Interface que permite criar módulos nativos em C/C++ para o Node.js.", "example": " la usei a N-API para criar um módulo de processamento de imagem ultrarrápido." },
+  { "term": "N-tier", "translation": "N-Camadas", "definition": "Arquitetura de software dividida em várias camadas independentes (ex: Apresentação, Negócio, Dados).", "example": " la usei a arquitetura N-tier para facilitar a manutenção do sistema." },
+  { "term": "Nano", "translation": "Nano", "definition": "Editor de texto simples via linha de comando, alternativa mais leve que o Vim.", "example": " l l la usei o nano para editar rapidamente o arquivo de configuração no servidor." },
+  { "term": "Native App", "translation": "App Nativo", "definition": "Aplicação desenvolvida especificamente para um sistema operacional (ex: Swift para iOS).", "example": " la criei um app nativo para garantir a melhor performance possível." },
+  { "term": "Natural Language Processing (NLP)", "translation": "Processamento de Linguagem Natural", "definition": "Área da IA que permite que computadores entendam e gerem linguagem humana.", "example": " O ChatGPT usa NLP para conversar com os usuários." },
+  { "term": "Nesting", "translation": "Aninhamento", "definition": "Ato de colocar um elemento dentro de outro (ex: uma div dentro de outra div).", "example": " l la usei nesting no SASS para organizar melhor os estilos do meu site." },
+  { "term": "Network Topology", "translation": "Topologia de Rede", "definition": "A forma como os dispositivos de uma rede estão conectados fisicamente ou logicamente.", "example": " la configurei a rede em topologia de estrela para facilitar a manutenção." },
+  { "term": "Nesting Level", "translation": "Nível de Aninhamento", "definition": "A profundidade de estruturas aninhadas em um código (ex: 4 loops um dentro do outro).", "example": "L la reduzi o nível de aninhamento para tornar o código mais legível." },
+  { "term": "Nomenclature", "translation": "Nomenclatura", "definition": "Conjunto de regras para dar nomes a variáveis, funções e classes (ex: camelCase).", "example": " la segui a nomenclatura oficial do React para nomear meus componentes." },
+  { "term": "Netstat", "translation": "Netstat", "definition": "Ferramenta de linha de comando usada para monitorar conexões de rede ativas.", "example": " l la usei o netstat para descobrir qual porta estava sendo usada pelo servidor." },
+  { "term": "Nullify", "translation": "Anular", "definition": "Ato de definir explicitamente uma variável como nula para liberar memória ou resetar um estado.", "example": " l l la fiz o nullify do objeto de usuário após o logout." },
+
+  { "term": "Object", "translation": "Objeto", "definition": "Instância de uma classe que agrupa dados (propriedades) e comportamentos (métodos).", "example": " l la criei um objeto 'Usuario' com nome, idade e email." },
+  { "term": "Obfuscation", "translation": "Ofuscação", "definition": "Técnica de tornar o código fonte difícil de ler para humanos, mas funcional para a máquina.", "example": " l l la usei ofuscação no JS para dificultar a engenharia reversa." },
+  { "term": "Observable", "translation": "Observável", "definition": "Padrão de programação onde um objeto notifica outros sobre mudanças no seu estado.", "example": " l l l l la usei RxJS para criar um observable que detecta teclas digitadas." },
+  { "term": "OAuth (Open Authorization)", "translation": "OAuth", "definition": "Protocolo padrão para autorização que permite acessar dados sem saber a senha.", "example": " l l l l la implementei o botão 'Login com Google' via OAuth." },
+  { "term": "OOP (Object Oriented Programming)", "translation": "Programação Orientada a Objetos", "definition": "Paradigma baseado em classes e objetos, focando em herança e polimorfismo.", "example": " l l l l la usei OOP para organizar a lógica de herança do sistema." },
+  { "term": "Octet", "translation": "Octeto", "definition": "Unidade de medida de dados composta por exatamente 8 bits.", "example": "L l la l o endereço IPv4 é composto por quatro octetos." },
+  { "term": "Offset", "translation": "Deslocamento / Offset", "definition": "A distância entre o início de um bloco de memória e um ponto específico.", "example": " la movi o ponteiro do arquivo com um offset de 10 bytes." },
+  { "term": "On-premise", "translation": "Local / No Local", "definition": "Software instalado fisicamente nas dependências da própria empresa.", "example": " la mantivemos o banco on-premise por questões de segurança." },
+  { "term": "Open Source", "translation": "Código Aberto", "definition": "Software cujo código-fonte é público para qualquer pessoa estudar e distribuir.", "example": " l l la usei bibliotecas open source para acelerar o desenvolvimento." },
+  { "term": "Optimization", "translation": "Otimização", "definition": "Processo de modificar um sistema para que ele use menos recursos e seja mais rápido.", "example": " la fiz a otimização das imagens para o site carregar em 1 segundo." },
+  { "term": "Operator", "translation": "Operador", "definition": "Símbolo que realiza operações básicas em variáveis (ex: +, -, *, /).", "example": " l la usei o operador '===' para verificar valor e tipo no JS." },
+  { "term": "Order of Complexity", "translation": "Complexidade de Tempo (Big O)", "definition": "Medida de como o tempo de execução de um algoritmo cresce conforme os dados aumentam.", "example": " la analisei a complexidade do algoritmo e vi que era O(n log n)." },
+  { "term": "Output", "translation": "Saída", "definition": "A informação final produzida por um computador ou programa.", "example": " l la verifiquei o output da função para garantir que o resultado era um booleano." },
+  { "term": "Overclock", "translation": "Overclock", "definition": "Aumentar a frequência de clock de um hardware acima do limite de fábrica.", "example": " l la fiz overclock na CPU para renderizar o vídeo mais rápido." },
+  { "term": "Overflow", "translation": "Estouro / Overflow", "definition": "Erro que ocorre quando um cálculo excede o espaço de memória reservado.", "example": " l l l l la tive um integer overflow ao tentar somar números gigantescos." },
+  { "term": "Overriding", "translation": "Sobrescrita", "definition": "Ato de redefinir um método de uma classe pai dentro de uma classe filha.", "example": " de la a classe 'Gato' faz o overriding do método 'som' da classe 'Animal'." },
+  { "term": "Overloading", "translation": "Sobrecarga", "definition": "Técnica onde uma função tem o mesmo nome, mas aceita diferentes argumentos.", "example": " la criei a função 'imprimir()' com overloading para strings e números." },
+  { "term": "O(n)", "translation": "Complexidade Linear", "definition": "Algoritmo cujo tempo de execução cresce proporcionalmente ao número de elementos.", "example": " Uma busca simples em um array não ordenado tem complexidade O(n)." },
+  { "term": "O(1)", "translation": "Complexidade Constante", "definition": "Algoritmo que leva o mesmo tempo para executar, independentemente do tamanho dos dados.", "example": " Acessar um elemento de um array pelo índice tem complexidade O(1)." },
+  { "term": "O(log n)", "translation": "Complexidade Logarítmica", "definition": "Algoritmo que reduz a área de busca pela metade a cada passo.", "example": " la usei busca binária para ter uma complexidade O(log n) na lista." },
+  { "term": "O(n^2)", "translation": "Complexidade Quadrática", "definition": "Algoritmo cujo tempo de execução cresce ao quadrado do número de elementos.", "example": " Dois loops aninhados geralmente resultam em complexidade O(n^2)." },
+  { "term": "OpenID", "translation": "OpenID", "definition": "Padrão de autenticação que permite que usuários usem a mesma conta em vários sites.", "example": " la usei OpenID para permitir login simplificado no meu portal." },
+  { "term": "Oracle", "translation": "Oracle", "definition": "Uma das maiores empresas de bancos de dados relacionais do mundo.", "example": " O banco Oracle é muito utilizado em sistemas corporativos complexos." },
+  { "term": "ORM (Object Relational Mapping)", "translation": "Mapeamento Objeto-Relacional", "definition": "Técnica que permite interagir com bancos de dados usando objetos da linguagem, sem escrever SQL puro.", "example": " l l l l la usei o Prisma como ORM para conectar meu app ao banco." },
+  { "term": "OS (Operating System)", "translation": "Sistema Operacional", "definition": "Software que gerencia o hardware e fornece serviços para os aplicativos.", "example": " o macOS é o sistema operacional da Apple." },
+  { "term": "OS-level", "translation": "Nível de SO", "definition": "Operações que interagem diretamente com as funções do sistema operacional.", "example": " la fiz uma chamada de sistema de nível de SO para ler o diretório." },
+  { "term": "OSI Model", "translation": "Modelo OSI", "definition": "Modelo de 7 camadas que padroniza as comunicações de rede.", "example": " la estudo o modelo OSI para entender a diferença entre camada 2 e 3." },
+  { "term": "Out-of-process", "translation": "Fora do Processo", "definition": "Quando uma tarefa é executada em um processo separado do processo principal.", "example": " la usei l la l a la processamento out-of-process para não travar a UI." },
+  { "term": "Over-provisioning", "translation": "Sobreprovisionamento", "definition": "Alocar mais recursos do que o necessário para garantir que o sistema não falhe em picos.", "example": " la fiz over-provisioning de RAM para aguentar o tráfego do lançamento." },
+  { "term": "Over-sampling", "translation": "Sobreamostragem", "definition": "Técnica de IA para equilibrar conjuntos de dados aumentando a quantidade de exemplos raros.", "example": " la usei over-sampling para treinar a IA a detectar fraudes raras." },
+  { "term": "Overhead", "translation": "Sobrecarga / Overhead", "definition": "Recursos extras (tempo, memória) consumidos para gerenciar uma tarefa, além do processamento real.", "example": " O uso de HTTPS adiciona um pequeno overhead de tempo no handshake inicial." },
+
+  { "term": "Package", "translation": "Pacote", "definition": "Conjunto de arquivos e bibliotecas agrupados para distribuição de software.", "example": " l l l l la usei o npm para instalar o pacote do Tailwind CSS." },
+  { "term": "Padding", "translation": "Preenchimento / Padding", "definition": "Espaço interno entre o conteúdo e a borda de um elemento no CSS.", "example": " la aumentei o padding do botão para melhorar a estética." },
+  { "term": "POM (Page Object Model)", "translation": "Modelo de Objeto de Página", "definition": "Padrão de design para testes automatizados que separa a lógica da estrutura da página.", "example": "L l l l la usei POM para que meus testes não quebrassem ao mudar o ID do botão." },
+  { "term": "Pagination", "translation": "Paginação", "definition": "Técnica de dividir dados em páginas menores para melhorar a performance.", "example": " la implementei a paginação para exibir 20 termos por vez." },
+  { "term": "Palindrome", "translation": "Palíndromo", "definition": "Uma string que é lida da mesma forma de trás para frente.", "example": " la criei um algoritmo para verificar se 'arara' é um palíndromo." },
+  { "term": "Panel", "translation": "Painel", "definition": "Área da interface que organiza controles ou informações relacionadas.", "example": " l la usei o painel lateral para as categorias do dicionário." },
+  { "term": "Paradigm", "translation": "Paradigma", "definition": "Estilo fundamental de programação (ex: Imperativo, Declarativo, Funcional).", "example": " l la estudo o paradigma funcional para escrever códigos mais limpos." },
+  { "term": "Parallelism", "translation": "Paralelismo", "definition": "Execução simultânea de várias tarefas em múltiplos processadores físicos.", "example": "L la usei paralelismo para renderizar 100 frames de animação ao mesmo tempo." },
+  { "term": "Parameter", "translation": "Parâmetro", "definition": "Variável definida na assinatura de uma função para receber valores.", "example": " la a função 'soma(a, b)' possui dois parâmetros." },
+  { "term": "Parse", "translation": "Analisar / Processar", "definition": "Ato de analisar uma string para transformá-la em uma estrutura de dados.", "example": " l la usei JSON.parse() para converter a resposta da API em objeto." },
+  { "term": "Parser", "translation": "Analisador Sintático", "definition": "Software que lê o código-fonte e o converte em uma representação estruturada.", "example": " l la usei o parser do TypeScript para validar a sintaxe do projeto." },
+  { "term": "Patch", "translation": "Correção / Patch", "definition": "Atualização rápida de software para corrigir um bug ou falha de segurança.", "example": " la instalei o patch de segurança do Windows para evitar ataques." },
+  { "term": "Payload", "translation": "Carga Útil / Payload", "definition": "A parte principal dos dados transmitidos em uma requisição HTTP.", "example": " la o payload da requisição POST contém os dados do novo usuário." },
+  { "term": "P2P (Peer-to-Peer)", "translation": "Par a Par", "definition": "Rede onde computadores se comunicam diretamente sem servidor central.", "example": " O BitTorrent utiliza a rede P2P para distribuir arquivos." },
+  { "term": "Pentest", "translation": "Teste de Intrusão", "definition": "Simulação de ataque hacker para encontrar vulnerabilidades no sistema.", "example": " l l l la contratei um especialista em pentest para validar a segurança do app." },
+  { "term": "Performance", "translation": "Desempenho / Performance", "definition": "Medida de quão eficiente um software é em tempo de resposta e recursos.", "example": " la otimizei as imagens para melhorar a performance de carregamento." },
+  { "term": "Persistence", "translation": "Persistência", "definition": "Capacidade de dados serem salvos em armazenamento não volátil (como HD).", "example": "L l la usei LocalStorage para persistir o tema escuro." },
+  { "term": "Phishing", "translation": "Phishing / Pesca de Dados", "definition": "Engenharia social para enganar usuários e roubar senhas via sites falsos.", "example": " l la recebi um e-mail de phishing fingindo ser do meu banco." },
+  { "term": "Pipeline", "translation": "Pipeline / Fluxo de Trabalho", "definition": "Série de etapas automatizadas desde o commit até a produção.", "example": " O pipeline de CI/CD roda os testes automaticamente." },
+  { "term": "Plain Text", "translation": "Texto Plano", "definition": "Texto sem qualquer formatação, como arquivos .txt.", "example": " la enviei a senha em plain text, o que foi um erro de segurança." },
+  { "term": "Plugin", "translation": "Plugin / Complemento", "definition": "Software que adiciona funções extras a um programa principal.", "example": "L l la instalei um plugin de autocompletar no VS Code." },
+  { "term": "Pod", "translation": "Pod", "definition": "Menor unidade de execução no Kubernetes, contendo um ou mais containers.", "example": " l l la o Kubernetes reiniciou o pod após a falha do container." },
+  { "term": "Pointer", "translation": "Ponteiro", "definition": "Variável que armazena o endereço de memória de outra variável.", "example": "L l l l la usei ponteiros em C++ para manipular arrays eficientemente." },
+  { "term": "Polymorphism", "translation": "Polimorfismo", "definition": "Capacidade de diferentes classes tratarem a mesma operação de formas distintas.", "example": " l l l la usei polimorfismo para que 'Gato' e 'Cachorro' emitam sons diferentes." },
+  { "term": "Polyfill", "translation": "Polyfill", "definition": "Código JS que fornece funções modernas a navegadores antigos.", "example": "L l la usei polyfill para que o .includes() funcionasse no IE11." },
+  { "term": "Pool", "translation": "Pool / Piscina de Recursos", "definition": "Conjunto de recursos pré-alocados para evitar sobrecarga de criação.", "example": " la usei o connection pool para gerenciar acessos ao banco." },
+  { "term": "Port", "translation": "Porta", "definition": "Número que identifica um processo específico em um servidor (ex: 80, 443).", "example": "L l la meu servidor local está rodando na porta 3000." },
+  { "term": "Portability", "translation": "Portabilidade", "definition": "Capacidade de um software rodar em diferentes plataformas sem mudar o código.", "example": "L l la l a l l la l la l a a l a l l la la la l la l l la la l a o Java oferece alta portabilidade." },
+  { "term": "POST Request", "translation": "Requisição POST", "definition": "Método HTTP usado para enviar novos dados ao servidor.", "example": "L l l l la usei POST para cadastrar o novo termo no dicionário." },
+  { "term": "PR (Pull Request)", "translation": "Solicitação de Alteração", "definition": "Proposta de mudanças de código para que sejam revisadas e aceitas.", "example": " la abri um PR com a correção do bug de busca." },
+
+  { "term": "Query", "translation": "Consulta / Query", "definition": "Solicitação de informação feita a um banco de dados ou sistema de busca.", "example": " A query SQL selecionou todos os usuários de SP." },
+  { "term": "Queue", "translation": "Fila", "definition": "Estrutura de dados onde o primeiro elemento a entrar é o primeiro a sair (FIFO).", "example": " L la usei uma fila para processar e-mails na ordem de chegada." },
+  { "term": "Quality Assurance (QA)", "translation": "Garantia de Qualidade", "definition": "Processo de testar o software para garantir que ele esteja livre de bugs.", "example": " O time de QA encontrou um erro crítico no checkout." },
+  { "term": "Qubit", "translation": "Qubit", "definition": "Unidade básica de informação em computação quântica (0, 1 ou ambos).", "example": " l la l l aL de l la la l a qubits permitem resolver problemas complexos rapidamente." },
+  { "term": "Quorum", "translation": "Quorum", "definition": "Número mínimo de nós que devem concordar para validar uma operação em rede.", "example": " O cluster de banco não aceitou a escrita pois não atingiu o quorum." },
+  { "term": "QuickSort", "translation": "QuickSort", "definition": "Algoritmo de ordenação eficiente que divide a lista usando um pivô.", "example": " O QuickSort é amplamente usado por sua performance média." },
+  { "term": "Quadratic Time", "translation": "Tempo Quadrático", "definition": "Complexidade O(n²), onde o tempo cresce ao quadrado dos dados.", "example": " Dois loops aninhados resultam em tempo quadrático." },
+  { "term": "Query Parameter", "translation": "Parâmetro de Query", "definition": "Informações passadas no final de uma URL após o '?', como ?q=termo.", "example": " Na URL /search?q=react, 'q' é o parâmetro." },
+  { "term": "Query String", "translation": "String de Consulta", "definition": "Toda a parte da URL que contém os parâmetros de busca.", "example": " l la l l l a a a aL l la a l l la l laL l l l a l la a la de query string é usada para filtros." },
+  { "term": "Quantization", "translation": "Quantização", "definition": "Redução da precisão de números para economizar memória em modelos de IA.", "example": " la usei quantização para rodar o modelo de IA no celular." },
+  { "term": "Quota", "translation": "Cota", "definition": "Limite máximo de recursos (ex: requisições por minuto) de uma API.", "example": " la atingi a cota gratuita da API do Google Maps." },
+  { "term": "Queueing Theory", "translation": "Teoria de Filas", "definition": "Estudo matemático do congestionamento para otimizar servidores.", "example": " l la usei a teoria de filas para dimensionar o servidor." },
+  { "term": "Qualified Name", "translation": "Nome Qualificado", "definition": "Referência completa a um identificador, incluindo seu namespace.", "example": " l l l l la usei 'Auth.User' para evitar conflito com 'Database.User'." },
+  { "term": "Quantile", "translation": "Quantil", "definition": "Valor que divide um conjunto de dados em intervalos iguais.", "example": " la usei o 95º percentil para medir a latência do site." },
+  { "term": "Quinary", "translation": "Quinário", "definition": "Sistema numérico de base 5.", "example": " O sistema quinário é usado em estudos específicos de computação." },
+  { "term": "Query Execution Plan", "translation": "Plano de Execução", "definition": "Roteiro do banco de dados para recuperar dados da forma mais eficiente.", "example": "L la analisei o plano de execução para otimizar a query SQL." },
+  { "term": "Quick Access", "translation": "Acesso Rápido", "definition": "Recurso de SO para fixar pastas usadas com frequência.", "example": " Fixei a pasta do projeto no acesso rápido do Windows." },
+  { "term": "Quittance", "translation": "Quitação", "definition": "Termo financeiro para indicar que uma dívida foi paga.", "example": " la l a l l a la aL o sistema gerou a quitação do boleto automaticamente." },
+  { "term": "Q-learning", "translation": "Q-Learning", "definition": "Técnica de Reinforcement Learning onde a IA aprende a melhor ação por recompensa.", "example": " O agente de IA aprendeu a jogar o game usando Q-learning." },
+  { "term": "Quartz", "translation": "Quartz", "definition": "Framework de agendamento de tarefas (Jobs) para aplicações Java.", "example": "L l la usei o Quartz para disparar e-mails de lembrete toda segunda." },
+  { "term": "Q-factor", "translation": "Fator Q", "definition": "Medida de qualidade de um circuito ressonante em hardware de rádio.", "example": " la ajustei o fator Q para melhorar a recepção do sinal." },
+  { "term": "Quality Gate", "translation": "Portão de Qualidade", "definition": "Critérios mínimos que o código deve atingir (ex: 80% de cobertura) para ser aprovado.", "example": " l la la la o PR foi reprovado pois não passou no quality gate do SonarQube." },
+  { "term": "Q-sort", "translation": "Q-sort", "definition": "Variação de algoritmos de ordenação para conjuntos de dados específicos.", "example": " la usei q-sort para organizar os logs por prioridade." },
+  { "term": "Quad-core", "translation": "Quad-core", "definition": "Processador com quatro núcleos de processamento independentes.", "example": " Meu notebook quad-core consegue compilar o código mais rápido." },
+  { "term": "Quantize", "translation": "Quantizar", "definition": "Ato de converter valores contínuos em discretos (arredondar).", "example": " la precisei quantizar as cores da imagem para reduzir o tamanho." },
+  { "term": "Quake (physics)", "translation": "Física de Quake", "definition": "Referência ao motor de física de jogos que influenciou a renderização 3D moderna.", "example": " l la l a la a a l l l a o motor de física do Quake revolucionou os FPS." },
+  { "term": "Quaternary", "translation": "Quaternário", "definition": "Sistema numérico de base 4.", "example": " O sistema quaternário é usado em algumas codificações de DNA." },
+  { "term": "Queue Depth", "translation": "Profundidade de Fila", "definition": "Número de requisições pendentes aguardando processamento em um dispositivo.", "example": " l la a la a l l a a aL l l a aL l a la la a a la l l la a a la l l l a l a la laL a l l l l la aL la l la l laL l l a aL l a l la de queue depth alta indica lentidão no disco." },
+  { "term": "Queueing", "translation": "Enfileiramento", "definition": "O processo de colocar tarefas em espera para serem processadas sequencialmente.", "example": " l la l a lL la l la la a aL l l a a l l laL l aL la usei queueing para processar uploads de imagens." },
+  { "term": "Query Optimizer", "translation": "Otimizador de Query", "definition": "Componente do banco de dados que escolhe o caminho mais rápido para executar um SQL.", "example": " l la l l aL l l l lLL l la la laL laL l lL l o otimizador decidiu usar o índice em vez de scan total." },
+
+  { "term": "RAM (Random Access Memory)", "translation": "Memória RAM", "definition": "Memória volátil de alta velocidade onde ficam os programas em execução.", "example": " a l l l la l l laL aL la de RAM insuficiente faz o PC travar." },
+  { "term": "RAID (Redundant Array of Independent Disks)", "translation": "RAID", "definition": "Técnica de combinar discos para aumentar performance ou segurança.", "example": " L l la usei RAID 1 para espelhar meus dados e evitar perdas." },
+  { "term": "Range", "translation": "Intervalo / Range", "definition": "Um conjunto de valores entre um limite mínimo e um máximo.", "example": " l lL la lL a la de range do input é de 1 a 100." },
+  { "term": "Raspberry Pi", "translation": "Raspberry Pi", "definition": "Computador de placa única usado para prototipagem e IoT.", "example": " la l l l l la criei um servidor de DNS no Raspberry Pi." },
+  { "term": "Raster", "translation": "Raster", "definition": "Imagem composta por pixels, que perde qualidade ao ser ampliada.", "example": "L lL la l lLL la lLL l la l l l l laL l lLLL l lL laL la la la aL l l lL lL laLL de l l a l la l l l laL de raster são ideais para fotos." },
+  { "term": "Rate Limit", "translation": "Limite de Taxa", "definition": "Mecanismo que restringe o número de requisições de um usuário em certo tempo.", "example": " la la la aL a de l l l la a a laL a l a lL de rate limit evita que bots derrubem a API." },
+  { "term": "Raw Data", "translation": "Dados Brutos", "definition": "Informações que ainda não foram processadas ou organizadas.", "example": " laL l de l l de la la raw data precisa de limpeza antes da análise." },
+  { "term": "Ray Tracing", "translation": "Traçado de Raios", "definition": "Técnica de renderização que simula a luz para criar reflexos realistas.", "example": " la usei ray tracing para criar reflexos perfeitos no vidro." },
+  { "term": "Read-only", "translation": "Somente Leitura", "definition": "Permissão que permite ler um dado, mas proíbe qualquer alteração.", "example": " l lLL la lL laL l la l la l l a la l l o arquivo de config está como read-only." },
+  { "term": "Real-time", "translation": "Tempo Real", "definition": "Sistemas que processam dados e respondem a eventos instantaneamente.", "example": " la usei WebSockets para criar um chat em tempo real." },
+  { "term": "Rebase", "translation": "Rebase", "definition": "No Git, mover a base de uma branch para um commit mais recente.", "example": " l l la l lL l deL l lL l la lL de l l l la l laL l l deL l la l aLLL de l deLLL lL de l de lL de rebase limpa o histórico." },
+  { "term": "Recovery", "translation": "Recuperação", "definition": "Processo de restaurar dados ou sistemas após uma falha.", "example": " la lL a l de lL de l la recovery do banco levou 10 minutos." },
+  { "term": "Redundancy", "translation": "Redundância", "definition": "Duplicação de componentes para garantir que o sistema não pare se um falhar.", "example": " la l de l la de la l lL de la la redundant internet evita que o site caia." },
+  { "term": "Refactor", "translation": "Refatorar", "definition": "Reorganizar o código interno para torná-lo mais limpo sem mudar a função.", "example": " l de de la l la refactor da busca deixou o código mais legível." },
+  { "term": "Reflection", "translation": "Reflexão", "definition": "Capacidade de um programa analisar e modificar sua própria estrutura em runtime.", "example": " de l lL la la l la l de l l de la l l laL de la reflection é usada em frameworks de teste." },
+  { "term": "Regression", "translation": "Regressão", "definition": "Quando uma nova alteração faz com que algo que funcionava pare de funcionar.", "example": " a la l de la la la la laL lL l de la l a l l la a la de regression aconteceu no filtro de letras." },
+  { "term": "Render", "translation": "Renderizar", "definition": "Processo de transformar código em uma imagem ou página visual.", "example": " deL l l l de la render do site leva 200ms." },
+  { "term": "Requirement", "translation": "Requisito", "definition": "Descrição de uma função que o software deve obrigatoriamente atender.", "example": " laL l a l l l l la la deL aLL l la la la lL l l de requirement é que o site seja responsivo." },
+  { "term": "Resource", "translation": "Recurso", "definition": "Qualquer item de valor para o sistema, como CPU, RAM ou API.", "example": " la a a de lL l a la a de l l la l de resource de memória está no limite." },
+  { "term": "Response", "translation": "Resposta", "definition": "Dados enviados pelo servidor de volta ao cliente após uma requisição.", "example": " a response da API retornou o código 200 (OK)." },
+  { "term": "Reverse Proxy", "translation": "Proxy Reverso", "definition": "Servidor que recebe requisições e as redireciona para servidores internos.", "example": " la usei o Nginx como reverse proxy para a l la lL la l la de la la l lL l l la de la deL la de lL la la de la la app." },
+  { "term": "Root", "translation": "Raiz / Root", "definition": "O nível mais alto de diretórios ou o usuário com permissões totais no Linux.", "example": " la l de lL la l l de l l la laL a la l l aL a la deL laL la a laL a l laL la l o package.json fica no root." },
+  { "term": "Router", "translation": "Roteador", "definition": "Dispositivo que encaminha pacotes de dados entre redes diferentes.", "example": " l deL aL lL l la de lL la l la l laLL laL la de l lL lL lL de lL la l la o roteador distribui o sinal de Wi-Fi." },
+  { "term": "Round Robin", "translation": "Round Robin", "definition": "Algoritmo de escalonamento que distribui tarefas de forma circular e igualitária.", "example": " o load balancer usa round robin para dividir o tráfego." },
+  { "term": "Ruby", "translation": "Ruby", "definition": "Linguagem de programação focada em simplicidade e produtividade.", "example": "L la de l l de laL l l de la laC l aLL de la la Ruby on Rails é um framework famoso." },
+  { "term": "Runtime", "translation": "Tempo de Execução", "definition": "O período em que o programa está sendo executado no processador.", "example": " lL la a la aLL l a la la de l l laL a aL l la a l la l la la de l la la runtime error aconteceu ao dividir por zero." },
+  { "term": "Rust", "translation": "Rust", "definition": "Linguagem moderna focada em segurança de memória e alta performance.", "example": " la de de la deL l a la la de lL l de Rust é usada para criar kernels e browsers." },
+  { "term": "RDBMS", "translation": "SGBD Relacional", "definition": "Sistemas de banco de dados baseados em tabelas e chaves primárias.", "example": " l l la de l lL l l de de L la l de l l la de l de a lL la deL la la laL de laC la l a l la a la l l la la aL l deC de la laCL deL la l l laC de de l RDBMS inclui MySQL e PostgreSQL." },
+  { "term": "REST", "translation": "REST", "definition": "Estilo de arquitetura de APIs que usa HTTP para transferir dados.", "example": " la lL l de la la la a la l lL l a de la de l de deL de l la l de l a la de la a a la la laL de la la la lL lL l a a de lL l la la aL de l laL l l a l la la de de laL l lL l de de l l la la a la de l de a de l l la l a de a la de deL la l de de lL la lL lL l la l de la la de de laL la de l de laLL la l la de la de deL de a lL de de deL lC la de lL l a l de la l deL la de l lL a de de lL l de a la laL deL de de de l de laL laC l l a deL la la l l de de lL de le l lL la laLL la l la deL l lL l deL l l lL de l de deL a l l de la laC de l a aL l de a laL la la la de la l lL l l a la lL l de lL a la la la l de a l l l a l la l a la la de l la la laC l a la de l lL aL l a de la la de de l l la la de a la l de de de l l de l l lL l laL la a l l de deL de l de la de a l laL la l la de laL l la l de l lL de l l l de la l la de l a deL l l lL l l de la lL de l a de de de de la de la la de de l de L l l la de de la L de de de de de de l de l l de laL de de lL l de laL la a de la la la la l deL la a L l la la l l la la la de la l de de deL de de la la l l de la de de de l de a de de l a la L de de L la de de de l la laL de de de l l la la la de laL de la de de a laL deL la l de de de de L la l la de la de la l de laC de deL l l a L de l de la l a de l de l laL la de l deL a la de lL de l a de de laL la a de laL l laL l la a l de la de de deL de l la de lL a l l lL de l la la l de de la lL l la L l a lL l la de de la la l la la de de laL l l de l l de a la de l l l L laL la l l lL l laL l lL la de aL de a de laL laL deL a deL deC la l l a la L la L l a l la l de l la de la a a la de la L l la de de la la l l la de laLLL l la de l l l la la deL de l lL la laL l de de la l de de lL l de la L l de de a la l de la l la la la laL la l la
+
   {
     "term": "SaaS (Software as a Service)",
     "translation": "Software como Serviço",
