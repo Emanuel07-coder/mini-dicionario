@@ -1,0 +1,1330 @@
+[
+  {
+    "id": "api",
+    "letter": "A",
+    "term": "API",
+    "fullName": "Application Programming Interface",
+    "translation": "Interface de Programação de Aplicações",
+    "definition": "Conjunto de normas que permite que dois softwares se comuniquem e troquem dados.",
+    "example": "The Google Maps API allows us to integrate maps into our website."
+  },
+  {
+    "id": "algorithm",
+    "letter": "A",
+    "term": "Algorithm",
+    "translation": "Algoritmo",
+    "definition": "Sequência de passos lógicos e finitos para resolver um problema ou executar uma tarefa.",
+    "example": "The search algorithm sorts the results by relevance."
+  },
+  {
+    "id": "agile",
+    "letter": "A",
+    "term": "Agile",
+    "translation": "Ágil",
+    "definition": "Abordagem de gestão de projetos e desenvolvimento de software iterativa e incremental.",
+    "example": "Our team uses Agile to deliver features every two weeks."
+  },
+  {
+    "id": "array",
+    "letter": "A",
+    "term": "Array",
+    "translation": "Vetor / Matriz",
+    "definition": "Estrutura de dados que armazena uma coleção de elementos, geralmente do mesmo tipo, acessíveis por um índice.",
+    "example": "We store the list of users in an array."
+  },
+  {
+    "id": "async",
+    "letter": "A",
+    "term": "Async",
+    "translation": "Assíncrono",
+    "definition": "Operação que permite que o programa continue executando outras tarefas enquanto espera por uma resposta.",
+    "example": "Async functions in JavaScript prevent the UI from freezing."
+  },
+  {
+    "id": "abstract",
+    "letter": "A",
+    "term": "Abstract Class",
+    "translation": "Classe Abstrata",
+    "definition": "Uma classe que não pode ser instanciada e serve apenas como modelo para outras classes.",
+    "example": "The 'Animal' abstract class defines methods that all specific animals must implement."
+  },
+  {
+    "id": "authentication",
+    "letter": "A",
+    "term": "Authentication",
+    "translation": "Autenticação",
+    "definition": "Processo de verificar a identidade de um usuário ou sistema.",
+    "example": "The application requires authentication via JWT."
+  },
+  {
+    "id": "authorization",
+    "letter": "A",
+    "term": "Authorization",
+    "translation": "Autorização",
+    "definition": "Processo de verificar se um usuário autenticado tem permissão para acessar um recurso específico.",
+    "example": "The admin has authorization to delete users, but the guest doesn't."
+  },
+  {
+    "id": "architecture",
+    "letter": "A",
+    "term": "Architecture",
+    "translation": "Arquitetura",
+    "definition": "A estrutura organizacional de um sistema de software, definindo seus componentes e interações.",
+    "example": "We are migrating from a monolithic architecture to microservices."
+  },
+  {
+    "id": "artifact",
+    "letter": "A",
+    "term": "Artifact",
+    "translation": "Artefato",
+    "definition": "Qualquer subproduto tangível produzido durante o desenvolvimento de software (ex: documentação, binários, diagramas).",
+    "example": "The build pipeline generates a JAR artifact."
+  },
+  {
+    "id": "backend",
+    "letter": "B",
+    "term": "Backend",
+    "translation": "Bastidores / Lógica do Servidor",
+    "definition": "A parte do software que processa dados, gerencia o banco de dados e a lógica de negócio, invisível ao usuário final.",
+    "example": "The backend is written in Node.js and uses PostgreSQL."
+  },
+  {
+    "id": "binary",
+    "letter": "B",
+    "term": "Binary",
+    "translation": "Binário",
+    "definition": "Sistema numérico de base 2 (0 e 1), a linguagem fundamental de processamento dos computadores.",
+    "example": "Computers process information in binary code."
+  },
+  {
+    "id": "boolean",
+    "letter": "B",
+    "term": "Boolean",
+    "translation": "Booleano",
+    "definition": "Tipo de dado que pode assumir apenas dois valores: verdadeiro (true) ou falso (false).",
+    "example": "The 'isLoggedIn' variable is a boolean."
+  },
+  {
+    "id": "bug",
+    "letter": "B",
+    "term": "Bug",
+    "translation": "Erro / Falha",
+    "definition": "Um erro, falha ou defeito em um programa que faz com que ele produza um resultado inesperado.",
+    "example": "We found a critical bug in the payment flow."
+  },
+  {
+    "id": "bit",
+    "letter": "B",
+    "term": "Bit",
+    "translation": "Bit",
+    "definition": "A menor unidade de dados em computação, representando um 0 ou 1.",
+    "example": "An 8-bit integer can represent values from 0 to 255."
+  },
+  {
+    "id": "branch",
+    "letter": "B",
+    "term": "Branch",
+    "translation": "Ramo / Ramificação",
+    "definition": "Uma versão divergente do código-fonte, usada para desenvolver novas funcionalidades sem afetar a linha principal.",
+    "example": "Create a new branch for the login feature."
+  },
+  {
+    "id": "build",
+    "letter": "B",
+    "term": "Build",
+    "translation": "Compilação / Construção",
+    "definition": "O processo de converter o código-fonte em um formato executável.",
+    "example": "The CI/CD pipeline starts the build process automatically."
+  },
+  {
+    "id": "boilerplate",
+    "letter": "B",
+    "term": "Boilerplate",
+    "translation": "Código Repetitivo / Modelo",
+    "definition": "Seções de código que devem ser incluídas em muitos lugares com pouca ou nenhuma alteração.",
+    "example": "Next.js provides a boilerplate to start your project quickly."
+  },
+  {
+    "id": "bottleneck",
+    "letter": "B",
+    "term": "Bottleneck",
+    "translation": "Gargalo",
+    "definition": "Um ponto no sistema onde o fluxo de dados é restringido, reduzindo a performance total.",
+    "example": "The slow database query is the bottleneck of our application."
+  },
+  {
+    "id": "bootstrap",
+    "letter": "B",
+    "term": "Bootstrap",
+    "translation": "Inicialização (ou Framework CSS)",
+    "definition": "Processo de carregar o sistema operacional ou, no contexto web, um framework de CSS para design responsivo.",
+    "example": "We used Bootstrap for a quick layout prototype."
+  },
+  {
+    "id": "cloud",
+    "letter": "C",
+    "term": "Cloud Computing",
+    "translation": "Computação em Nuvem",
+    "definition": "Entrega de serviços de computação (servidores, armazenamento, bancos de dados) via internet.",
+    "example": "AWS is one of the largest cloud providers."
+  },
+  {
+    "id": "cache",
+    "letter": "C",
+    "term": "Cache",
+    "translation": "Cache / Memória Temporária",
+    "definition": "Armazenamento de dados temporários para que requisições futuras sejam processadas mais rapidamente.",
+    "example": "Clear the browser cache to see the latest changes."
+  },
+  {
+    "id": "callback",
+    "letter": "C",
+    "term": "Callback",
+    "translation": "Função de Retorno",
+    "definition": "Uma função passada como argumento para outra função, para ser executada após a conclusão de uma tarefa.",
+    "example": "The callback is executed after the API request is completed."
+  },
+  {
+    "id": "commit",
+    "letter": "C",
+    "term": "Commit",
+    "translation": "Confirmar / Registrar",
+    "definition": "No Git, a ação de salvar permanentemente as alterações feitas nos arquivos no histórico do repositório.",
+    "example": "Make sure to write a clear message in your commit."
+  },
+  {
+    "id": "class",
+    "letter": "C",
+    "term": "Class",
+    "translation": "Classe",
+    "definition": "Um molde ou template para criar objetos, definindo seus atributos e comportamentos.",
+    "example": "The 'User' class defines the properties name and email."
+  },
+  {
+    "id": "component",
+    "letter": "C",
+    "term": "Component",
+    "translation": "Componente",
+    "definition": "Uma parte reutilizável da interface do usuário (UI), comum em frameworks como React e Vue.",
+    "example": "The Button component is used throughout the entire app."
+  },
+  {
+    "id": "compiler",
+    "letter": "C",
+    "term": "Compiler",
+    "translation": "Compilador",
+    "definition": "Software que traduz código de alto nível (como C++) para linguagem de máquina (binário).",
+    "example": "The TypeScript compiler converts TS code to JavaScript."
+  },
+  {
+    "id": "concurrency",
+    "letter": "C",
+    "term": "Concurrency",
+    "translation": "Concorrência",
+    "definition": "Capacidade de um sistema lidar com múltiplas tarefas ao mesmo tempo.",
+    "example": "Go routines provide an efficient way to handle concurrency."
+  },
+  {
+    "id": "crud",
+    "letter": "C",
+    "term": "CRUD",
+    "fullName": "Create, Read, Update, Delete",
+    "translation": "Operações Básicas de Dados",
+    "definition": "As quatro operações fundamentais de manipulação de dados em um banco de dados.",
+    "example": "Our API implements full CRUD operations for the 'Product' entity."
+  },
+  {
+    "id": "cors",
+    "letter": "C",
+    "term": "CORS",
+    "fullName": "Cross-Origin Resource Sharing",
+    "translation": "Compartilhamento de Recursos de Origem Cruzada",
+    "definition": "Mecanismo de segurança que restringe quais domínios podem fazer requisições a um servidor.",
+    "example": "I got a CORS error when trying to call the API from my localhost."
+  },
+  {
+    "id": "deployment",
+    "letter": "D",
+    "term": "Deployment",
+    "translation": "Implantação / Deploy",
+    "definition": "Processo de mover o código de um ambiente de desenvolvimento para um ambiente de produção.",
+    "example": "The deployment to production failed due to a configuration error."
+  },
+  {
+    "id": "database",
+    "letter": "D",
+    "term": "Database",
+    "translation": "Banco de Dados",
+    "definition": "Sistema organizado para armazenar, gerenciar e recuperar grandes volumes de dados.",
+    "example": "MongoDB is a popular NoSQL database."
+  },
+  {
+    "id": "dependency",
+    "letter": "D",
+    "term": "Dependency",
+    "translation": "Dependência",
+    "definition": "Uma biblioteca ou módulo externo que seu código precisa para funcionar.",
+    "example": "We need to install the 'axios' dependency for HTTP requests."
+  },
+  {
+    "id": "debugging",
+    "letter": "D",
+    "term": "Debugging",
+    "translation": "Depuração",
+    "definition": "O processo de encontrar e corrigir erros (bugs) no código-fonte.",
+    "example": "I spent three hours debugging the login logic."
+  },
+  {
+    "id": "deadlock",
+    "letter": "D",
+    "term": "Deadlock",
+    "translation": "Impasse / Deadlock",
+    "definition": "Situação em que dois ou mais processos ficam travados esperando um ao outro liberar um recurso.",
+    "example": "A deadlock occurred because both threads were waiting for the same lock."
+  },
+  {
+    "id": "decorator",
+    "letter": "D",
+    "term": "Decorator",
+    "translation": "Decorador",
+    "definition": "Um padrão de projeto que permite adicionar comportamentos a um objeto dinamicamente.",
+    "example": "In TypeScript, decorators are used to annotate classes or methods."
+  },
+  {
+    "id": "deprecated",
+    "letter": "D",
+    "term": "Deprecated",
+    "translation": "Obsoleto / Descontinuado",
+    "definition": "Indica que uma funcionalidade ou método não é mais recomendado e será removido no futuro.",
+    "example": "The 'var' keyword is largely deprecated in favor of 'let' and 'const'."
+  },
+  {
+    "id": "design-pattern",
+    "letter": "D",
+    "term": "Design Pattern",
+    "translation": "Padrão de Projeto",
+    "definition": "Soluções genéricas e reutilizáveis para problemas comuns de arquitetura de software.",
+    "example": "The Singleton design pattern ensures a class has only one instance."
+  },
+  {
+    "id": "destructuring",
+    "letter": "D",
+    "term": "Destructuring",
+    "translation": "Desestruturação",
+    "definition": "Sintaxe que permite extrair valores de arrays ou propriedades de objetos em variáveis distintas.",
+    "example": "Using destructuring makes the code cleaner when handling props in React."
+  },
+  {
+    "id": "dom",
+    "letter": "D",
+    "term": "DOM",
+    "fullName": "Document Object Model",
+    "translation": "Modelo de Objeto do Documento",
+    "definition": "Interface de programação que representa a estrutura de uma página web como uma árvore de nós.",
+    "example": "React uses a Virtual DOM to improve rendering performance."
+  },
+  {
+    "id": "endpoint",
+    "letter": "E",
+    "term": "Endpoint",
+    "translation": "Extremidade / Ponto de Acesso",
+    "definition": "A URL específica de uma API onde um recurso pode ser acessado por um cliente.",
+    "example": "The /users endpoint returns a list of all registered users."
+  },
+  {
+    "id": "encryption",
+    "letter": "E",
+    "term": "Encryption",
+    "translation": "Criptografia",
+    "definition": "Processo de transformar dados legíveis em um formato codificado para proteger a informação.",
+    "example": "End-to-end encryption ensures that only the sender and receiver can read the message."
+  },
+  {
+    "id": "enum",
+    "letter": "E",
+    "term": "Enum",
+    "fullName": "Enumeration",
+    "translation": "Enumeração",
+    "definition": "Um tipo de dado que define um conjunto de constantes nomeadas.",
+    "example": "We used an enum for the order status: PENDING, SHIPPED, DELIVERED."
+  },
+  {
+    "id": "environment",
+    "letter": "E",
+    "term": "Environment",
+    "translation": "Ambiente",
+    "definition": "O contexto onde o software é executado (ex: desenvolvimento, homologação, produção).",
+    "example": "The API URL changes depending on the environment."
+  },
+  {
+    "id": "error-handling",
+    "letter": "E",
+    "term": "Error Handling",
+    "translation": "Tratamento de Erros",
+    "definition": "Técnicas para prever, detectar e resolver erros que ocorrem durante a execução do programa.",
+    "example": "Using try-catch blocks is a common way to implement error handling."
+  },
+  {
+    "id": "event-loop",
+    "letter": "E",
+    "term": "Event Loop",
+    "translation": "Laço de Eventos",
+    "definition": "Mecanismo do JavaScript que gerencia a execução de código, coletando e processando eventos e mensagens.",
+    "example": "The event loop allows JavaScript to be non-blocking despite being single-threaded."
+  },
+  {
+    "id": "executable",
+    "letter": "E",
+    "term": "Executable",
+    "translation": "Executável",
+    "definition": "Um arquivo que contém um programa que pode ser executado diretamente pelo sistema operacional.",
+    "example": "The compiler produces an executable file (.exe in Windows)."
+  },
+  {
+    "id": "export",
+    "letter": "E",
+    "term": "Export",
+    "translation": "Exportar",
+    "definition": "Ação de tornar funções, objetos ou variáveis disponíveis para serem usados em outros arquivos de um módulo.",
+    "example": "Use 'export default' to export the main component of the page."
+  },
+  {
+    "id": "external-api",
+    "letter": "E",
+    "term": "External API",
+    "translation": "API Externa",
+    "definition": "Uma API fornecida por terceiros e consumida por sua aplicação.",
+    "example": "We use an external API to fetch real-time weather data."
+  },
+  {
+    "id": "encapsulation",
+    "letter": "E",
+    "term": "Encapsulation",
+    "translation": "Encapsulamento",
+    "definition": "Princípio da POO que esconde os detalhes internos de um objeto e expõe apenas o necessário.",
+    "example": "Encapsulation is achieved by using private modifiers in classes."
+  },
+  {
+    "id": "eslint",
+    "letter": "E",
+    "term": "ESLint",
+    "translation": "ESLint",
+    "definition": "Ferramenta de linting para JavaScript que identifica problemas no código e impõe padrões de estilo.",
+    "example": "ESLint helps the team maintain a consistent coding style."
+  },
+  {
+    "id": "frontend",
+    "letter": "F",
+    "term": "Frontend",
+    "translation": "Interface do Usuário / Front-end",
+    "definition": "A parte da aplicação com a qual o usuário interage diretamente (interface visual).",
+    "example": "The frontend is built with React and Tailwind CSS."
+  },
+  {
+    "id": "framework",
+    "letter": "F",
+    "term": "Framework",
+    "translation": "Estrutura de Trabalho / Framework",
+    "definition": "Uma plataforma que fornece funcionalidades pré-moldadas para agilizar o desenvolvimento de software.",
+    "example": "Next.js is a powerful framework built on top of React."
+  },
+  {
+    "id": "function",
+    "letter": "F",
+    "term": "Function",
+    "translation": "Função",
+    "definition": "Um bloco de código reutilizável que executa uma tarefa específica quando invocado.",
+    "example": "The calculateTotal function sums all items in the cart."
+  },
+  {
+    "id": "firewall",
+    "letter": "F",
+    "term": "Firewall",
+    "translation": "Parede de Fogo / Firewall",
+    "definition": "Sistema de segurança que monitora e controla o tráfego de rede com base em regras de segurança.",
+    "example": "The company firewall blocks access to social media during work hours."
+  },
+  {
+    "id": "fork",
+    "letter": "F",
+    "term": "Fork",
+    "translation": "Bifurcação / Fork",
+    "definition": "No Git, é a criação de uma cópia de um repositório existente para desenvolver independentemente.",
+    "example": "I made a fork of the project to experiment with some new features."
+  },
+  {
+    "id": "float",
+    "letter": "F",
+    "term": "Float",
+    "translation": "Ponto Flutuante",
+    "definition": "Tipo de dado numérico que permite a representação de números decimais.",
+    "example": "The price of the product is stored as a float."
+  },
+  {
+    "id": "flux",
+    "letter": "F",
+    "term": "Flux",
+    "translation": "Fluxo",
+    "definition": "Arquitetura de fluxo de dados unidirecional, popularizada pelo Facebook para gerenciar estados.",
+    "example": "Flux helps maintain a predictable state in complex applications."
+  },
+  {
+    "id": "falsy",
+    "letter": "F",
+    "term": "Falsy",
+    "translation": "Falso (Valor)",
+    "definition": "Em JavaScript, um valor que é considerado 'false' quando convertido para booleano (ex: 0, null, undefined, empty string).",
+    "example": "An empty string is a falsy value in JavaScript."
+  },
+  {
+    "id": "garbage-collection",
+    "letter": "G",
+    "term": "Garbage Collection",
+    "translation": "Coleta de Lixo",
+    "definition": "Processo automático de gerenciamento de memória que remove objetos que não estão mais sendo usados.",
+    "example": "Java and JavaScript have automatic garbage collection."
+  },
+  {
+    "id": "git",
+    "letter": "G",
+    "term": "Git",
+    "translation": "Git",
+    "definition": "Sistema de controle de versão distribuído usado para rastrear alterações no código-fonte.",
+    "example": "We use Git to collaborate on the codebase."
+  },
+  {
+    "id": "gui",
+    "letter": "G",
+    "term": "GUI",
+    "fullName": "Graphical User Interface",
+    "translation": "Interface Gráfica do Usuário",
+    "definition": "Interface visual que permite a interação do usuário com o sistema através de ícones e menus, em vez de linhas de comando.",
+    "example": "Windows provides a GUI for managing files."
+  },
+  {
+    "id": "gzip",
+    "letter": "G",
+    "term": "Gzip",
+    "translation": "Gzip",
+    "definition": "Algoritmo de compressão de dados usado para reduzir o tamanho de arquivos enviados via web.",
+    "example": "Gzip compression reduces the time it takes for the browser to load HTML files."
+  },
+  {
+    "id": "generic",
+    "letter": "G",
+    "term": "Generic",
+    "translation": "Genérico",
+    "definition": "No TypeScript, permite criar componentes que trabalham com vários tipos de dados, mantendo a tipagem.",
+    "example": "A generic function can return any type of data specified by the caller."
+  },
+  {
+    "id": "global-variable",
+    "letter": "G",
+    "term": "Global Variable",
+    "translation": "Variável Global",
+    "definition": "Variável declarada fora de qualquer função ou bloco, acessível de qualquer lugar do programa.",
+    "example": "Avoid using global variables to prevent naming conflicts."
+  },
+  {
+    "id": "graphql",
+    "letter": "G",
+    "term": "GraphQL",
+    "translation": "GraphQL",
+    "definition": "Linguagem de consulta para APIs que permite ao cliente pedir exatamente os dados de que precisa.",
+    "example": "GraphQL is more flexible than REST because you can request specific fields."
+  },
+  {
+    "id": "html",
+    "letter": "H",
+    "term": "HTML",
+    "fullName": "HyperText Markup Language",
+    "translation": "Linguagem de Marcação de Hipertexto",
+    "definition": "A linguagem padrão usada para criar a estrutura de páginas na web.",
+    "example": "HTML defines the headings and paragraphs of a page."
+  },
+  {
+    "id": "http",
+    "letter": "H",
+    "term": "HTTP",
+    "fullName": "HyperText Transfer Protocol",
+    "translation": "Protocolo de Transferência de Hipertexto",
+    "definition": "O protocolo fundamental usado para transferir dados na Web.",
+    "example": "HTTP requests are used to fetch data from a server."
+  },
+  {
+    "id": "https",
+    "letter": "H",
+    "term": "HTTPS",
+    "fullName": "HyperText Transfer Protocol Secure",
+    "translation": "Protocolo de Transferência de Hipertexto Seguro",
+    "definition": "A versão segura do HTTP, que utiliza criptografia (SSL/TLS) para proteger os dados.",
+    "example": "Always use HTTPS to ensure that user passwords are encrypted."
+  },
+  {
+    "id": "hook",
+    "letter": "H",
+    "term": "Hook",
+    "translation": "Hook / Gancho",
+    "definition": "Funções especiais no React que permitem a utilização de estado e outros recursos do React em componentes de função.",
+    "example": "useState is the most common hook in React."
+  },
+  {
+    "id": "hash",
+    "letter": "H",
+    "term": "Hash",
+    "translation": "Hash / Código Único",
+    "definition": "Uma sequência de caracteres gerada por um algoritmo que representa de forma única um dado de entrada.",
+    "example": "Passwords should be stored as hashes in the database, never in plain text."
+  },
+  {
+    "id": "header",
+    "letter": "H",
+    "term": "Header",
+    "translation": "Cabeçalho",
+    "definition": "Parte de uma requisição ou resposta HTTP que contém metadados sobre a mensagem.",
+    "example": "The 'Content-Type' header tells the browser that the data is JSON."
+  },
+  {
+    "id": "hosting",
+    "letter": "H",
+    "term": "Hosting",
+    "translation": "Hospedagem",
+    "definition": "Serviço de prover espaço em um servidor para que um site ou aplicação fique disponível na internet.",
+    "example": "Vercel is a great hosting provider for Next.js apps."
+  },
+  {
+    "id": "hot-reload",
+    "letter": "H",
+    "term": "Hot Reload",
+    "translation": "Recarregamento a Quente",
+    "definition": "Recurso que atualiza a aplicação em tempo real enquanto o desenvolvedor altera o código, sem perder o estado.",
+    "example": "Hot reload makes the development process much faster."
+  },
+  {
+    "id": "interface",
+    "letter": "I",
+    "term": "Interface",
+    "translation": "Interface",
+    "definition": "No TypeScript, um contrato que define a estrutura (propriedades e métodos) que uma classe ou objeto deve seguir.",
+    "example": "The 'User' interface ensures that every user object has an id and a name."
+  },
+  {
+    "id": "inheritance",
+    "letter": "I",
+    "term": "Inheritance",
+    "translation": "Herança",
+    "definition": "Princípio da POO que permite que uma classe herde atributos e métodos de outra classe.",
+    "example": "A 'Dog' class can inherit from an 'Animal' class."
+  },
+  {
+    "id": "instance",
+    "letter": "I",
+    "term": "Instance",
+    "translation": "Instância",
+    "definition": "Um objeto criado a partir de uma classe específica.",
+    "example": "We created a new instance of the User class for the logged-in user."
+  },
+  {
+    "id": "ide",
+    "letter": "I",
+    "term": "IDE",
+    "fullName": "Integrated Development Environment",
+    "translation": "Ambiente de Desenvolvimento Integrado",
+    "definition": "Software que combina editor de texto, depurador e compilador em uma única interface.",
+    "example": "VS Code is a very popular IDE among developers."
+  },
+  {
+    "id": "index",
+    "letter": "I",
+    "term": "Index",
+    "translation": "Índice",
+    "definition": "Em arrays, a posição de um elemento. Em bancos de dados, uma estrutura que acelera a busca de registros.",
+    "example": "The first element of an array is always at index 0."
+  },
+  {
+    "id": "injection",
+    "letter": "I",
+    "term": "Injection",
+    "translation": "Injeção",
+    "definition": "Técnica de design (Dependency Injection) ou vulnerabilidade (SQL Injection) onde código externo é inserido no sistema.",
+    "example": "SQL Injection is a dangerous attack that can steal data from a database."
+  },
+  {
+    "id": "immutable",
+    "letter": "I",
+    "term": "Immutable",
+    "translation": "Imutável",
+    "definition": "Um objeto ou variável cujo valor não pode ser alterado após a sua criação.",
+    "example": "In Redux, the state must be immutable."
+  },
+  {
+    "id": "iteration",
+    "letter": "I",
+    "term": "Iteration",
+    "translation": "Iteração",
+    "definition": "O ato de repetir um processo, geralmente através de loops, para percorrer uma coleção de dados.",
+    "example": "We use a 'for' loop for the iteration of the array."
+  },
+  {
+    "id": "json",
+    "letter": "J",
+    "term": "JSON",
+    "fullName": "JavaScript Object Notation",
+    "translation": "Notação de Objeto JavaScript",
+    "definition": "Formato leve de troca de dados, baseado em texto, fácil de ler e escrever para humanos e máquinas.",
+    "example": "Most modern APIs return data in JSON format."
+  },
+  {
+    "id": "javascript",
+    "letter": "J",
+    "term": "JavaScript",
+    "translation": "JavaScript",
+    "definition": "Linguagem de programação de alto nível, interpretada, fundamental para a interatividade na web.",
+    "example": "JavaScript allows us to create dynamic content on a webpage."
+  },
+  {
+    "id": "jsx",
+    "letter": "J",
+    "term": "JSX",
+    "fullName": "JavaScript XML",
+    "translation": "JavaScript XML",
+    "definition": "Extensão de sintaxe para JavaScript que permite escrever estruturas semelhantes a HTML dentro do código JS.",
+    "example": "JSX is widely used in React to define the UI structure."
+  },
+  {
+    "id": "jsdoc",
+    "letter": "J",
+    "term": "JSDoc",
+    "translation": "JSDoc",
+    "definition": "Sintaxe de anotação para documentar código JavaScript usando comentários especiais.",
+    "example": "JSDoc helps other developers understand what parameters a function expects."
+  },
+  {
+    "id": "jquery",
+    "letter": "J",
+    "term": "jQuery",
+    "translation": "jQuery",
+    "definition": "Biblioteca JavaScript antiga que simplificava a manipulação do DOM e requisições AJAX.",
+    "example": "Many legacy websites still use jQuery for animations."
+  },
+  {
+    "id": "java",
+    "letter": "J",
+    "term": "Java",
+    "translation": "Java",
+    "definition": "Linguagem de programação robusta e orientada a objetos, famosa por sua portabilidade ('write once, run anywhere').",
+    "example": "Java is widely used for enterprise applications and Android apps."
+  },
+  {
+    "id": "key",
+    "letter": "K",
+    "term": "Key",
+    "translation": "Chave",
+    "definition": "Um identificador único usado para acessar um valor em um objeto ou mapa (Key-Value pair).",
+    "example": "In a JSON object, the 'id' is the key for the user's unique identifier."
+  },
+  {
+    "id": "kubernetes",
+    "letter": "K",
+    "term": "Kubernetes",
+    "translation": "Kubernetes / K8s",
+    "definition": "Sistema de orquestração de containers que automatiza o deploy, escalonamento e gerenciamento de aplicações.",
+    "example": "Kubernetes helps us manage dozens of Docker containers in production."
+  },
+  {
+    "id": "kernel",
+    "letter": "K",
+    "term": "Kernel",
+    "translation": "Núcleo / Kernel",
+    "definition": "A parte central de um sistema operacional que gerencia a comunicação entre o software e o hardware.",
+    "example": "The Linux kernel manages CPU and memory allocation."
+  },
+  {
+    "id": "kebab-case",
+    "letter": "K",
+    "term": "kebab-case",
+    "translation": "Estilo Kebab",
+    "definition": "Convenção de escrita onde as palavras são minúsculas e separadas por hífen.",
+    "example": "The class name 'main-container' is written in kebab-case."
+  },
+  {
+    "id": "library",
+    "letter": "L",
+    "term": "Library",
+    "translation": "Biblioteca",
+    "definition": "Conjunto de funções e códigos pré-escritos que podem ser importados para realizar tarefas específicas.",
+    "example": "Axios is a popular library for making HTTP requests."
+  },
+  {
+    "id": "lambda",
+    "letter": "L",
+    "term": "Lambda",
+    "translation": "Função Lambda",
+    "definition": "Uma função anônima (sem nome) que é definida de forma curta e geralmente usada como argumento.",
+    "example": "In JavaScript, arrow functions are a form of lambda expression."
+  },
+  {
+    "id": "lazy-loading",
+    "letter": "L",
+    "term": "Lazy Loading",
+    "translation": "Carregamento Preguiçoso",
+    "definition": "Técnica de otimização que adia o carregamento de recursos (como imagens) até que eles sejam realmente necessários.",
+    "example": "Lazy loading images improves the initial page load speed."
+  },
+  {
+    "id": "linting",
+    "letter": "L",
+    "term": "Linting",
+    "translation": "Análise Estática (Linting)",
+    "definition": "Processo de analisar o código para encontrar erros de sintaxe, bugs potenciais ou desvios de estilo.",
+    "example": "ESLint is used for linting JavaScript code."
+  },
+  {
+    "id": "loop",
+    "letter": "L",
+    "term": "Loop",
+    "translation": "Laço de Repetição",
+    "definition": "Estrutura de controle que executa um bloco de código repetidamente enquanto uma condição for verdadeira.",
+    "example": "A 'while' loop is used to repeat the task until the user quits."
+  },
+  {
+    "id": "local-storage",
+    "letter": "L",
+    "term": "LocalStorage",
+    "translation": "Armazenamento Local",
+    "definition": "Mecanismo do navegador que permite salvar dados de forma persistente no computador do usuário.",
+    "example": "We use LocalStorage to remember the user's theme preference."
+  },
+  {
+    "id": "low-level",
+    "letter": "L",
+    "term": "Low-level",
+    "translation": "Baixo Nível",
+    "definition": "Linguagens de programação que estão mais próximas do hardware (ex: Assembly), oferecendo controle total mas maior complexidade.",
+    "example": "C is considered a low-level language compared to Python."
+  },
+  {
+    "id": "middleware",
+    "letter": "M",
+    "term": "Middleware",
+    "translation": "Middleware / Software Intermediário",
+    "definition": "Software que atua como ponte entre duas aplicações ou que intercepta requisições antes que elas cheguem ao controlador final.",
+    "example": "The auth middleware checks if the user is logged in before showing the profile page."
+  },
+  {
+    "id": "map",
+    "letter": "M",
+    "term": "Map",
+    "translation": "Mapear / Map",
+    "definition": "Método que percorre um array e transforma cada elemento, retornando um novo array com os resultados.",
+    "example": "We use .map() in React to render a list of components from an array."
+  },
+  {
+    "id": "mock",
+    "letter": "M",
+    "term": "Mock",
+    "translation": "Mock / Simulação",
+    "definition": "Um objeto ou dado simulado que imita o comportamento de um componente real para fins de teste.",
+    "example": "We use a mock API to test the frontend without depending on the backend."
+  },
+  {
+    "id": "monolith",
+    "letter": "M",
+    "term": "Monolith",
+    "translation": "Monólito",
+    "definition": "Arquitetura de software onde toda a aplicação é construída como uma única unidade indivisível.",
+    "example": "The company is splitting its monolith into microservices for better scalability."
+  },
+  {
+    "id": "mutability",
+    "letter": "M",
+    "term": "Mutability",
+    "translation": "Mutabilidade",
+    "definition": "A capacidade de alterar o estado ou o valor de um objeto após ele ter sido criado.",
+    "example": "Arrays in JavaScript have mutability, meaning you can change their elements."
+  },
+  {
+    "id": "migration",
+    "letter": "M",
+    "term": "Migration",
+    "translation": "Migração",
+    "definition": "Processo de mover dados ou alterar a estrutura de um banco de dados de forma controlada e versionada.",
+    "example": "We ran a migration to add the 'phone_number' column to the Users table."
+  },
+  {
+    "id": "markdown",
+    "letter": "M",
+    "term": "Markdown",
+    "translation": "Markdown",
+    "definition": "Linguagem de marcação leve que permite formatar texto usando símbolos simples, muito usada em arquivos README.",
+    "example": "The documentation is written in Markdown for better readability on GitHub."
+  },
+    {
+    "id": "namespace",
+    "letter": "N",
+    "term": "Namespace",
+    "translation": "Espaço de Nomes",
+    "definition": "Um container que agrupa identificadores (nomes de variáveis, funções, classes) para evitar conflitos de nomes em projetos grandes.",
+    "example": "Using a namespace prevents a function named 'calculate' from colliding with another one."
+  },
+  {
+    "id": "native",
+    "letter": "N",
+    "term": "Native",
+    "translation": "Nativo",
+    "definition": "Software desenvolvido especificamente para um sistema operacional ou hardware, sem camadas de compatibilidade.",
+    "example": "Native apps usually have better performance than hybrid apps."
+  },
+  {
+    "id": "npm",
+    "letter": "N",
+    "term": "NPM",
+    "fullName": "Node Package Manager",
+    "translation": "Gerenciador de Pacotes do Node",
+    "definition": "A ferramenta de linha de comando usada para instalar e gerenciar bibliotecas e dependências no ecossistema Node.js.",
+    "example": "Run 'npm install' to download all project dependencies."
+  },
+  {
+    "id": "node",
+    "letter": "N",
+    "term": "Node.js",
+    "translation": "Node.js",
+    "definition": "Ambiente de execução JavaScript assíncrono e orientado a eventos, construído sobre o motor V8 do Chrome, para criar servidores.",
+    "example": "Node.js allows us to use JavaScript for both frontend and backend."
+  },
+  {
+    "id": "null",
+    "letter": "N",
+    "term": "Null",
+    "translation": "Nulo",
+    "definition": "Um valor especial que representa a ausência intencional de qualquer objeto ou valor.",
+    "example": "The variable was initialized as null because the data hasn't loaded yet."
+  },
+  {
+    "id": "object",
+    "letter": "O",
+    "term": "Object",
+    "translation": "Objeto",
+    "definition": "Uma instância de uma classe ou uma estrutura de dados que armazena pares de chave-valor.",
+    "example": "In JavaScript, almost everything is an object."
+  },
+  {
+    "id": "optimization",
+    "letter": "O",
+    "term": "Optimization",
+    "translation": "Otimização",
+    "definition": "Processo de modificar um sistema para torná-lo mais eficiente (mais rápido ou consumindo menos memória).",
+    "example": "Image optimization is crucial for improving page load times."
+  },
+  {
+    "id": "open-source",
+    "letter": "O",
+    "term": "Open Source",
+    "translation": "Código Aberto",
+    "definition": "Software cujo código-fonte original está disponível publicamente para qualquer pessoa estudar, modificar e distribuir.",
+    "example": "Linux is one of the most successful open-source projects in history."
+  },
+  {
+    "id": "overhead",
+    "letter": "O",
+    "term": "Overhead",
+    "translation": "Sobrecarga",
+    "definition": "O custo extra de recursos (tempo, memória, processamento) necessário para realizar uma tarefa específica.",
+    "example": "Using a heavy framework for a simple page creates unnecessary overhead."
+  },
+  {
+    "id": "os",
+    "letter": "O",
+    "term": "OS",
+    "fullName": "Operating System",
+    "translation": "Sistema Operacional",
+    "definition": "Software fundamental que gerencia o hardware do computador e fornece serviços para outros programas.",
+    "example": "macOS and Windows are different operating systems."
+  },
+  {
+    "id": "package",
+    "letter": "P",
+    "term": "Package",
+    "translation": "Pacote",
+    "definition": "Um conjunto de arquivos de código relacionados que são distribuídos juntos como uma unidade.",
+    "example": "The 'lodash' package provides many useful utility functions."
+  },
+  {
+    "id": "payload",
+    "letter": "P",
+    "term": "Payload",
+    "translation": "Carga Útil / Payload",
+    "definition": "A parte dos dados transmitidos em uma mensagem HTTP que contém a informação real, excluindo os cabeçalhos.",
+    "example": "The request payload contains the user's email and password."
+  },
+  {
+    "id": "pipeline",
+    "letter": "P",
+    "term": "Pipeline",
+    "translation": "Pipeline / Fluxo de Trabalho",
+    "definition": "Uma série de etapas automatizadas que o código percorre desde o commit até o deploy (ex: Build $\rightarrow$ Test $\rightarrow$ Deploy).",
+    "example": "Our CI/CD pipeline ensures that no buggy code reaches production."
+  },
+  {
+    "id": "polymorphism",
+    "letter": "P",
+    "term": "Polymorphism",
+    "translation": "Polimorfismo",
+    "definition": "Princípio da POO que permite que classes diferentes sejam tratadas através de uma interface comum.",
+    "example": "Polymorphism allows us to call the 'draw()' method on both a Circle and a Square object."
+  },
+  {
+    "id": "promise",
+    "letter": "P",
+    "term": "Promise",
+    "translation": "Promessa",
+    "definition": "Um objeto que representa a eventual conclusão (ou falha) de uma operação assíncrona e seu resultado.",
+    "example": "A Promise is resolved when the API returns the data."
+  },
+  {
+    "id": "prototype",
+    "letter": "P",
+    "term": "Prototype",
+    "translation": "Protótipo",
+    "definition": "Em JavaScript, a estrutura que permite a herança entre objetos.",
+    "example": "All arrays in JavaScript inherit methods from the Array prototype."
+  },
+  {
+    "id": "pull-request",
+    "letter": "P",
+    "term": "Pull Request",
+    "translation": "Solicitação de Alteração / PR",
+    "definition": "No Git/GitHub, é a solicitação para que as alterações de um branch sejam mescladas (merged) no branch principal.",
+    "example": "Please review my pull request before merging it into main."
+  },
+  {
+    "id": "query",
+    "letter": "Q",
+    "term": "Query",
+    "translation": "Consulta / Query",
+    "definition": "Uma requisição de dados feita a um banco de dados para recuperar informações específicas.",
+    "example": "The SQL query selects all users who signed up last week."
+  },
+  {
+    "id": "queue",
+    "letter": "Q",
+    "term": "Queue",
+    "translation": "Fila",
+    "definition": "Uma estrutura de dados onde o primeiro elemento a entrar é o primeiro a sair (FIFO - First-In, First-Out).",
+    "example": "The print queue handles documents in the order they were sent."
+  },
+  {
+    "id": "readme",
+    "letter": "R",
+    "term": "README",
+    "translation": "Leia-me / README",
+    "definition": "Um arquivo de texto (geralmente .md) que contém instruções, descrição e documentação básica de um projeto.",
+    "example": "Check the README file to see how to install the project."
+  },
+  {
+    "id": "react",
+    "letter": "R",
+    "term": "React",
+    "translation": "React",
+    "definition": "Uma biblioteca JavaScript para a construção de interfaces de usuário baseadas em componentes.",
+    "example": "React uses a virtual DOM to update only the parts of the page that changed."
+  },
+  {
+    "id": "refactoring",
+    "letter": "R",
+    "term": "Refactoring",
+    "translation": "Refatoração",
+    "definition": "O processo de reestruturar o código existente para melhorar sua legibilidade e manutenção, sem alterar seu comportamento externo.",
+    "example": "I spent the afternoon refactoring the login logic to make it more readable."
+  },
+  {
+    "id": "repository",
+    "letter": "R",
+    "term": "Repository",
+    "translation": "Repositório",
+    "definition": "O local onde todos os arquivos de um projeto e seu histórico de versões são armazenados (ex: GitHub repo).",
+    "example": "The source code is hosted in a private repository."
+  },
+  {
+    "id": "rest",
+    "letter": "R",
+    "term": "REST",
+    "fullName": "Representational State Transfer",
+    "translation": "Transferência de Estado Representacional",
+    "definition": "Estilo de arquitetura para APIs que utiliza métodos HTTP padrão (GET, POST, PUT, DELETE) para manipular recursos.",
+    "example": "A REST API uses URLs to represent resources, like /api/users."
+  },
+  {
+    "id": "route",
+    "letter": "R",
+    "term": "Route",
+    "translation": "Rota",
+    "definition": "No contexto web, é o caminho de uma URL que mapeia para uma página ou funcionalidade específica no servidor.",
+    "example": "The /contact route renders the contact form page."
+  },
+  {
+    "id": "sdk",
+    "letter": "S",
+    "term": "SDK",
+    "fullName": "Software Development Kit",
+    "translation": "Kit de Desenvolvimento de Software",
+    "definition": "Conjunto de ferramentas, bibliotecas e documentação fornecidos para desenvolver software para uma plataforma específica.",
+    "example": "The Android SDK is required to build apps for Android phones."
+  },
+  {
+    "id": "scalability",
+    "letter": "S",
+    "term": "Scalability",
+    "translation": "Escalabilidade",
+    "definition": "Capacidade de um sistema de lidar com um aumento crescente de carga (mais usuários, mais dados) sem perder performance.",
+    "example": "Horizontal scalability allows us to add more servers to handle more traffic."
+  },
+  {
+    "id": "scope",
+    "letter": "S",
+    "term": "Scope",
+    "translation": "Escopo",
+    "definition": "A região do código onde uma variável está disponível para ser acessada.",
+    "example": "A variable declared inside a function has local scope."
+  },
+  {
+    "id": "server",
+    "letter": "S",
+    "term": "Server",
+    "translation": "Servidor",
+    "definition": "Computador ou software que fornece serviços, dados ou recursos para outros computadores (clientes) em uma rede.",
+    "example": "The database server is hosted in the cloud."
+  },
+  {
+    "id": "singleton",
+    "letter": "S",
+    "term": "Singleton",
+    "translation": "Singleton",
+    "definition": "Padrão de projeto que garante que uma classe tenha apenas uma única instância em todo o sistema.",
+    "example": "The database connection manager is implemented as a singleton."
+  },
+  {
+    "id": "state",
+    "letter": "S",
+    "term": "State",
+    "translation": "Estado",
+    "definition": "A representação dos dados de um componente ou aplicação em um determinado momento.",
+    "example": "In React, 'state' is used to track data that changes over time."
+  },
+  {
+    "id": "stack",
+    "letter": "S",
+    "term": "Stack",
+    "translation": "Pilha",
+    "definition": "Estrutura de dados onde o último elemento a entrar é o primeiro a sair (LIFO - Last-In, First-Out).",
+    "example": "The call stack tracks the active functions in a program."
+  },
+  {
+    "id": "string",
+    "letter": "S",
+    "term": "String",
+    "translation": "String / Cadeia de Caracteres",
+    "definition": "Sequência de caracteres usada para representar texto.",
+    "example": "The user's name is stored as a string."
+  },
+  {
+    "id": "syntax",
+    "letter": "S",
+    "term": "Syntax",
+    "translation": "Sintaxe",
+    "definition": "As regras que definem a estrutura correta de um código em uma linguagem de programação.",
+    "example": "A missing semicolon can cause a syntax error in some languages."
+  },
+  {
+    "id": "tag",
+    "letter": "T",
+    "term": "Tag",
+    "translation": "Tag / Etiqueta",
+    "definition": "Em HTML, são os marcadores (como <div>, <p>, <h1>) que definem a estrutura do conteúdo.",
+    "example": "The <img> tag is used to embed images in a webpage."
+  },
+  {
+    "id": "thread",
+    "letter": "T",
+    "term": "Thread",
+    "translation": "Thread / Linha de Execução",
+    "definition": "A menor unidade de processamento que pode ser gerenciada por um sistema operacional para executar tarefas em paralelo.",
+    "example": "Multi-threading allows a program to perform multiple tasks at once."
+  },
+  {
+    "id": "typescript",
+    "letter": "T",
+    "term": "TypeScript",
+    "translation": "TypeScript",
+    "definition": "Superconjunto do JavaScript que adiciona tipagem estática opcional, facilitando a detecção de erros durante o desenvolvimento.",
+    "example": "TypeScript catches type-related bugs before the code is even run."
+  },
+  {
+    "id": "type-casting",
+    "letter": "T",
+    "term": "Type Casting",
+    "translation": "Conversão de Tipo / Casting",
+    "definition": "Ação de converter explicitamente um valor de um tipo de dado para outro.",
+    "example": "Converting a string to a number using parseInt() is a form of type casting."
+  },
+  {
+    "id": "tuple",
+    "letter": "T",
+    "term": "Tuple",
+    "translation": "Tupla",
+    "definition": "No TypeScript, um array com um número fixo de elementos, onde cada posição tem um tipo específico.",
+    "example": "A tuple can be used to return a value and an error message together: [string, number]."
+  },
+  {
+    "id": "ui-ux",
+    "letter": "U",
+    "term": "UI/UX",
+    "fullName": "User Interface / User Experience",
+    "translation": "Interface do Usuário / Experiência do Usuário",
+    "definition": "UI foca no design visual; UX foca na facilidade de uso e na satisfação do usuário ao interagir com o produto.",
+    "example": "A great UI/UX design can significantly increase the conversion rate of a site."
+  },
+  {
+    "id": "unit-testing",
+    "letter": "U",
+    "term": "Unit Testing",
+    "translation": "Testes Unitários",
+    "definition": "Técnica de teste que verifica a menor unidade de código (geralmente uma função) de forma isolada.",
+    "example": "Jest is a popular framework for writing unit tests in JavaScript."
+  },
+  {
+    "id": "uri",
+    "letter": "U",
+    "term": "URI",
+    "fullName": "Uniform Resource Identifier",
+    "translation": "Identificador Uniforme de Recurso",
+    "definition": "Uma string de caracteres que identifica univocamente um recurso (como um documento ou imagem) na web.",
+    "example": "A URL is a specific type of URI that tells you how to access the resource."
+  },
+  {
+    "id": "url",
+    "letter": "U",
+    "term": "URL",
+    "fullName": "Uniform Resource Locator",
+    "translation": "Localizador Uniforme de Recursos",
+    "definition": "O endereço web utilizado para localizar um recurso na internet.",
+    "example": "The URL of this project is hosted on GitHub."
+  },
+  {
+    "id": "validation",
+    "letter": "V",
+    "term": "Validation",
+    "translation": "Validação",
+    "definition": "Processo de verificar se os dados inseridos pelo usuário seguem as regras esperadas antes de serem processados.",
+    "example": "Email validation ensures the user enters a valid email address."
+  },
+  {
+    "id": "value",
+    "letter": "V",
+    "term": "Value",
+    "translation": "Valor",
+    "definition": "A informação armazenada em uma variável ou a saída de uma expressão.",
+    "example": "The value of the variable 'count' is 10."
+  },
+  {
+    "id": "variable",
+    "letter": "V",
+    "term": "Variable",
+    "translation": "Variável",
+    "definition": "Um espaço na memória do computador usado para armazenar dados que podem ser alterados durante a execução do programa.",
+    "example": "We use 'const' to declare variables that will not change."
+  },
+  {
+    "id": "versioning",
+    "letter": "V",
+    "term": "Versioning",
+    "translation": "Versionamento",
+    "definition": "Prática de atribuir números de versão ao software para rastrear mudanças e garantir compatibilidade.",
+    "example": "Semantic Versioning (SemVer) uses Major.Minor.Patch format."
+  },
+  {
+    "id": "virtual-dom",
+    "letter": "V",
+    "term": "Virtual DOM",
+    "translation": "DOM Virtual",
+    "definition": "Uma cópia leve do DOM real mantida em memória, usada pelo React para calcular as mudanças mínimas necessárias antes de atualizar a tela.",
+    "example": "The Virtual DOM minimizes expensive updates to the actual browser DOM."
+  },
+  {
+    "id": "webhook",
+    "letter": "W",
+    "term": "Webhook",
+    "translation": "Webhook",
+    "definition": "Uma forma de um sistema enviar notificações automáticas para outro sistema via HTTP quando um evento específico acontece.",
+    "example": "GitHub sends a webhook to our server whenever a push occurs."
+  },
+  {
+    "id": "whitebox",
+    "letter": "W",
+    "term": "Whitebox Testing",
+    "translation": "Teste de Caixa Branca",
+    "definition": "Técnica de teste onde o testador tem acesso total ao código interno da aplicação para criar casos de teste.",
+    "example": "Whitebox testing is often performed by the developers themselves."
+  },
+  {
+    "id": "wildcard",
+    "letter": "W",
+    "term": "Wildcard",
+    "translation": "Curinga / Wildcard",
+    "definition": "Um símbolo (geralmente o asterisco *) usado para representar um ou mais caracteres em buscas ou padrões de arquivos.",
+    "example": "Searching for '*.js' finds all JavaScript files in the folder."
+  },
+  {
+    "id": "wrapper",
+    "letter": "W",
+    "term": "Wrapper",
+    "translation": "Wrapper / Envolvedor",
+    "definition": "Uma função ou classe que 'envolve' outro código para adicionar funcionalidades ou adaptar a interface sem alterar o código original.",
+    "example": "We created a wrapper around the API call to handle errors globally."
+  },
+  {
+    "id": "xml",
+    "letter": "X",
+    "term": "XML",
+    "fullName": "eXtensible Markup Language",
+    "translation": "Linguagem de Marcação Extensível",
+    "definition": "Linguagem de marcação usada para armazenar e transportar dados, focada na estrutura da informação.",
+    "example": "Many older APIs used XML instead of JSON to transfer data."
+  },
+  {
+    "id": "xss",
+    "letter": "X",
+    "term": "XSS",
+    "fullName": "Cross-Site Scripting",
+    "translation": "Cross-Site Scripting",
+    "definition": "Vulnerabilidade de segurança onde um atacante consegue injetar scripts maliciosos em páginas web visualizadas por outros usuários.",
+    "example": "Sanitizing user input is the best way to prevent XSS attacks."
+  },
+  {
+    "id": "yaml",
+    "letter": "Y",
+    "term": "YAML",
+    "fullName": "YAML Ain't Markup Language",
+    "translation": "YAML",
+    "definition": "Formato de serialização de dados legível para humanos, muito usado para arquivos de configuração (como docker-compose).",
+    "example": "We define our deployment settings in a yaml file."
+  },
+  {
+    "id": "z-index",
+    "letter": "Z",
+    "term": "z-index",
+    "translation": "z-index",
+    "definition": "Propriedade CSS que controla a ordem de empilhamento dos elementos na tela (quem fica na frente de quem).",
+    "example": "The modal has a higher z-index to appear above the main content."
+  },
+  {
+    "id": "zip",
+    "letter": "Z",
+    "term": "Zip",
+    "translation": "Zip / Compactação",
+    "definition": "Formato de compressão de arquivos que agrupa vários arquivos em um único arquivo menor.",
+    "example": "Send the logs in a zip file to reduce the email size."
+  }
+]
+
+
