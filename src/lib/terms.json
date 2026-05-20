@@ -1270,6 +1270,403 @@
     "translation": "Jargão",
     "definition": "Vocabulário técnico específico de uma profissão ou grupo, muitas vezes difícil para leigos.",
     "example": "Este dicionário ajuda iniciantes a entender o jargão do desenvolvimento de software."
+  },
+  {
+    "term": "K-Means",
+    "translation": "K-Means",
+    "definition": "Um algoritmo de aprendizado não supervisionado usado para agrupar dados em K clusters distintos.",
+    "example": "Usei K-Means para agrupar clientes com comportamentos de compra semelhantes."
+  },
+  {
+    "term": "Kebab-case",
+    "translation": "Kebab-case",
+    "definition": "Estilo de escrita onde todas as letras são minúsculas e as palavras são separadas por hifens.",
+    "example": "Em URLs, é comum usar kebab-case, como em /meu-mini-dicionario."
+  },
+  {
+    "term": "Kernel",
+    "translation": "Núcleo do Sistema",
+    "definition": "A parte central do sistema operacional que gerencia a comunicação entre o hardware e o software.",
+    "example": "O Kernel do Linux é a base para centenas de outras distribuições."
+  },
+  {
+    "term": "Key",
+    "translation": "Chave",
+    "definition": "Um identificador único usado em bancos de dados (Primary Key) ou para autenticação em APIs (API Key).",
+    "example": "Não compartilhe sua API Key publicamente no GitHub."
+  },
+  {
+    "term": "Keylogger",
+    "translation": "Capturador de Teclas",
+    "definition": "Software malicioso que registra cada tecla digitada pelo usuário para roubar senhas.",
+    "example": "O antivírus detectou um keylogger tentando capturar a senha do banco."
+  },
+  {
+    "term": "Kilobyte",
+    "translation": "Kilobyte (KB)",
+    "definition": "Unidade de medida de dados equivalente a 1.024 bytes.",
+    "example": "Um arquivo de texto simples geralmente ocupa apenas alguns kilobytes."
+  },
+  {
+    "term": "Kubernetes (K8s)",
+    "translation": "Kubernetes",
+    "definition": "Plataforma de código aberto para automatizar a implantação, escalonamento e gerenciamento de containers.",
+    "example": "O Kubernetes orquestra centenas de pods para manter o sistema estável."
+  },
+  {
+    "term": "Lambda Function",
+    "translation": "Função Lambda",
+    "definition": "Uma função anônima, sem nome, geralmente usada para operações rápidas e curtas.",
+    "example": "Em Python, as lambdas são ótimas para filtrar listas rapidamente."
+  },
+  {
+    "term": "Latency",
+    "translation": "Latência",
+    "definition": "O tempo de atraso entre o envio de uma solicitação e o recebimento da resposta na rede.",
+    "example": "A latência alta prejudica a experiência em jogos online competitivos."
+  },
+  {
+    "term": "Layer",
+    "translation": "Camada",
+    "definition": "Nível de abstração em um sistema (ex: Camada de Apresentação, Camada de Dados).",
+    "example": "O modelo OSI divide a comunicação de rede em sete camadas distintas."
+  },
+  {
+    "term": "Layout",
+    "translation": "Layout / Arranjo",
+    "definition": "A organização visual dos elementos em uma interface de usuário.",
+    "example": "O layout do site muda automaticamente para se ajustar a telas de celulares."
+  },
+  {
+    "term": "Legacy Code",
+    "translation": "Código Legado",
+    "definition": "Código antigo que ainda é usado, mas que costuma ser difícil de manter ou atualizar.",
+    "example": "A empresa gasta metade do tempo dos devs corrigindo bugs em código legado de 10 anos atrás."
+  },
+  {
+    "term": "Library",
+    "translation": "Biblioteca",
+    "definition": "Conjunto de funções e classes pré-escritas que podem ser importadas para agilizar o desenvolvimento.",
+    "example": "O React é tecnicamente uma biblioteca, não um framework completo."
+  },
+  {
+    "term": "Linting",
+    "translation": "Linting / Análise Estática",
+    "definition": "Processo de análise do código para encontrar erros de sintaxe ou desvios de estilo.",
+    "example": "O ESLint avisa quando você declara uma variável mas nunca a utiliza."
+  },
+  {
+    "term": "Linux",
+    "translation": "Linux",
+    "definition": "Um kernel de sistema operacional de código aberto, base para diversas distribuições como Ubuntu e Debian.",
+    "example": "A maioria dos servidores de nuvem do mundo roda alguma versão de Linux."
+  },
+  {
+    "term": "Localhost",
+    "translation": "Localhost / Hospedeiro Local",
+    "definition": "O endereço de rede que aponta para o próprio computador onde o software está rodando (IP 127.0.0.1).",
+    "example": "Acesse http://localhost:3000 para ver seu site durante o desenvolvimento."
+  },
+  {
+    "term": "Load Balancer",
+    "translation": "Balanceador de Carga",
+    "definition": "Dispositivo que distribui o tráfego de rede entre vários servidores para evitar sobrecarga.",
+    "example": "O load balancer envia requisições para o servidor menos ocupado no momento."
+  },
+  {
+    "term": "Log",
+    "translation": "Log / Registro",
+    "definition": "Arquivo de texto que registra eventos, erros e transações de um sistema ao longo do tempo.",
+    "example": "Verifiquei os logs do servidor e descobri que o erro acontecia apenas às 3 da manhã."
+  },
+  {
+    "term": "Logic Bomb",
+    "translation": "Bomba Lógica",
+    "definition": "Código malicioso que permanece inativo até que uma condição específica seja atendida (como uma data).",
+    "example": "O malware continha uma bomba lógica programada para apagar os dados no dia 1º de janeiro."
+  },
+  {
+    "term": "Loop",
+    "translation": "Laço / Loop",
+    "definition": "Estrutura que repete um bloco de código enquanto uma condição for verdadeira.",
+    "example": "Um loop infinito pode travar o navegador se não houver uma condição de parada."
+  },
+  {
+    "term": "Low-code",
+    "translation": "Low-code",
+    "definition": "Plataformas de desenvolvimento que exigem pouca escrita de código, usando interfaces visuais (arrasta e solta).",
+    "example": "Muitas empresas usam low-code para criar protótipos de apps rapidamente."
+  },
+  {
+    "term": "Main",
+    "translation": "Principal / Main",
+    "definition": "A função ou o ponto de entrada onde a execução de um programa começa.",
+    "example": "Em C++, o código começa a ser executado a partir da função int main()."
+  },
+  {
+    "term": "Mainframe",
+    "translation": "Mainframe",
+    "e-definition": "Computador de altíssima potência usado por grandes instituições para processar volumes massivos de dados.",
+    "example": "Bancos utilizam mainframes para processar milhões de transações bancárias por segundo."
+  },
+  {
+    "term": "Map",
+    "translation": "Mapear / Map",
+    "definition": "Método de array que transforma cada elemento de uma lista em um novo valor.",
+    "example": "Usei o .map() para transformar a lista de termos em componentes HTML."
+  },
+  {
+    "term": "Markdown",
+    "translation": "Markdown",
+    "definition": "Linguagem de marcação leve usada para formatar texto simples em HTML (muito usada no GitHub).",
+    "example": "Escrevi a documentação do projeto usando Markdown para criar negritos e listas."
+  },
+  {
+    "term": "Malware",
+    "translation": "Software Malicioso",
+    "definition": "Termo genérico para qualquer software criado para causar danos, roubar dados ou infiltrar-se em sistemas.",
+    "example": "O ransomware é um tipo perigoso de malware que sequestra arquivos."
+  },
+  {
+    "term": "Many-to-Many",
+    "translation": "Muitos-para-Muitos",
+    "definition": "Relacionamento em bancos de dados onde múltiplos registros de uma tabela se ligam a múltiplos de outra.",
+    "example": "Um aluno pode ter várias disciplinas e uma disciplina tem vários alunos (Muitos-para-Muitos)."
+  },
+  {
+    "term": "Master-Slave",
+    "translation": "Mestre-Escravo",
+    "definition": "Modelo de arquitetura onde um dispositivo (mestre) controla um ou mais dispositivos subordinados (escravos).",
+    "example": "Em clusters de banco de dados, o mestre recebe as escritas e os escravos apenas as leituras."
+  },
+  {
+    "term": "Matrix",
+    "translation": "Matriz",
+    "definition": "Estrutura de dados bidimensional (tabela) composta por linhas e colunas.",
+    "example": "Usei uma matriz para representar o tabuleiro de um jogo de xadrez."
+  },
+  {
+    "term": "Memory Leak",
+    "translation": "Vazamento de Memória",
+    "definition": "Erro onde o programa reserva memória mas esquece de liberá-la, consumindo toda a RAM do sistema.",
+    "example": "O app começou a travar porque tinha um memory leak no loop de renderização."
+  },
+  {
+    "term": "Merge",
+    "translation": "Mesclar / Merge",
+    "definition": "No Git, é a ação de unir as alterações de duas branches diferentes em uma só.",
+    "example": "Fiz o merge da branch de 'correções' para a branch 'main'."
+  },
+  {
+    "term": "Metadata",
+    "translation": "Metadados",
+    "definition": "Dados que descrevem outros dados (ex: a data de criação de um arquivo é um metadado do arquivo).",
+    "example": "As tags de SEO no HTML são metadados que ajudam o Google a indexar o site."
+  },
+  {
+    "term": "Microservices",
+    "translation": "Microserviços",
+    "definition": "Arquitetura onde a aplicação é dividida em pequenos serviços independentes que se comunicam via API.",
+    "example": "A Netflix usa microserviços para que o sistema de recomendações não afete o player de vídeo."
+  },
+  {
+    "term": "Middleware",
+    "translation": "Middleware / Software Intermediário",
+    "definition": "Software que fica entre a requisição e a resposta, podendo alterar ou validar os dados.",
+    "example": "Criei um middleware para verificar se o usuário está logado antes de acessar a página de perfil."
+  },
+  {
+    "term": "Mock",
+    "translation": "Simulação / Mock",
+    "definition": "Criação de objetos ou APIs fictícias que imitam o comportamento real para fins de teste.",
+    "example": "Criei um mock da API de pagamento para testar o checkout sem gastar dinheiro real."
+  },
+  {
+    "term": "Module",
+    "translation": "Módulo",
+    "definition": "Uma parte isolada e reutilizável de um programa, geralmente organizada em arquivos separados.",
+    "example": "Separei a lógica de cálculos matemáticos em um módulo chamado mathUtils.js."
+  },
+  {
+    "term": "Monolith",
+    "translation": "Monólito",
+    "definition": "Arquitetura de software onde todas as funções do sistema estão em um único bloco de código.",
+    "example": " la migrei meu app monólito para microserviços para conseguir escalar melhor."
+  },
+  {
+    "term": "Monoid",
+    "translation": "Monoide",
+    "definition": "Conceito matemático usado em programação funcional para descrever operações que podem ser combinadas.",
+    "example": "Somas de números formam um monoide pois têm um elemento neutro (zero)."
+  },
+  {
+    "term": "Mutation",
+    "translation": "Mutação",
+    "definition": "Ato de alterar o valor de um objeto ou array original em vez de criar uma nova cópia.",
+    "example": "Evite a mutação de estado no React; use o useState para criar novos estados."
+  },
+  {
+    "term": "MVC (Model-View-Controller)",
+    "translation": "Modelo-Visão-Controlador",
+    "definition": "Padrão de arquitetura que separa os dados (Model), a interface (View) e a lógica (Controller).",
+    "example": "O framework Django segue rigorosamente o padrão MVC."
+  },
+  {
+    "term": "NaN (Not a Number)",
+    "translation": "Não é um Número",
+    "definition": "Valor especial no JavaScript que indica que uma operação matemática resultou em algo indefinido.",
+    "example": "Tentar dividir 'texto' por 2 resulta em NaN."
+  },
+  {
+    "term": "Namespace",
+    "translation": "Espaço de Nomes",
+    "definition": "Contêiner que organiza nomes de identificadores para evitar conflitos entre bibliotecas diferentes.",
+    "example": "Usei namespaces para diferenciar as classes de 'Usuário' do sistema de 'Admin'."
+  },
+  {
+    "term": "Native",
+    "translation": "Nativo",
+    "definition": "Software desenvolvido especificamente para um hardware ou sistema operacional (ex: app nativo iOS).",
+    "example": "Apps nativos costumam ter performance superior a apps híbridos."
+  },
+  {
+    "term": "Networking",
+    "translation": "Redes de Computadores",
+    "definition": "Área da computação focada na conexão e comunicação entre diferentes dispositivos.",
+    "example": "O curso de networking ensina como configurar roteadores e switches."
+  },
+  {
+    "term": "Node.js",
+    "translation": "Node.js",
+    "definition": "Ambiente de execução JavaScript no servidor, permitindo criar APIs e ferramentas de CLI.",
+    "example": "O Node.js usa o motor V8 do Chrome para executar código JS fora do navegador."
+  },
+  {
+    "term": "NoSQL",
+    "translation": "Não Relacional / NoSQL",
+    "definition": "Bancos de dados que não usam tabelas fixas e SQL, sendo ideais para dados flexíveis (como JSON).",
+    "example": "O MongoDB é o exemplo mais popular de banco de dados NoSQL."
+  },
+  {
+    "term": "Normalization",
+    "translation": "Normalização",
+    "definition": "Processo de organizar dados em um banco relacional para eliminar redundâncias e inconsistências.",
+    "example": "A normalização de tabelas evita que o nome do cliente seja repetido em dez pedidos diferentes."
+  },
+  {
+    "term": "Null",
+    "translation": "Nulo",
+    "definition": "Valor que representa a ausência intencional de qualquer objeto ou valor.",
+    "example": "Se o usuário não preencher a bio, o campo no banco de dados ficará como null."
+  },
+  {
+    "term": "NumPy",
+    "translation": "NumPy",
+    "definition": "Biblioteca fundamental de Python para computação científica e manipulação de matrizes.",
+    "example": "Usei NumPy para processar os dados estatísticos do experimento."
+  },
+  {
+    "term": "Object",
+    "translation": "Objeto",
+    "definition": "Instância de uma classe que agrupa dados (propriedades) e comportamentos (métodos).",
+    "example": "Criei um objeto 'Usuario' com as propriedades nome, idade e email."
+  },
+  {
+    "term": "Obfuscation",
+    "translation": "Ofuscação",
+    "definition": "Técnica de tornar o código fonte difícil de ler para humanos, mas ainda funcional para a máquina.",
+    "example": "Muitas empresas ofuscam o código JS antes do deploy para dificultar a engenharia reversa."
+  },
+  {
+    "term": "Observable",
+    "translation": "Observável",
+    "definition": "Padrão de programação reativa onde um objeto notifica outros sobre mudanças no seu estado.",
+    "example": "Usei RxJS para criar um observable que detecta cada tecla digitada no campo de busca."
+  },
+  {
+    "term": "OAuth (Open Authorization)",
+    "translation": "OAuth",
+    "definition": "Protocolo padrão para autorização que permite que sites acessem dados de outros sem saber a senha.",
+    "example": "O botão 'Login com Google' utiliza o protocolo OAuth."
+  },
+  {
+    "term": "OOP (Object Oriented Programming)",
+    "translation": "Programação Orientada a Objetos",
+    "definition": "Paradigma de programação baseado em classes e objetos, focando em herança e polimorfismo.",
+    "example": "Java e C# são linguagens fortemente baseadas em OOP."
+  },
+  {
+    "term": "Octet",
+    "translation": "Octeto",
+    "definition": "Unidade de medida de dados composta por exatamente 8 bits.",
+    "example": "O endereço IPv4 é composto por quatro octetos."
+  },
+  {
+    "term": "Offset",
+    "translation": "Deslocamento / Offset",
+    "definition": "A distância entre o início de um bloco de memória e um ponto específico dentro dele.",
+    "example": "O ponteiro do arquivo foi movido com um offset de 10 bytes para pular o cabeçalho."
+  },
+  {
+    "term": "On-premise",
+    "translation": "Local / No Local",
+    "definition": "Software ou hardware instalado fisicamente nas dependências da própria empresa, em vez de na nuvem.",
+    "example": "A empresa decidiu manter o banco de dados on-premise por questões de segurança máxima."
+  },
+  {
+    "term": "Open Source",
+    "translation": "Código Aberto",
+    "definition": "Software cujo código-fonte é disponibilizado publicamente para qualquer pessoa estudar, mudar e distribuir.",
+    "example": "O Linux e o VS Code são exemplos de softwares open source."
+  },
+  {
+    "term": "Optimization",
+    "translation": "Otimização",
+    "definition": "Processo de modificar um sistema para que ele utilize menos recursos (tempo, memória) e seja mais rápido.",
+    "example": "Fiz a otimização das imagens do site, reduzindo o tempo de carregamento em 2 segundos."
+  },
+  {
+    "term": "Operator",
+    "translation": "Operador",
+    "definition": "Símbolo que realiza operações básicas em variáveis (ex: +, -, *, /, ==).",
+    "example": "O operador '===' no JavaScript verifica se o valor e o tipo são iguais."
+  },
+  {
+    "term": "Order of Complexity",
+    "translation": "Complexidade de Tempo (Big O)",
+    "definition": "Medida matemática que descreve como o tempo de execução de um algoritmo cresce conforme os dados aumentam.",
+    "example": "A busca binária tem uma complexidade de tempo O(log n), sendo muito eficiente."
+  },
+  {
+    "term": "Output",
+    "translation": "Saída",
+    "definition": "A informação final produzida por um computador ou programa após processar os dados.",
+    "example": "O output da função deve ser um booleano indicando se a senha é válida."
+  },
+  {
+    "term": "Overclock",
+    "translation": "Overclock",
+    "definition": "Aumentar a frequência de clock de um hardware acima do limite de fábrica para ganhar performance.",
+    "example": "O overclock no processador aumentou a velocidade de renderização do vídeo."
+  },
+  {
+    "term": "Overflow",
+    "translation": "Estouro / Overflow",
+    "definition": "Erro que ocorre quando um cálculo resulta em um número maior do que o espaço de memória reservado para ele.",
+    "example": "Um integer overflow pode fazer com que um número positivo se torne negativo repentinamente."
+  },
+  {
+    "term": "Overriding",
+    "translation": "Sobrescrita",
+    "definition": "Ato de redefinir um método de uma classe pai dentro de uma classe filha para mudar seu comportamento.",
+    "example": "A classe 'Gato' faz o overriding do método 'emitirSom()' da classe 'Animal'."
+  },
+  {
+    "term": "Overloading",
+    "translation": "Sobrecarga",
+    "definition": "Técnica onde uma função tem o mesmo nome, mas aceita diferentes tipos ou quantidades de argumentos.",
+    "example": "Criei a função 'imprimir()' com overloading para aceitar tanto strings quanto números."
   }
 ]
+
 
