@@ -1059,5 +1059,5 @@
   { "term": "Z-index CSS", "translation": "Z-index do CSS", "definition": "A propriedade que define a pilha de camadas de elementos HTML.", "example": "O z-index do modal deve ser maior que o do header para que ele cubra toda a página." },
   { "term": "Zero-fill", "translation": "Preenchimento com Zero", "definition": "Ato de preencher espaços vazios em um arquivo ou variável com zeros para manter o alinhamento.", "example": "O formato de arquivo exige zero-fill para que o cabeçalho tenha sempre 64 bytes." },
   { "term": "Zero-indexed", "translation": "Indexado em Zero", "definition": "Convenção de programação onde o primeiro elemento de uma lista ou array começa na posição 0.", "example": "Em linguagens como JavaScript e Python, arrays são zero-indexed." },
-  { "term": "Z-score analysis", "translation": "Análise de Z-score", "definition": "Método estatístico para identificar anomalias em dados comparando-os com a média da população.", "example": "A análise de Z-score detectou que o pico de tráfego no site era um comportamento anômalo." }
+  { "term": "Z-score analysis", "translation": "Análise de Z-score", "definition": "Método estatístico para identificar anomalias em dados comparando-os com a média da população.", "example": "A análise de Z-score detectou que o pico de tráfego no site era um comportamento anômalo." },
 ]
