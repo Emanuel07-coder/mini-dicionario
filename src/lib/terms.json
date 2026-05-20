@@ -307,7 +307,7 @@
   { "term": "J-Tree", "translation": "J-Tree", "definition": "Componente de interface gráfica do Java Swing para exibir dados em árvore.", "example": "Usei o JTree para criar a navegação de pastas do software." },
   { "term": "J la (No-Op)", "translation": "No-Operation", "definition": "Instrução de computador que não realiza nenhuma operação, usada para temporização.", "example": " O processador executa um NOP para esperar o hardware responder." },
   { "term": "JavaFX", "translation": "JavaFX", "definition": "Framework para criar interfaces gráficas ricas e modernas com a linguagem Java.", "example": " a aplicação de desktop foi feita com JavaFX para ter um visual moderno." },
- [
+ 
   { "term": "K-Means", "translation": "K-Means", "definition": "Algoritmo de aprendizado não supervisionado que agrupa dados em K clusters distintos.", "example": "Usei K-Means para agrupar clientes com comportamentos de compra semelhantes." },
   { "term": "Kebab-case", "translation": "Kebab-case", "definition": "Estilo de escrita onde palavras são minúsculas e separadas por hifens.", "example": "Em URLs, é comum usar kebab-case, como em /meu-mini-dicionario." },
   { "term": "Kernel", "translation": "Núcleo do Sistema", "definition": "A parte central do SO que gerencia a comunicação entre hardware e software.", "example": "O Kernel do Linux é a base para centenas de outras distribuições." },
