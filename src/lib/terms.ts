@@ -9,12 +9,12 @@ export type TermEntry = {
   example: string;
 };
 
-// 1. Retorna todos os termos (Usado na Home)
+// Retorna todos os termos
 export function getAllTerms(): TermEntry[] {
   return termsData as TermEntry[];
 }
 
-// 2. Busca global por termo, tradução ou definição (Usado na Home)
+// Busca global (Home)
 export function searchTerms(query: string) {
   const q = query.toLowerCase();
   const data = getAllTerms();
@@ -31,7 +31,7 @@ export function searchTerms(query: string) {
   }));
 }
 
-// 3. Busca todos os termos de uma letra específica (Usado em /app/[letter]/page.tsx)
+// Busca termos por letra (Página de Letra)
 export function getTermsForLetter(letter: string): TermEntry[] {
   const targetLetter = letter.toUpperCase();
   return getAllTerms().filter(entry => 
@@ -39,13 +39,21 @@ export function getTermsForLetter(letter: string): TermEntry[] {
   );
 }
 
-// 4. Busca um termo específico pelo "slug" (Usado em /app/[letter]/[termSlug]/page.tsx)
-export function findTerm(slug: string): TermEntry | undefined {
-  return getAllTerms().find(entry => {
-    // Transforma o termo em slug para comparar (ex: "API Rest" -> "api-rest")
+// BUSCA CORRIGIDA: Agora aceita (letter, slug) e retorna o objeto com .entry
+export function findTerm(_letter: string, slug: string): { letter: string, entry: TermEntry } | undefined {
+  const term = getAllTerms().find(entry => {
     const termSlug = entry.term
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, "-");
     return termSlug === slug;
   });
+
+  if (!term) return undefined;
+
+  // Retornamos no formato que a sua página [termSlug]/page.tsx espera:
+  // { letter: "A", entry: { term: "API", ... } }
+  return {
+    letter: _letter.toUpperCase(),
+    entry: term
+  };
 }
