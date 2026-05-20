@@ -7,17 +7,20 @@ export default function SearchForm({ defaultValue }: { defaultValue: string }) {
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsLoading(true);
 
     const formData = new FormData(e.currentTarget);
-    const q = formData.get("q");
+    const q = formData.get("q") as string;
     
-    // Navega para a URL com o parâmetro de busca
-    router.push(`/?q=${q}`);
+    // encodeURIComponent garante que espaços e acentos não quebrem a URL
+    const query = q ? encodeURIComponent(q) : "";
     
-    // O Next.js faz a transição. O spinner ficará ativo até a página atualizar
+    router.push(`/?q=${query}`);
+    
+    // Opcional: Se você quiser que o spinner pare mais rápido, 
+    // mas o router.push é assíncrono, o ideal é deixar o Next processar.
   };
 
   return (
