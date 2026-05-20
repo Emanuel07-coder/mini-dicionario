@@ -3,6 +3,7 @@ import GlossaryLayout from "@/components/GlossaryLayout";
 import { LETTERS, getAllTerms, searchTerms } from "@/lib/terms";
 import type { TermEntry } from "@/lib/terms";
 
+// Componente auxiliar para mostrar a contagem de termos
 function TermsCountHint({ total }: { total: number }) {
   return (
     <p className="mt-1 text-sm text-zinc-400">
@@ -16,43 +17,34 @@ function TermsCountHint({ total }: { total: number }) {
 }
 
 type HomeSearchParams = {
-
   q?: string | string[];
 };
 
-export default function Home(props: { searchParams?: HomeSearchParams }) {
-  return <HomeContent {...props} />;
+// CORREÇÃO: Home agora é 'async' e recebe searchParams como Promise
+export default async function Home(props: { searchParams: Promise<HomeSearchParams> }) {
+  // Aguardamos a resolução dos parâmetros de busca (Obrigatório no Next.js 15+)
+  const searchParams = await props.searchParams;
+  
+  return <HomeContent searchParams={searchParams} />;
 }
 
+// Componente que renderiza o conteúdo da Home
 function HomeContent({
   searchParams,
 }: {
-  searchParams?: HomeSearchParams;
+  searchParams: HomeSearchParams;
 }) {
-
-
-
-
   const total = getAllTerms().length;
   const letters = LETTERS;
 
-  // Busca simples via query string (SSR/SSG-friendly)
-
-  // Para manter rápido, o formulário manda para /?q=...
-  // e a página filtra no server (dataset em JSON).
-  // (Quando você preencher 780 termos, isso continua rápido.)
-  // lê query string: /?q=...
-  // Next já injeta isso no server component via searchParams
+  // Lógica para tratar a query string da busca
   const qRaw = searchParams?.q;
   const q = Array.isArray(qRaw) ? qRaw[0] ?? "" : qRaw ?? "";
 
-
-
+  // Busca os termos baseados na query 'q'
   const results: Array<{ letter: string; entry: TermEntry }> = q
     ? searchTerms(q)
     : [];
-
-
 
   return (
     <GlossaryLayout>
@@ -120,4 +112,3 @@ function HomeContent({
     </GlossaryLayout>
   );
 }
-
