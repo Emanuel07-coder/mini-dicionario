@@ -153,7 +153,7 @@
   { "term": "Exception handling", "translation": "Tratamento de Exceções", "definition": "Prática de prever erros e criar fluxos para que o sistema não trave quando eles ocorrerem.", "example": "Um bom tratamento de exceções exibe uma mensagem amigável em vez de um erro técnico." },
   { "term": "Execution", "translation": "Execução", "definition": "O processo de rodar as instruções de um programa no processador.", "example": "A execução do script levou apenas 2 milissegundos." },
   { "term": "Exponent", "translation": "Expoente", "definition": "Número que indica quantas vezes a base deve ser multiplicada por si mesma.", "example": "A complexidade de tempo O(2^n) possui um crescimento exponencial." },
- [
+ 
   { "term": "Face Recognition", "translation": "Reconhecimento Facial", "definition": "Tecnologia de biometria que identifica pessoas através de imagens do rosto.", "example": "O Face ID da Apple usa reconhecimento facial para segurança." },
   { "term": "Facade Pattern", "translation": "Padrão Fachada", "definition": "Padrão de design que fornece uma interface simplificada para um sistema complexo.", "example": "A Facade esconde a complexidade de várias APIs internas." },
   { "term": "Failover", "translation": "Recuperação de Falhas", "definition": "Alternância automática para um servidor redundante quando o principal falha.", "example": "O failover garantiu que o site não caísse durante a pane do servidor." },
