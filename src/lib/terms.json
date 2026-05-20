@@ -1,568 +1,160 @@
 [
-  {
-    "term": "Abstract Class",
-    "translation": "Classe Abstrata",
-    "definition": "Uma classe que não pode ser instanciada e serve apenas como modelo para outras classes.",
-    "example": "A classe 'Animal' é abstrata; você cria 'Cachorro' que herda dela."
-  },
-  {
-    "term": "ACK (Acknowledgment)",
-    "translation": "Confirmação de Recebimento",
-    "definition": "Sinal enviado em redes de computadores para confirmar que um pacote de dados foi recebido.",
-    "example": "O protocolo TCP usa ACK para garantir que os dados chegaram ao destino."
-  },
-  {
-    "term": "Adware",
-    "translation": "Software de Publicidade",
-    "definition": "Software projetado para exibir anúncios no computador do usuário, geralmente sem consentimento.",
-    "example": "Muitos navegadores gratuitos instalam adware para se monetizar."
-  },
-  {
-    "term": "Agile",
-    "translation": "Ágil",
-    "definition": "Metodologia de desenvolvimento de software focada em entregas rápidas e ciclos iterativos.",
-    "example": "O Scrum é um dos frameworks mais populares da metodologia Agile."
-  },
-  {
-    "term": "Algorithm",
-    "translation": "Algoritmo",
-    "definition": "Uma sequência finita de passos lógicos para resolver um problema ou realizar uma tarefa.",
-    "example": "O algoritmo de busca do Google analisa bilhões de páginas em milissegundos."
-  },
-  {
-    "term": "API (Application Programming Interface)",
-    "translation": "Interface de Programação de Aplicações",
-    "definition": "Conjunto de regras e protocolos que permite que softwares diferentes se comuniquem.",
-    "example": "O app de clima usa a API do Weather Channel para obter dados."
-  },
-  {
-    "term": "Array",
-    "translation": "Vetor / Matriz",
-    "definition": "Estrutura de dados que armazena múltiplos valores do mesmo tipo em posições sequenciais.",
-    "example": "Use um array para guardar a lista de nomes de todos os usuários."
-  },
-  {
-    "term": "Async (Asynchronous)",
-    "translation": "Assíncrono",
-    "definition": "Operação que permite que o programa continue executando outras tarefas enquanto espera um resultado.",
-    "example": "O 'async/await' no JavaScript evita que a página trave enquanto carrega dados."
-  },
-  {
-    "term": "Backend",
-    "translation": "Bastidores / Lógica do Servidor",
-    "definition": "A parte do software que lida com banco de dados, autenticação e lógica de negócio.",
-    "example": "O Node.js é muito utilizado para construir o backend de aplicações."
-  },
-  {
-    "term": "Bandwidth",
-    "translation": "Largura de Banda",
-    "definition": "A quantidade máxima de dados que pode ser transmitida por uma conexão de rede em um tempo determinado.",
-    "example": "Se a largura de banda for baixa, o vídeo do YouTube começará a travar."
-  },
-  {
-    "term": "Binary",
-    "translation": "Binário",
-    "definition": "Sistema numérico de base 2 (0 e 1), que é a linguagem fundamental dos computadores.",
-    "example": "Arquivos executáveis são armazenados em formato binário."
-  },
-  {
-    "term": "Bit",
-    "translation": "Bit",
-    "definition": "A menor unidade de informação em computação, podendo ser 0 ou 1.",
-    "example": "Oito bits formam um Byte."
-  },
-  {
-    "term": "Boolean",
-    "translation": "Booleano",
-    "definition": "Tipo de dado que pode assumir apenas dois valores: verdadeiro (true) ou falso (false).",
-    "example": "A variável 'estaLogado' é um booleano."
-  },
-  {
-    "term": "Bot",
-    "translation": "Robô",
-    "definition": "Programa automatizado que executa tarefas repetitivas na internet.",
-    "example": "O bot do Telegram pode enviar notificações automáticas para o usuário."
-  },
-  {
-    "term": "Breakpoint",
-    "translation": "Ponto de Interrupção",
-    "definition": "No CSS, é o ponto onde o layout muda para se adaptar a telas menores (responsividade).",
-    "example": "Configurei um breakpoint em 768px para mudar o menu para mobile."
-  },
-  {
-    "term": "Buffer",
-    "translation": "Buffer / Memória Temporária",
-    "definition": "Espaço de memória usado para armazenar dados temporariamente enquanto são movidos de um lugar para outro.",
-    "example": "O vídeo está fazendo buffering, aguarde o carregamento."
-  },
-  {
-    "term": "Bus",
-    "translation": "Barramento",
-    "definition": "Caminho físico (fios) que transporta dados entre componentes do computador.",
-    "example": "O barramento de dados conecta o processador à memória RAM."
-  },
-  {
-    "term": "Byte",
-    "translation": "Byte",
-    "definition": "Unidade de informação composta por 8 bits.",
-    "example": "Um arquivo de texto simples de 1KB tem aproximadamente 1024 bytes."
-  },
-  {
-    "term": "Cache",
-    "translation": "Cache",
-    "definition": "Memória ultra-rápida que armazena cópias de dados frequentes para acelerar o acesso.",
-    "example": "Limpar o cache do navegador pode resolver problemas de exibição de sites."
-  },
-  {
-    "term": "Cloud Computing",
-    "translation": "Computação em Nuvem",
-    "definition": "Entrega de serviços de computação (servidores, storage, banco de dados) via internet.",
-    "example": "AWS e Azure são as maiores plataformas de Cloud Computing do mundo."
-  },
-  {
-    "term": "Code Review",
-    "translation": "Revisão de Código",
-    "definition": "Processo onde desenvolvedores examinam o código de colegas para encontrar erros e sugerir melhorias.",
-    "example": "O Pull Request só é aprovado após o Code Review do líder técnico."
-  },
-  {
-    "term": "Compiler",
-    "translation": "Compilador",
-    "definition": "Programa que traduz código de alto nível (como C++) para linguagem de máquina.",
-    "example": "O compilador do Java transforma o código .java em bytecode."
-  },
-  {
-    "term": "CPU (Central Processing Unit)",
-    "translation": "Unidade Central de Processamento",
-    "definition": "O 'cérebro' do computador, responsável por executar as instruções dos programas.",
-    "example": "Um processador com mais núcleos de CPU pode realizar mais tarefas simultâneas."
-  },
-  {
-    "term": "CSS (Cascading Style Sheets)",
-    "translation": "Folhas de Estilo em Cascata",
-    "definition": "Linguagem usada para definir a aparência e o design de páginas web.",
-    "example": "Usei CSS para mudar a cor de fundo do site para azul escuro."
-  },
-  {
-    "term": "CORS (Cross-Origin Resource Sharing)",
-    "translation": "Compartilhamento de Recursos de Origem Cruzada",
-    "definition": "Mecanismo de segurança que restringe requisições HTTP entre domínios diferentes.",
-    "example": "Recebi um erro de CORS ao tentar conectar meu frontend ao backend em domínios diferentes."
-  },
-  {
-    "term": "Commit",
-    "translation": "Confirmar / Gravar Alterações",
-    "definition": "No Git, é o ato de salvar as mudanças feitas no código em um snapshot do repositório.",
-    "example": "Lembre-se de fazer o commit das alterações antes de enviar para o GitHub."
-  },
-  {
-    "term": "Component",
-    "translation": "Componente",
-    "definition": "Parte reutilizável da interface de usuário (UI) que possui sua própria lógica e estilo.",
-    "example": "Criei um componente de 'Botão' que é usado em todo o site."
-  },
-  {
-    "term": "Constant",
-    "translation": "Constante",
-    "definition": "Um valor que não muda durante a execução do programa.",
-    "example": "Defini a constante PI como 3.1415."
-  },
-  {
-    "term": "Context",
-    "translation": "Contexto",
-    "definition": "Informações ambientais que permitem que um programa saiba onde está e o que está fazendo.",
-    "example": "O Context API do React permite passar dados entre componentes sem precisar de props."
-  },
-  {
-    "term": "Cookie",
-    "translation": "Cookie",
-    "definition": "Pequeno arquivo de texto armazenado no navegador para lembrar preferências do usuário.",
-    "example": "O site usa cookies para manter você logado após fechar a aba."
-  },
-  {
-    "term": "Core",
-    "translation": "Núcleo",
-    "definition": "Unidade de processamento independente dentro de uma CPU.",
-    "example": "Meu processador é Quad-Core, ou seja, possui quatro núcleos."
-  },
-  {
-    "term": "Crash",
-    "translation": "Travamento / Queda",
-    "definition": "Falha repentina de um software que faz com que ele pare de responder ou feche sozinho.",
-    "example": "O app sofreu um crash após a última atualização do sistema."
-  },
-  {
-    "term": "CUDA",
-    "translation": "Compute Unified Device Architecture",
-    "definition": "Plataforma de computação paralela criada pela NVIDIA para usar a GPU em cálculos.",
-    "example": "Treinar modelos de IA é muito mais rápido usando núcleos CUDA."
-  },
-  {
-    "term": "CLI (Command Line Interface)",
-    "translation": "Interface de Linha de Comando",
-    "definition": "Interface baseada em texto onde o usuário digita comandos para interagir com o sistema.",
-    "example": "O terminal do Linux é a CLI mais famosa."
-  },
-  {
-    "term": "Callback",
-    "translation": "Função de Retorno",
-    "definition": "Uma função que é passada como argumento para outra função e executada após um evento.",
-    "example": "O callback é disparado assim que o download do arquivo termina."
-  },
-  {
-    "term": "Canonical URL",
-    "translation": "URL Canônica",
-    "definition": "A URL preferencial de uma página para evitar conteúdo duplicado nos motores de busca.",
-    "example": "Usei a tag canonical para indicar ao Google qual versão da página é a principal."
-  },
-  {
-    "term": "Cast",
-    "translation": "Conversão de Tipo",
-    "definition": "Ato de converter um dado de um tipo para outro (ex: de string para número).",
-    "example": "Preciso fazer o cast do valor do input para 'int' para fazer o cálculo."
-  },
-  {
-    "term": "Class",
-    "translation": "Classe",
-    "definition": "Molde ou blueprint para criar objetos em programação orientada a objetos.",
-    "example": "A classe 'Carro' define que todo carro tem cor, marca e modelo."
-  },
-  {
-    "term": "Cluster",
-    "translation": "Cluster / Agrupamento",
-    "definition": "Conjunto de computadores interconectados que trabalham juntos como se fossem um único sistema.",
-    "example": "Usamos um cluster de Kubernetes para garantir a alta disponibilidade do app."
-  },
-  {
-    "term": "Client",
-    "translation": "Cliente",
-    "definition": "Software ou dispositivo que solicita serviços de um servidor.",
-    "example": "O navegador Chrome atua como o cliente em uma requisição HTTP."
-  },
-  {
-    "term": "Cloud-native",
-    "translation": "Nativo da Nuvem",
-    "definition": "Aplicações projetadas especificamente para rodar em ambientes de nuvem, usando microserviços.",
-    "example": "Sistemas cloud-native escalam automaticamente conforme a demanda cresce."
-  },
-  {
-    "term": "Concurrency",
-    "translation": "Concorrência",
-    "definition": "Capacidade de um sistema de lidar com múltiplas tarefas ao mesmo tempo.",
-    "example": "O Go é famoso por sua alta concorrência usando Goroutines."
-  },
-  {
-    "term": "Data",
-    "translation": "Dados",
-    "definition": "Informações brutas processadas ou armazenadas por um computador.",
-    "example": "A análise de dados revelou que a maioria dos usuários acessa o site via mobile."
-  },
-  {
-    "term": "Database",
-    "translation": "Banco de Dados",
-    "definition": "Coleção organizada de informações estruturadas que podem ser facilmente acessadas e manipuladas.",
-    "example": "O PostgreSQL é um banco de dados relacional muito robusto."
-  },
-  {
-    "term": "Debug",
-    "translation": "Depuração",
-    "definition": "Processo de encontrar e corrigir erros (bugs) no código de um software.",
-    "example": "Passei a manhã inteira fazendo debug para descobrir por que o botão não funcionava."
-  },
-  {
-    "term": "Deployment",
-    "translation": "Implantação / Deploy",
-    "definition": "Processo de mover o código do ambiente de desenvolvimento para o ambiente de produção.",
-    "example": "O deployment do novo recurso será feito na sexta-feira às 22h."
-  },
-  {
-    "term": "DevOps",
-    "translation": "Desenvolvimento e Operações",
-    "definition": "Cultura que integra as equipes de desenvolvimento e operações para acelerar a entrega de software.",
-    "example": "Implementar CI/CD é um dos pilares fundamentais do DevOps."
-  },
-  {
-    "term": "Dependency",
-    "translation": "Dependência",
-    "definition": "Uma biblioteca ou módulo externo necessário para que um projeto funcione.",
-    "example": "O React é a principal dependência do meu projeto frontend."
-  },
-  {
-    "term": "Docker",
-    "translation": "Docker",
-    "definition": "Plataforma de virtualização baseada em containers para empacotar aplicações e suas dependências.",
-    "example": "Usei Docker para garantir que o app rode igual no meu PC e no servidor."
-  },
-  {
-    "term": "Domain",
-    "translation": "Domínio",
-    "definition": "Endereço exclusivo na internet que aponta para o endereço IP de um servidor.",
-    "example": "O domínio 'google.com' é resolvido pelo DNS para um IP específico."
-  },
-  {
-    "term": "DNS (Domain Name System)",
-    "translation": "Sistema de Nomes de Domínio",
-    "definition": "Serviço que traduz nomes de domínios legíveis (ex: site.com) em endereços IP.",
-    "example": "O DNS é como a lista de contatos do seu telefone para a internet."
-  },
-  {
-    "term": "Decimal",
-    "translation": "Decimal",
-    "definition": "Tipo de dado numérico que permite casas decimais com alta precisão.",
-    "example": "Para cálculos financeiros, use o tipo Decimal em vez de Float."
-  },
-  {
-    "term": "Decryption",
-    "translation": "Descriptografia",
-    "definition": "Processo de converter dados criptografados de volta ao seu formato original legível.",
-    "example": "A chave privada é usada para a descriptografia das mensagens recebidas."
-  },
-  {
-    "term": "Default",
-    "translation": "Padrão",
-    "definition": "Valor ou configuração pré-definida que é usada quando o usuário não escolhe outra opção.",
-    "example": "O valor default da fonte do navegador geralmente é Times New Roman."
-  },
-  {
-    "term": "Dependency Injection",
-    "translation": "Injeção de Dependência",
-    "definition": "Técnica de design onde um objeto recebe as dependências que precisa em vez de criá-las internamente.",
-    "example": "A injeção de dependência facilita a criação de testes unitários (mocks)."
-  },
-  {
-    "term": "De-serialization",
-    "translation": "Desserialização",
-    "definition": "Processo de converter um fluxo de bytes ou string (como JSON) de volta em um objeto de código.",
-    "example": "O frontend faz a desserialização do JSON recebido da API para exibir os dados."
-  },
-  {
-    "term": "Design Pattern",
-    "translation": "Padrão de Projeto",
-    "definition": "Soluções generalizadas e reutilizáveis para problemas comuns de arquitetura de software.",
-    "example": "O padrão Singleton garante que uma classe tenha apenas uma instância no sistema."
-  },
-  {
-    "term": "Deterministic",
-    "translation": "Determinístico",
-    "definition": "Um algoritmo que, para a mesma entrada, sempre produzirá exatamente a mesma saída.",
-    "example": "A ordenação de um array por valor é um processo determinístico."
-  },
-  {
-    "term": "DevX (Developer Experience)",
-    "translation": "Experiência do Desenvolvedor",
-    "definition": "A qualidade da interação de um desenvolvedor com as ferramentas, documentação e APIs de um projeto.",
-    "example": "Uma boa documentação melhora significativamente a DevX."
-  },
-  {
-    "term": "Diff",
-    "translation": "Diferença (Diff)",
-    "definition": "Comparação entre dois arquivos ou versões de código para mostrar o que foi alterado.",
-    "example": "Usei o comando 'git diff' para ver as linhas que eu mudei no arquivo."
-  },
-  {
-    "term": "Digital Signature",
-    "translation": "Assinatura Digital",
-    "definition": "Mecanismo matemático usado para verificar a autenticidade e integridade de uma mensagem digital.",
-    "example": "Certificados SSL utilizam assinaturas digitais para provar a identidade do site."
-  },
-  {
-    "term": "Direct Access",
-    "translation": "Acesso Direto",
-    "definition": "Método de ler dados de um disco sem precisar passar por todos os registros anteriores.",
-    "example": "Bancos de dados indexados permitem o acesso direto ao registro desejado."
-  },
-  {
-    "term": "Dispatch",
-    "translation": "Despacho",
-    "definition": "No Redux, é a ação de enviar um evento para o store para atualizar o estado da aplicação.",
-    "example": "Usei o dispatch para atualizar o carrinho de compras do usuário."
-  },
-  {
-    "term": "Distribution",
-    "translation": "Distribuição (Distro)",
-    "definition": "Versão customizada de um sistema operacional (comumente usado para Linux).",
-    "example": "Ubuntu e Fedora são distribuições Linux populares."
-  },
-  {
-    "term": "Edge Computing",
-    "translation": "Computação de Borda",
-    "definition": "Processamento de dados realizado perto da fonte de origem, em vez de em um servidor centralizado.",
-    "example": "A Vercel Edge Network processa requisições mais perto do usuário final."
-  },
-  {
-    "term": "Encryption",
-    "translation": "Criptografia",
-    "definition": "Processo de codificar informações para que apenas pessoas autorizadas possam lê-las.",
-    "example": "O WhatsApp usa criptografia de ponta-a-ponta para proteger as conversas."
-  },
-  {
-    "term": "Endpoint",
-    "translation": "Ponto de Extremidade / Endpoint",
-    "definition": "A URL específica de uma API onde um recurso pode ser acessado.",
-    "example": "O endpoint /api/users retorna a lista de todos os usuários."
-  },
-  {
-    "term": "Engine",
-    "translation": "Engine / Motor",
-    "definition": "Núcleo de um software que realiza as tarefas principais (ex: motor de renderização, motor de jogo).",
-    "example": "A Unreal Engine é usada para criar jogos com gráficos ultra-realistas."
-  },
-  {
-    "term": "Environment",
-    "translation": "Ambiente",
-    "definition": "Configurações de software e hardware onde o código é executado (ex: Local, Staging, Produção).",
-    "example": "O erro aconteceu apenas no ambiente de produção, não no local."
-  },
-  {
-    "term": "Event",
-    "translation": "Evento",
-    "definition": "Uma ação ou ocorrência detectada pelo programa, como um clique do mouse ou tecla pressionada.",
-    "example": "O evento 'onClick' dispara a função de envio do formulário."
-  },
-  {
-    "term": "Exception",
-    "translation": "Exceção",
-    "definition": "Um erro que ocorre durante a execução de um programa e interrompe o fluxo normal.",
-    "example": "Usei um bloco try-catch para capturar a exceção de conexão com o banco."
-  },
-  {
-    "term": "Executable",
-    "translation": "Executável",
-    "definition": "Arquivo que contém instruções que o computador pode executar diretamente.",
-    "example": "O arquivo .exe no Windows é um formato de arquivo executável."
-  },
-  {
-    "term": "Expression",
-    "translation": "Expressão",
-    "definition": "Uma combinação de valores, variáveis e operadores que são avaliados para gerar um resultado.",
-    "example": "A expressão '2 + 2' resulta no valor 4."
-  },
-  {
-    "term": "Export",
-    "translation": "Exportar",
-    "definition": "Tornar uma função, classe ou variável disponível para ser usada em outros arquivos do projeto.",
-    "example": "Usei 'export default' para exportar a página principal do Next.js."
-  },
-  {
-    "term": "Extract",
-    "translation": "Extrair",
-    "definition": "Ato de retirar dados de uma fonte ou descompactar arquivos de um arquivo zip.",
-    "example": "O processo de ETL começa ao extrair dados de várias planilhas."
-  },
-  {
-    "term": "Egress",
-    "translation": "Saída de Dados (Egress)",
-    "definition": "O tráfego de rede que sai de uma rede interna para a internet.",
-    "example": "A AWS cobra taxas baseadas no volume de egress de dados."
-  },
-  {
-    "term": "Elasticity",
-    "translation": "Elasticidade",
-    "definition": "Capacidade de um sistema de nuvem de aumentar ou diminuir recursos automaticamente conforme a demanda.",
-    "example": "A elasticidade do AWS Auto Scaling evita que o site caia em dias de promoção."
-  },
-  {
-    "term": "Embedding",
-    "translation": "Embedding / Incorporação",
-    "definition": "Representação de palavras ou objetos como vetores numéricos em modelos de IA.",
-    "example": "Os embeddings permitem que o modelo de IA entenda a similaridade entre palavras."
-  },
-  {
-    "term": "Emulation",
-    "translation": "Emulação",
-    "definition": "Processo de imitar o hardware ou software de um sistema em outro sistema diferente.",
-    "example": " la usei um emulador de Android para testar meu app no computador."
-  },
-  {
-    "term": "Encapsulation",
-    "translation": "Encapsulamento",
-    "definition": "Técnica de esconder os detalhes internos de uma classe e expor apenas o necessário via métodos.",
-    "example": "O encapsulamento protege os dados contra alterações indevidas de fora da classe."
-  },
-  {
-    "term": "Endianness",
-    "translation": "Endianness",
-    "definition": "A ordem em que os bytes de um dado são armazenados na memória (Big-endian ou Little-endian).",
-    "example": "A diferença de endianness pode causar erros ao transferir dados entre processadores diferentes."
-  },
-  {
-    "term": "Entity",
-    "translation": "Entidade",
-    "definition": "Um objeto único e identificável em um banco de dados ou modelo de domínio.",
-    "example": "No banco de dados, 'Usuario' é uma entidade com atributos como nome e e-mail."
-  },
-  {
-    "term": "Epoch",
-    "translation": "Época",
-    "definition": "Em IA, a quantidade de vezes que o conjunto completo de dados passa pela rede neural durante o treino.",
-    "example": "O modelo de IA foi treinado por 50 épocas para atingir a precisão desejada."
-  },
-  {
-    "term": "Epoch Time",
-    "translation": "Unix Epoch",
-    "definition": "Número de segundos decorridos desde 1 de janeiro de 1970, usado como padrão de data em sistemas.",
-    "example": "O timestamp do banco de dados está no formato Epoch Time."
-  },
-  {
-    "term": "Equivalence",
-    "translation": "Equivalência",
-    "definition": "Propriedade onde duas expressões ou valores são considerados iguais em termos de resultado.",
-    "example": "No teste de software, a partição de equivalência reduz o número de casos de teste."
-  },
-  {
-    "term": "Escape",
-    "translation": "Escape / Caractere de Escape",
-    "definition": "Sequência de caracteres usada para inserir símbolos que teriam significados especiais no código.",
-    "example": "Usei \\n para criar uma nova linha dentro de uma string."
-  },
-  {
-    "term": "Estimation",
-    "translation": "Estimativa",
-    "definition": "Previsão do tempo ou esforço necessário para completar uma tarefa de desenvolvimento.",
-    "example": "A estimativa para a criação do módulo de login é de 8 horas de trabalho."
-  },
-  {
-    "term": "Euclidean distance",
-    "translation": "Distância Euclidiana",
-    "definition": "Cálculo da distância em linha reta entre dois pontos, muito usado em algoritmos de Clustering.",
-    "example": "K-means utiliza a distância euclidiana para agrupar pontos similares."
-  },
-  {
-    "term": "Eventual Consistency",
-    "translation": "Consistência Eventual",
-    "definition": "Modelo onde os dados serão consistentes em todos os nós do sistema após algum tempo.",
-    "example": "O DNS possui consistência eventual; a mudança demora a propagar globalmente."
-  },
-  {
-    "term": "EVM (Ethereum Virtual Machine)",
-    "translation": "Máquina Virtual Ethereum",
-    "definition": "O motor que executa contratos inteligentes na blockchain do Ethereum.",
-    "example": "A EVM permite que a mesma dApp rode em várias redes compatíveis."
-  },
-  {
-    "term": "Exact match",
-    "translation": "Correspondência Exata",
-    "definition": "Busca que retorna resultados apenas se o termo for idêntico ao pesquisado, sem variações.",
-    "example": "A busca por 'iPhone 13' em correspondência exata não retorna 'iPhone 14'."
-  },
-  {
-    "term": "Exception handling",
-    "translation": "Tratamento de Exceções",
-    "definition": "Prática de prever erros e criar fluxos para que o sistema não trave quando eles ocorrerem.",
-    "example": "Um bom tratamento de exceções exibe uma mensagem amigável em vez de um erro técnico."
-  },
-  {
-    "term": "Execution",
-    "translation": "Execução",
-    "definition": "O processo de rodar as instruções de um programa no processador.",
-    "example": "A execução do script levou apenas 2 milissegundos."
-  },
-  {
-    "term": "Exponent",
-    "translation": "Expoente",
-    "definition": "Número que indica quantas vezes a base deve ser multiplicada por si mesma.",
-    "example": "A complexidade de tempo O(2^n) possui um crescimento exponencial."
-  },
+  { "term": "Abstract Class", "translation": "Classe Abstrata", "definition": "Uma classe que não pode ser instanciada e serve apenas como modelo para outras classes.", "example": "A classe 'Animal' é abstrata; você cria 'Cachorro' que herda dela." },
+  { "term": "ACK (Acknowledgment)", "translation": "Confirmação de Recebimento", "definition": "Sinal enviado em redes de computadores para confirmar que um pacote de dados foi recebido.", "example": "O protocolo TCP usa ACK para garantir que os dados chegaram ao destino." },
+  { "term": "Adware", "translation": "Software de Publicidade", "definition": "Software projetado para exibir anúncios no computador do usuário, geralmente sem consentimento.", "example": "Muitos navegadores gratuitos instalam adware para se monetizar." },
+  { "term": "Agile", "translation": "Ágil", "definition": "Metodologia de desenvolvimento de software focada em entregas rápidas e ciclos iterativos.", "example": "O Scrum é um dos frameworks mais populares da metodologia Agile." },
+  { "term": "Algorithm", "translation": "Algoritmo", "definition": "Uma sequência finita de passos lógicos para resolver um problema ou realizar uma tarefa.", "example": "O algoritmo de busca do Google analisa bilhões de páginas em milissegundos." },
+  { "term": "API (Application Programming Interface)", "translation": "Interface de Programação de Aplicações", "definition": "Conjunto de regras e protocolos que permite que softwares diferentes se comuniquem.", "example": "O app de clima usa a API do Weather Channel para obter dados." },
+  { "term": "Array", "translation": "Vetor / Matriz", "definition": "Estrutura de dados que armazena múltiplos valores do mesmo tipo em posições sequenciais.", "example": "Use um array para guardar a lista de nomes de todos os usuários." },
+  { "term": "Async (Asynchronous)", "translation": "Assíncrono", "definition": "Operação que permite que o programa continue executando outras tarefas enquanto espera um resultado.", "example": "O 'async/await' no JavaScript evita que a página trave enquanto carrega dados." },
+  { "term": "Authentication", "translation": "Autenticação", "definition": "Processo de verificar a identidade de um usuário, geralmente via senha ou biometria.", "example": "A autenticação de dois fatores (2FA) adiciona uma camada extra de segurança." },
+  { "term": "Authorization", "translation": "Autorização", "definition": "Processo de verificar se um usuário autenticado tem permissão para acessar um recurso específico.", "example": "O usuário está autenticado, mas não tem autorização para acessar a página de Admin." },
+  { "term": "Autoscale", "translation": "Escalonamento Automático", "definition": "Capacidade de um sistema de ajustar automaticamente a quantidade de recursos conforme a demanda.", "example": "O servidor de nuvem faz autoscale durante a Black Friday para aguentar o tráfego." },
+  { "term": "AutoML", "translation": "Machine Learning Automatizado", "definition": "Processo de automatizar as etapas de design de modelos de IA, desde a escolha do algoritmo até o tuning.", "example": "O AutoML permite que analistas criem modelos de previsão sem escrever código complexo." },
+  { "term": "AWS (Amazon Web Services)", "translation": "Amazon Web Services", "definition": "A maior plataforma de serviços de nuvem do mundo, oferecendo computação, storage e banco de dados.", "example": "Hospedamos nossa aplicação de e-commerce na AWS." },
+  { "term": "Azure", "translation": "Azure", "definition": "Plataforma de computação em nuvem da Microsoft para construção, implantação e gerenciamento de aplicações.", "example": " la utilizei o Azure Active Directory para gerenciar os acessos da empresa." },
+  { "term": "Azure DevOps", "translation": "Azure DevOps", "definition": "Suíte de ferramentas para gerenciar o ciclo de vida do software, incluindo boards, repositórios e pipelines.", "example": "Usamos o Azure DevOps para controlar as sprints do time." },
+  { "term": "Agile Manifesto", "translation": "Manifesto Ágil", "definition": "Documento fundamental que define os valores e princípios do desenvolvimento de software ágil.", "example": "O Manifesto Ágil prioriza indivíduos e interações acima de processos e ferramentas." },
+  { "term": "Active Directory", "translation": "Diretório Ativo", "definition": "Serviço de diretório da Microsoft que armazena informações sobre usuários e computadores em uma rede.", "example": "O Active Directory centraliza a gestão de senhas de todos os funcionários." },
+  { "term": "API Gateway", "translation": "Gateway de API", "e-definition": "Servidor que atua como ponto único de entrada para várias APIs, gerenciando tráfego e segurança.", "example": "O API Gateway faz a autenticação antes de repassar a requisição para os microserviços." },
+  { "term": "API REST", "translation": "API REST", "definition": "Estilo de arquitetura de API que utiliza os métodos do HTTP (GET, POST, PUT, DELETE).", "example": "A maioria das aplicações web modernas consome APIs REST." },
+  { "term": "API SOAP", "translation": "API SOAP", "definition": "Protocolo de comunicação baseado em XML, mais rígido e seguro que o REST, comum em sistemas bancários.", "example": "Sistemas legados de grandes empresas ainda utilizam APIs SOAP." },
+  { "term": "Application Server", "translation": "Servidor de Aplicação", "definition": "Software que fornece o ambiente para que aplicações rodem, lidando com transações e segurança.", "example": "O Tomcat é um exemplo popular de servidor de aplicação para Java." },
+  { "term": "Asset", "translation": "Ativo / Recurso", "definition": "Qualquer arquivo externo usado em um projeto, como imagens, fontes, ícones ou vídeos.", "example": "Otimizei todos os assets do site para diminuir o tempo de carregamento." },
+  { "term": "Assembly", "translation": "Assembly", "definition": "Linguagem de programação de baixo nível que representa quase diretamente o código de máquina.", "example": "Programar em Assembly permite controle total sobre o hardware, mas é muito complexo." },
+  { "term": "AST (Abstract Syntax Tree)", "translation": "Árvore de Sintaxe Abstrata", "definition": "Representação em árvore da estrutura hierárquica de um código-fonte, usada por compiladores.", "example": "O Babel usa a AST para transformar código JS moderno em versões antigas." },
+  { "term": "Attenuation", "translation": "Atenuação", "definition": "A perda de força de um sinal elétrico ou óptico à medida que ele percorre um cabo.", "example": "Cabos de rede muito longos sofrem de atenuação, reduzindo a velocidade da internet." },
+  { "term": "Audit", "translation": "Auditoria", "definition": "Processo de revisar logs e configurações para garantir que o sistema segue regras de segurança.", "example": "A auditoria de segurança revelou que algumas senhas estavam salvas em texto puro." },
+  { "term": "Availability", "translation": "Disponibilidade", "definition": "A medida de quanto tempo um sistema permanece operacional e acessível aos usuários.", "example": "A disponibilidade de 99.99% significa que o site quase nunca fica offline." },
+  { "term": "Axiom", "translation": "Axioma", "definition": "Uma premissa aceita como verdadeira sem necessidade de prova, usada como base para lógica computacional.", "example": "A lógica booleana baseia-se em axiomas fundamentais de verdadeiro e falso." },
+  { "term": "Azure Functions", "translation": "Azure Functions", "definition": "Serviço de computação serverless da Microsoft para executar código baseado em eventos.", "example": "Criei uma Azure Function para redimensionar imagens automaticamente." },
+  { "term": "Amdahl's Law", "translation": "Lei de Amdahl", "definition": "Fórmula que calcula o ganho de performance máximo que se pode obter ao paralelizar parte de um sistema.", "example": "A Lei de Amdahl mostra que adicionar mais CPUs não resolve tudo se houver uma parte sequencial no código." },
+
+  { "term": "Backend", "translation": "Bastidores / Lógica do Servidor", "definition": "A parte do software que lida com banco de dados, autenticação e lógica de negócio.", "example": "O Node.js é muito utilizado para construir o backend de aplicações." },
+  { "term": "Bandwidth", "translation": "Largura de Banda", "definition": "A quantidade máxima de dados que pode ser transmitida por uma conexão de rede em um tempo determinado.", "example": "Se a largura de banda for baixa, o vídeo do YouTube começará a travar." },
+  { "term": "Binary", "translation": "Binário", "definition": "Sistema numérico de base 2 (0 e 1), que é a linguagem fundamental dos computadores.", "example": "Arquivos executáveis são armazenados em formato binário." },
+  { "term": "Bit", "translation": "Bit", "definition": "A menor unidade de informação em computação, podendo ser 0 ou 1.", "example": "Oito bits formam um Byte." },
+  { "term": "Boolean", "translation": "Booleano", "definition": "Tipo de dado que pode assumir apenas dois valores: verdadeiro (true) ou falso (false).", "example": "A variável 'estaLogado' é um booleano." },
+  { "term": "Bot", "translation": "Robô", "definition": "Programa automatizado que executa tarefas repetitivas na internet.", "example": "O bot do Telegram pode enviar notificações automáticas para o usuário." },
+  { "term": "Breakpoint", "translation": "Ponto de Interrupção", "definition": "No CSS, é o ponto onde o layout muda para se adaptar a telas menores (responsividade).", "example": "Configurei um breakpoint em 768px para mudar o menu para mobile." },
+  { "term": "Buffer", "translation": "Buffer / Memória Temporária", "definition": "Espaço de memória usado para armazenar dados temporariamente enquanto são movidos de um lugar para outro.", "example": "O vídeo está fazendo buffering, aguarde o carregamento." },
+  { "term": "Bus", "translation": "Barramento", "definition": "Caminho físico (fios) que transporta dados entre componentes do computador.", "example": "O barramento de dados conecta o processador à memória RAM." },
+  { "term": "Byte", "translation": "Byte", "definition": "Unidade de informação composta por 8 bits.", "example": "Um arquivo de texto simples de 1KB tem aproximadamente 1024 bytes." },
+  { "term": "BASH", "translation": "BASH", "definition": "Shell Unix padrão, usado para escrever scripts e interagir com o terminal do Linux.", "example": "Usei um script BASH para automatizar o backup do servidor." },
+  { "term": "BCD (Binary Coded Decimal)", "translation": "Decimal Codificado em Binário", "definition": "Forma de representar números decimais onde cada dígito é codificado por 4 bits.", "example": "Sistemas de relógios digitais antigos usavam BCD." },
+  { "term": "BGP (Border Gateway Protocol)", "translation": "Protocolo de Gateway de Borda", "e-definition": "O protocolo que decide a melhor rota para os pacotes de dados viajarem pela internet global.", "example": "Um erro de configuração no BGP pode derrubar a internet de países inteiros." },
+  { "term": "Big Data", "translation": "Big Data", "definition": "Conjuntos de dados tão volumosos e complexos que softwares de banco de dados tradicionais não conseguem processá-los.", "example": "O Big Data permite que empresas analisem bilhões de transações para prever tendências." },
+  { "term": "BIOS (Basic Input/Output System)", "translation": "BIOS", "definition": "Firmware básico que inicializa o hardware do PC antes de carregar o sistema operacional.", "example": " la entrei na BIOS para mudar a ordem de boot para o pendrive." },
+  { "term": "Bitmask", "translation": "Máscara de Bits", "definition": "Uso de operações binárias (AND, OR, XOR) para extrair ou alterar bits específicos de um valor.", "example": "Usei uma bitmask para definir múltiplas permissões de usuário em um único número." },
+  { "term": "Bitrate", "translation": "Taxa de Bits", "definition": "A quantidade de dados processados por unidade de tempo em um arquivo de áudio ou vídeo.", "example": "Um bitrate alto melhora a qualidade do som, mas aumenta o tamanho do arquivo." },
+  { "term": la "Bitshift", "translation": "Deslocamento de Bits", "definition": "Operação que move os bits de um número para a esquerda ou direita, multiplicando ou dividindo por potências de 2.", "example": "O bitshift é usado em computação gráfica para otimizar cálculos de cores." },
+  { "term": "BogoSort", "translation": "BogoSort", "definition": "Um algoritmo de ordenação ineficiente que embaralha a lista aleatoriamente até que ela esteja ordenada por sorte.", "example": "O BogoSort é usado academicamente para mostrar como NÃO fazer um algoritmo." },
+  { "term": "Bootloader", "translation": "Carregador de Inicialização", "definition": "O primeiro software que roda ao ligar o PC, responsável por carregar o Kernel do SO na memória.", "example": "O GRUB é o bootloader mais comum em distribuições Linux." },
+  { "term": "Boolean Algebra", "translation": "Álgebra Booleana", "definition": "Sistema matemático de lógica baseado em verdadeiro/falso, fundamental para a criação de circuitos digitais.", "example": "A álgebra booleana permite simplificar expressões lógicas complexas em circuitos." },
+  { "term": "Bottleneck", "translation": "Gargalo", "definition": "O componente mais lento de um sistema que limita a performance de todo o conjunto.", "example": "Meu processador é potente, mas o HD lento é o bottleneck do meu computador." },
+  { "term": "Bouncy Castle", "translation": "Bouncy Castle", "definition": "Uma biblioteca de criptografia robusta para Java e C#.", "example": "Usei a Bouncy Castle para implementar a assinatura digital de documentos." },
+  { "term": "B-tree", "translation": "Árvore B", "definition": "Estrutura de dados balanceada usada principalmente em sistemas de arquivos e bancos de dados para buscas rápidas.",
+    "example": "O índice do MySQL usa Árvores B para encontrar registros em milissegundos."
+  },
+  { "term": "Bubble Sort", "translation": "Ordenação por Bolha", "definition": "Algoritmo simples de ordenação que percorre a lista repetidamente trocando elementos adjacentes.", "example": "O Bubble Sort é didático, mas lento demais para listas grandes." },
+  { "term": "Bug", "translation": "Bug / Erro", "definition": "Uma falha ou defeito no código que faz com que o software se comporte de maneira inesperada.", "example": "Encontrei um bug que fazia o botão de salvar desaparecer em telas pequenas." },
+  { "term": "Build", "translation": "Build / Construção", "definition": "O processo de transformar o código-fonte em um arquivo executável ou site pronto para produção.", "example": "A Vercel automatiza o build do meu projeto Next.js." },
+  { "term": "Burn-in", "translation": "Burn-in", "definition": "Teste de estresse onde o hardware é operado em carga máxima por um tempo para detectar falhas precoces.", "example": "O servidor passou pelo teste de burn-in antes de ser instalado no rack." },
+  { "term": "Bytecode", "e-definition": "Código intermediário entre o código-fonte e a linguagem de máquina, executado por uma máquina virtual.", "example": "O Java compila o código para bytecode, que é então lido pela JVM." },
+
+  { "term": "Cache", "translation": "Cache", "definition": "Memória ultra-rápida que armazena cópias de dados frequentes para acelerar o acesso.", "example": "Limpar o cache do navegador pode resolver problemas de exibição de sites." },
+  { "term": "Cloud Computing", "translation": "Computação em Nuvem", "definition": "Entrega de serviços de computação (servidores, storage, banco de dados) via internet.", "example": "AWS e Azure são as maiores plataformas de Cloud Computing do mundo." },
+  { "term": "Code Review", "translation": "Revisão de Código", "definition": "Processo onde desenvolvedores examinam o código de colegas para encontrar erros e sugerir melhorias.", "example": "O Pull Request só é aprovado após o Code Review do líder técnico." },
+  { "term": "Compiler", "translation": "Compilador", "definition": "Programa que traduz código de alto nível (como C++) para linguagem de máquina.", "example": "O compilador do Java transforma o código .java em bytecode." },
+  { "term": "CPU (Central Processing Unit)", "translation": "Unidade Central de Processamento", "definition": "O 'cérebro' do computador, responsável por executar as instruções dos programas.", "example": "Um processador com mais núcleos de CPU pode realizar mais tarefas simultâneas." },
+  { "term": "CSS (Cascading Style Sheets)", "translation": "Folhas de Estilo em Cascata", "definition": "Linguagem usada para definir a aparência e o design de páginas web.", "example": "Usei CSS para mudar a cor de fundo do site para azul escuro." },
+  { "term": "CORS (Cross-Origin Resource Sharing)", "translation": "Compartilhamento de Recursos de Origem Cruzada", "definition": "Mecanismo de segurança que restringe requisições HTTP entre domínios diferentes.", "example": "Recebi um erro de CORS ao tentar conectar meu frontend ao backend em domínios diferentes." },
+  { "term": "Commit", "translation": "Confirmar / Gravar Alterações", "definition": "No Git, é o ato de salvar as mudanças feitas no código em um snapshot do repositório.", "example": "Lembre-se de fazer o commit das alterações antes de enviar para o GitHub." },
+  { "term": "Component", "translation": "Componente", "definition": "Parte reutilizável da interface de usuário (UI) que possui sua própria lógica e estilo.", "example": "Criei um componente de 'Botão' que é usado em todo o site." },
+  { "term": "Constant", "translation": "Constante", "definition": "Um valor que não muda durante a execução do programa.", "example": "Defini a constante PI como 3.1415." },
+  { "term": "Context", "translation": "Contexto", "definition": "Informações ambientais que permitem que um programa saiba onde está e o que está fazendo.", "example": "O Context API do React permite passar dados entre componentes sem precisar de props." },
+  { "term": "Cookie", "translation": "Cookie", "definition": "Pequeno arquivo de texto armazenado no navegador para lembrar preferências do usuário.", "example": "O site usa cookies para manter você logado após fechar a aba." },
+  { "term": "Core", "translation": "Núcleo", "definition": "Unidade de processamento independente dentro de uma CPU.", "example": "Meu processador é Quad-Core, ou seja, possui quatro núcleos." },
+  { "term": "Crash", "translation": "Travamento / Queda", "definition": "Falha repentina de um software que faz com que ele pare de responder ou feche sozinho.", "example": "O app sofreu um crash após a última atualização do sistema." },
+  { "term": "CUDA", "translation": "Compute Unified Device Architecture", "definition": "Plataforma de computação paralela criada pela NVIDIA para usar a GPU em cálculos.", "example": "Treinar modelos de IA é muito mais rápido usando núcleos CUDA." },
+  { "term": "CLI (Command Line Interface)", "translation": "Interface de Linha de Comando", "definition": "Interface baseada em texto onde o usuário digita comandos para interagir com o sistema.", "example": "O terminal do Linux é a CLI mais famosa." },
+  { "term": "Callback", "translation": "Função de Retorno", "definition": "Uma função que é passada como argumento para outra função e executada após um evento.", "example": "O callback é disparado assim que o download do arquivo termina." },
+  { "term": "Canonical URL", "translation": "URL Canônica", "definition": "A URL preferencial de uma página para evitar conteúdo duplicado nos motores de busca.", "example": "Usei a tag canonical para indicar ao Google qual versão da página é a principal." },
+  { "term": "Cast", "translation": "Conversão de Tipo", "definition": "Ato de converter um dado de um tipo para outro (ex: de string para número).", "example": "Preciso fazer o cast do valor do input para 'int' para fazer o cálculo." },
+  { "term": "Class", "translation": "Classe", "definition": "Molde ou blueprint para criar objetos em programação orientada a objetos.", "example": "A classe 'Carro' define que todo carro tem cor, marca e modelo." },
+  { "term": "Cluster", "translation": "Cluster / Agrupamento", "definition": "Conjunto de computadores interconectados que trabalham juntos como se fossem um único sistema.", "example": "Usamos um cluster de Kubernetes para garantir a alta disponibilidade do app." },
+  { "term": "Client", "translation": "Cliente", "definition": "Software ou dispositivo que solicita serviços de um servidor.", "example": "O navegador Chrome atua como o cliente em uma requisição HTTP." },
+  { "term": "Cloud-native", "translation": "Nativo da Nuvem", "definition": "Aplicações projetadas especificamente para rodar em ambientes de nuvem, usando microserviços.", "example": "Sistemas cloud-native escalam automaticamente conforme a demanda cresce." },
+  { "term": "Concurrency", "translation": "Concorrência", "definition": "Capacidade de um sistema de lidar com múltiplas tarefas ao mesmo tempo.", "example": "O Go é famoso por sua alta concorrência usando Goroutines." },
+  { "term": "C-sharp (C#)", "translation": "C-sharp", "definition": "Linguagem de programação moderna e orientada a objetos desenvolvida pela Microsoft.", "example": "C# é a linguagem principal para criar jogos na Unity." },
+  { "term": "Cyclomatic Complexity", "translation": "Complexidade Ciclomática", "definition": "Medida de quantas caminhos independentes existem no código, usada para medir a dificuldade de teste.", "example": "Uma função com alta complexidade ciclomática é mais propensa a bugs." },
+  { "term": "Cold Start", "translation": "Início a Frio", "definition": "O atraso que ocorre quando uma função serverless é chamada pela primeira vez após um tempo de inatividade.", "example": "O cold start do AWS Lambda pode adicionar alguns segundos à primeira requisição." },
+  { "term": "Condition", "translation": "Condição", "definition": "Expressão booleana usada em estruturas de controle (como if/else) para decidir qual caminho o código seguirá.", "example": "Se a condição 'usuarioLogado' for verdadeira, exiba o botão de sair." },
+  { "term": "Container", "translation": "Container", "definition": "Pacote leve que inclui tudo o que a aplicação precisa para rodar, isolando-a do sistema operacional.", "example": " la usei Docker para criar um container com Node.js e MongoDB." },
+  { "term": "Cross-platform", "translation": "Multiplataforma", "definition": "Software que pode ser executado em diferentes sistemas operacionais (Windows, macOS, Linux).", "example": "O VS Code é um editor cross-platform." },
+
+  { "term": "Data", "translation": "Dados", "definition": "Informações brutas processadas ou armazenadas por um computador.", "example": "A análise de dados revelou que a maioria dos usuários acessa o site via mobile." },
+  { "term": "Database", "translation": "Banco de Dados", "definition": "Coleção organizada de informações estruturadas que podem ser facilmente acessadas e manipuladas.", "example": "O PostgreSQL é um banco de dados relacional muito robusto." },
+  { "term": "Debug", "translation": "Depuração", "definition": "Processo de encontrar e corrigir erros (bugs) no código de um software.", "example": "Passei a manhã inteira fazendo debug para descobrir por que o botão não funcionava." },
+  { "term": "Deployment", "translation": "Implantação / Deploy", "definition": "Processo de mover o código do ambiente de desenvolvimento para o ambiente de produção.", "example": "O deployment do novo recurso será feito na sexta-feira às 22h." },
+  { "term": "DevOps", "translation": "Desenvolvimento e Operações", "definition": "Cultura que integra as equipes de desenvolvimento e operações para acelerar a entrega de software.", "example": "Implementar CI/CD é um dos pilares fundamentais do DevOps." },
+  { "term": "Dependency", "translation": "Dependência", "definition": "Uma biblioteca ou módulo externo necessário para que um projeto funcione.", "example": "O React é a principal dependência do meu projeto frontend." },
+  { "term": "Docker", "translation": "Docker", "definition": "Plataforma de virtualização baseada em containers para empacotar aplicações e suas dependências.", "example": "Usei Docker para garantir que o app rode igual no meu PC e no servidor." },
+  { "term": "Domain", "translation": "Domínio", "definition": "Endereço exclusivo na internet que aponta para o endereço IP de um servidor.", "example": "O domínio 'google.com' é resolvido pelo DNS para um IP específico." },
+  { "term": "DNS (Domain Name System)", "translation": "Sistema de Nomes de Domínio", "definition": "Serviço que traduz nomes de domínios legíveis (ex: site.com) em endereços IP.", "example": "O DNS é como a lista de contatos do seu telefone para a internet." },
+  { "term": "Decimal", "translation": "Decimal", "definition": "Tipo de dado numérico que permite casas decimais com alta precisão.", "example": "Para cálculos financeiros, use o tipo Decimal em vez de Float." },
+  { "term": "Decryption", "translation": "Descriptografia", "definition": "Processo de converter dados criptografados de volta ao seu formato original legível.", "example": "A chave privada é usada para a descriptografia das mensagens recebidas." },
+  { "term": "Default", "translation": "Padrão", "definition": "Valor ou configuração pré-definida que é usada quando o usuário não escolhe outra opção.", "example": "O valor default da fonte do navegador geralmente é Times New Roman." },
+  { "term": "Dependency Injection", "translation": "Injeção de Dependência", "definition": "Técnica de design onde um objeto recebe as dependências que precisa em vez de criá-las internamente.", "example": "A injeção de dependência facilita a criação de testes unitários (mocks)." },
+  { "term": "De-serialization", "translation": "Desserialização", "definition": "Processo de converter um fluxo de bytes ou string (como JSON) de volta em um objeto de código.", "example": "O frontend faz a desserialização do JSON recebido da API para exibir os dados." },
+  { "term": "Design Pattern", "translation": "Padrão de Projeto", "definition": "Soluções generalizadas e reutilizáveis para problemas comuns de arquitetura de software.", "example": "O padrão Singleton garante que uma classe tenha apenas uma instância no sistema." },
+  { "term": "Deterministic", "translation": "Determinístico", "definition": "Um algoritmo que, para a mesma entrada, sempre produzirá exatamente a mesma saída.", "example": "A ordenação de um array por valor é um processo determinístico." },
+  { "term": "DevX (Developer Experience)", "translation": "Experiência do Desenvolvedor", "definition": "A qualidade da interação de um desenvolvedor com as ferramentas, documentação e APIs de um projeto.", "example": "Uma boa documentação melhora significativamente a DevX." },
+  { "term": "Diff", "translation": "Diferença (Diff)", "definition": "Comparação entre dois arquivos ou versões de código para mostrar o que foi alterado.", "example": "Usei o comando 'git diff' para ver as linhas que eu mudei no arquivo." },
+  { "term": "Digital Signature", "translation": "Assinatura Digital", "definition": "Mecanismo matemático usado para verificar a autenticidade e integridade de uma mensagem digital.", "example": "Certificados SSL utilizam assinaturas digitais para provar a identidade do site." },
+  { "term": "Direct Access", "translation": "Acesso Direto", "definition": "Método de ler dados de um disco sem precisar passar por todos os registros anteriores.", "example": "Bancos de dados indexados permitem o acesso direto ao registro desejado." },
+  { "term": "Dispatch", "translation": "Despacho", "definition": "No Redux, é a ação de enviar um evento para o store para atualizar o estado da aplicação.", "example": "Usei o dispatch para atualizar o carrinho de compras do usuário." },
+  { "term": "Distribution", "translation": "Distribuição (Distro)", "definition": "Versão customizada de um sistema operacional (comumente usado para Linux).", "example": "Ubuntu e Fedora são distribuições Linux populares." },
+  { "term": "Deadlock", "translation": "Impasse / Deadlock", "definition": "Situação onde dois ou mais processos ficam esperando um ao outro liberar um recurso, travando o sistema.", "example": "O sistema entrou em deadlock e precisamos reiniciar o banco de dados." },
+  { "term": "Data Lake", "translation": "Lago de Dados", "definition": "Repositório massivo que armazena dados em seu formato bruto (estruturados ou não) antes do processamento.", "example": "A empresa usa um Data Lake para armazenar todos os logs de cliques dos usuários." },
+  { "term": "Data Mining", "translation": "Mineração de Dados", "definition": "Processo de descobrir padrões e anomalias em grandes conjuntos de dados para prever tendências.", "example": "Através do data mining, descobrimos que clientes de fraldas também compram cerveja." },
+  { "term": "Deep Learning", "translation": "Aprendizado Profundo", "definition": "Subcampo da IA que usa redes neurais com muitas camadas para aprender representações complexas de dados.", "example": "O Deep Learning é o que permite que o ChatGPT entenda contextos complexos." },
+  { "term": "Dependency Hell", "translation": "Inferno de Dependências", "definition": "Situação onde as dependências de um projeto conflitam entre si, tornando impossível a atualização do software.", "example": "Tive um dependency hell ao tentar instalar três bibliotecas que exigiam versões diferentes do React." },
+  { "term": "Dithering", "translation": "Dithering", "definition": "Técnica de processamento de imagem para simular cores que não existem na paleta original através de pontos.", "example": "O dithering é usado em GIFs para melhorar a aparência de degradês com poucas cores." },
+  { "term": "Double", "translation": "Double (Precisão Dupla)", "definition": "Tipo de dado numérico de 64 bits que permite maior precisão decimal que o float.", "example": "Usei o tipo double para calcular a trajetória de um foguete com precisão milimétrica." },
+
+  { "term": "Edge Computing", "translation": "Computação de Borda", "definition": "Processamento de dados realizado perto da fonte de origem, em vez de em um servidor centralizado.", "example": "A Vercel Edge Network processa requisições mais perto do usuário final." },
+  { "term": "Encryption", "translation": "Criptografia", "definition": "Processo de codificar informações para que apenas pessoas autorizadas possam lê-las.", "example": "O WhatsApp usa criptografia de ponta-a-ponta para proteger as conversas." },
+  { "term": "Endpoint", "translation": "Ponto de Extremidade / Endpoint", "definition": "A URL específica de uma API onde um recurso pode ser acessado.", "example": "O endpoint /api/users retorna a lista de todos os usuários." },
+  { "term": "Engine", "translation": "Engine / Motor", "definition": "Núcleo de um software que realiza as tarefas principais (ex: motor de renderização, motor de jogo).", "example": "A Unreal Engine é usada para criar jogos com gráficos ultra-realistas." },
+  { "term": "Environment", "translation": "Ambiente", "definition": "Configurações de software e hardware onde o código é executado (ex: Local, Staging, Produção).", "example": "O erro aconteceu apenas no ambiente de produção, não no local." },
+  { "term": "Event", "translation": "Evento", "definition": "Uma ação ou ocorrência detectada pelo programa, como um clique do mouse ou tecla pressionada.", "example": "O evento 'onClick' dispara a função de envio do formulário." },
+  { "term": "Exception", "translation": "Exceção", "definition": "Um erro que ocorre durante a execução de um programa e interrompe o fluxo normal.", "example": "Usei um bloco try-catch para capturar a exceção de conexão com o banco." },
+  { "term": "Executable", "translation": "Executável", "definition": "Arquivo que contém instruções que o computador pode executar diretamente.", "example": "O arquivo .exe no Windows é um formato de arquivo executável." },
+  { "term": "Expression", "translation": "Expressão", "definition": "Uma combinação de valores, variáveis e operadores que são avaliados para gerar um resultado.", "example": "A expressão '2 + 2' resulta no valor 4." },
+  { "term": "Export", "translation": "Exportar", "definition": "Tornar uma função, classe ou variável disponível para ser usada em outros arquivos do projeto.", "example": "Usei 'export default' para exportar a página principal do Next.js." },
+  { "term": "Extract", "translation": "Extrair", "definition": "Ato de retirar dados de uma fonte ou descompactar arquivos de um arquivo zip.", "example": "O processo de ETL começa ao extrair dados de várias planilhas." },
+  { "term": "Egress", "translation": "Saída de Dados (Egress)", "definition": "O tráfego de rede que sai de uma rede interna para a internet.", "example": "A AWS cobra taxas baseadas no volume de egress de dados." },
+  { "term": "Elasticity", "translation": "Elasticidade", "definition": "Capacidade de um sistema de nuvem de aumentar ou diminuir recursos automaticamente conforme a demanda.", "example": "A elasticidade do AWS Auto Scaling evita que o site caia em dias de promoção." },
+  { "term": "Embedding", "translation": "Embedding / Incorporação", "definition": "Representação de palavras ou objetos como vetores numéricos em modelos de IA.", "example": "Os embeddings permitem que o modelo de IA entenda a similaridade entre palavras." },
+  { "term": "Emulation", "translation": "Emulação", "definition": "Processo de imitar o hardware ou software de um sistema em outro sistema diferente.", "example": " la usei um emulador de Android para testar meu app no computador." },
+  { "term": "Encapsulation", "translation": "Encapsulamento", "definition": "Técnica de esconder os detalhes internos de uma classe e expor apenas o necessário via métodos.", "example": "O encapsulamento protege os dados contra alterações indevidas de fora da classe." },
+  { "term": "Endianness", "translation": "Endianness", "definition": "A ordem em que os bytes de um dado são armazenados na memória (Big-endian ou Little-endian).", "example": "A diferença de endianness pode causar erros ao transferir dados entre processadores diferentes." },
+  { "term": "Entity", "translation": "Entidade", "definition": "Um objeto único e identificável em um banco de dados ou modelo de domínio.", "example": "No banco de dados, 'Usuario' é uma entidade com atributos como nome e e-mail." },
+  { "term": "Epoch", "translation": "Época", "definition": "Em IA, a quantidade de vezes que o conjunto completo de dados passa pela rede neural durante o treino.", "example": "O modelo de IA foi treinado por 50 épocas para atingir a precisão desejada." },
+  { "term": "Epoch Time", "translation": "Unix Epoch", "definition": "Número de segundos decorridos desde 1 de janeiro de 1970, usado como padrão de data em sistemas.", "example": "O timestamp do banco de dados está no formato Epoch Time." },
+  { "term": "Equivalence", "translation": "Equivalência", "definition": "Propriedade onde duas expressões ou valores são considerados iguais em termos de resultado.", "example": "No teste de software, a partição de equivalência reduz o número de casos de teste." },
+  { "term": "Escape", "translation": "Escape / Caractere de Escape", "definition": "Sequência de caracteres usada para inserir símbolos que teriam significados especiais no código.", "example": "Usei \\n para criar uma nova linha dentro de uma string." },
+  { "term": "Estimation", "translation": "Estimativa", "definition": "Previsão do tempo ou esforço necessário para completar uma tarefa de desenvolvimento.", "example": "A estimativa para a criação do módulo de login é de 8 horas de trabalho." },
+  { "term": "Euclidean distance", "translation": "Distância Euclidiana", "definition": "Cálculo da distância em linha reta entre dois pontos, muito usado em algoritmos de Clustering.", "example": "K-means utiliza a distância euclidiana para agrupar pontos similares." },
+  { "term": "Eventual Consistency", "translation": "Consistência Eventual", "definition": "Modelo onde os dados serão consistentes em todos os nós do sistema após algum tempo.", "example": "O DNS possui consistência eventual; a mudança demora a propagar globalmente." },
+  { "term": "EVM (Ethereum Virtual Machine)", "translation": "Máquina Virtual Ethereum", "definition": "O motor que executa contratos inteligentes na blockchain do Ethereum.", "example": "A EVM permite que a mesma dApp rode em várias redes compatíveis." },
+  { "term": "Exact match", "translation": "Correspondência Exata", "definition": "Busca que retorna resultados apenas se o termo for idêntico ao pesquisado, sem variações.", "example": "A busca por 'iPhone 13' em correspondência exata não retorna 'iPhone 14'." },
+  { "term": "Exception handling", "translation": "Tratamento de Exceções", "definition": "Prática de prever erros e criar fluxos para que o sistema não trave quando eles ocorrerem.", "example": "Um bom tratamento de exceções exibe uma mensagem amigável em vez de um erro técnico." },
+  { "term": "Execution", "translation": "Execução", "definition": "O processo de rodar as instruções de um programa no processador.", "example": "A execução do script levou apenas 2 milissegundos." },
+  { "term": "Exponent", "translation": "Expoente", "definition": "Número que indica quantas vezes a base deve ser multiplicada por si mesma.", "example": "A complexidade de tempo O(2^n) possui um crescimento exponencial." }
+]
+
   {
     "term": "Face Recognition",
     "translation": "Reconhecimento Facial",
