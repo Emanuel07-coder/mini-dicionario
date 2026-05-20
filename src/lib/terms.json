@@ -153,714 +153,164 @@
   { "term": "Exception handling", "translation": "Tratamento de Exceções", "definition": "Prática de prever erros e criar fluxos para que o sistema não trave quando eles ocorrerem.", "example": "Um bom tratamento de exceções exibe uma mensagem amigável em vez de um erro técnico." },
   { "term": "Execution", "translation": "Execução", "definition": "O processo de rodar as instruções de um programa no processador.", "example": "A execução do script levou apenas 2 milissegundos." },
   { "term": "Exponent", "translation": "Expoente", "definition": "Número que indica quantas vezes a base deve ser multiplicada por si mesma.", "example": "A complexidade de tempo O(2^n) possui um crescimento exponencial." },
-  {
-    "term": "Face Recognition",
-    "translation": "Reconhecimento Facial",
-    "definition": "Tecnologia de biometria que identifica ou verifica uma pessoa através de imagens do rosto.",
-    "example": "O iPhone utiliza Face ID para desbloquear a tela com segurança."
-  },
-  {
-    "term": "Facade Pattern",
-    "translation": "Padrão Fachada",
-    "definition": "Padrão de projeto que fornece uma interface simplificada para um sistema complexo de classes.",
-    "example": "A Facade esconde a complexidade de várias APIs internas atrás de um único método simples."
-  },
-  {
-    "term": "Failover",
-    "translation": "Recuperação de Falhas",
-    "definition": "Processo de alternância automática para um servidor redundante quando o servidor principal falha.",
-    "example": "O sistema de failover garantiu que o site não caísse quando o banco de dados principal travou."
-  },
-  {
-    "term": "Fake Data",
-    "translation": "Dados Falsos / Mockados",
-    "definition": "Dados simulados usados para testar aplicações antes de ter acesso aos dados reais.",
-    "example": "Usei a biblioteca Faker para gerar 100 usuários falsos e testar a paginação."
-  },
-  {
-    "term": "FaaS (Function as a Service)",
-    "translation": "Função como Serviço",
-    "definition": "Modelo de computação em nuvem onde o desenvolvedor escreve apenas a função, e a nuvem cuida da infraestrutura.",
-    "example": "AWS Lambda é o exemplo mais famoso de FaaS."
-  },
-  {
-    "term": "Feature Flag",
-    "translation": "Bandeira de Recurso",
-    "definition": "Técnica que permite ativar ou desativar funcionalidades do software sem precisar de um novo deploy.",
-    "example": "Ativamos a Feature Flag do 'Modo Escuro' apenas para 10% dos usuários testarem."
-  },
-  {
-    "term": "Fetch API",
-    "translation": "API de Requisição",
-    "definition": "Interface moderna do JavaScript para fazer requisições HTTP assíncronas.",
-    "example": "Usei o fetch() para buscar os dados do dicionário no servidor."
-  },
-  {
-    "term": "Fiber",
-    "translation": "Fibra Óptica",
-    "definition": "Meio de transmissão que utiliza pulsos de luz para enviar dados em altíssima velocidade.",
-    "example": "A internet de fibra óptica reduziu drasticamente a latência do jogo."
-  },
-  {
-    "term": "Figma",
-    "translation": "Figma",
-    "definition": "Ferramenta de design colaborativa usada para criar interfaces de usuário (UI) e protótipos (UX).",
-    "example": "O designer enviou o link do Figma com as cores e fontes do projeto."
-  },
-  {
-    "term": "File System",
-    "translation": "Sistema de Arquivos",
-    "definition": "Método que o sistema operacional usa para organizar e gerenciar arquivos no disco.",
-    "example": "O NTFS é o sistema de arquivos padrão do Windows."
-  },
-  {
-    "term": "Filter",
-    "translation": "Filtro",
-    "definition": "Método de array que cria um novo array com todos os elementos que passaram em um teste lógico.",
-    "example": "Usei o .filter() para remover usuários inativos da lista."
-  },
-  {
-    "term": "Finalizer",
-    "translation": "Finalizador",
-    "definition": "Método executado logo antes de um objeto ser removido da memória pelo Garbage Collector.",
-    "example": "O finalizer fecha a conexão com o banco de dados antes do objeto ser deletado."
-  },
-  {
-    "term": "Firewall",
-    "translation": "Parede de Fogo / Firewall",
-    "definition": "Sistema de segurança que monitora e controla o tráfego de rede com base em regras de segurança.",
-    "example": "O firewall bloqueou o acesso à porta 80 para evitar ataques externos."
-  },
-  {
-    "term": "First-In, First-Out (FIFO)",
-    "translation": "Primeiro a Entrar, Primeiro a Sair",
-    "definition": "Método de processamento de dados onde o primeiro item a entrar na fila é o primeiro a ser processado.",
-    "example": "Uma fila de impressão funciona no modelo FIFO."
-  },
-  {
-    "term": "Flat Design",
-    "translation": "Design Plano",
-    "definition": "Estilo de design minimalista que evita sombras, gradientes e texturas 3D.",
-    "example": "O Windows 8 introduziu o Flat Design para dar um visual mais moderno."
-  },
-  {
-    "term": "Float",
-    "translation": "Ponto Flutuante",
-    "definition": "Tipo de dado numérico que permite casas decimais.",
-    "example": "O preço do produto foi armazenado como um float para incluir os centavos."
-  },
-  {
-    "term": "Flux",
-    "translation": "Flux",
-    "definition": "Arquitetura de fluxo de dados unidirecional, popularizada pelo React para gerenciar estados.",
-    "example": "O Flux evita que os dados mudem de forma imprevisível em aplicações grandes."
-  },
-  {
-    "term": "Flyweight Pattern",
-    "translation": "Padrão Peso-Mosca",
-    "definition": "Padrão de design usado para economizar memória compartilhando estados entre objetos semelhantes.",
-    "example": "Em um jogo, todas as árvores da floresta compartilham a mesma textura via Flyweight."
-  },
-  {
-    "term": "For-loop",
-    "translation": "Laço de Repetição For",
-    "definition": "Estrutura de controle que repete um bloco de código um número determinado de vezes.",
-    "example": "Usei um for-loop para imprimir todos os itens do meu array de termos."
-  },
-  {
-    "term": "Force Push",
-    "translation": "Envio Forçado",
-    "definition": "Comando do Git que sobrescreve o histórico do servidor remoto com o histórico local.",
-    "example": "Cuidado ao dar force push em branches compartilhadas, pois você pode apagar o código de colegas."
-  },
-  {
-    "term": "Fork",
-    "translation": "Bifurcação / Fork",
-    "definition": "No Git, é criar uma cópia exata de um repositório para trabalhar nele sem afetar o original.",
-    "example": "Fiz um fork do projeto open source para adicionar minha própria melhoria."
-  },
-  {
-    "term": "Formatter",
-    "translation": "Formatador",
-    "definition": "Ferramenta que ajusta automaticamente a indentação e o estilo do código para manter a consistência.",
-    "example": "O Prettier é o formatador de código mais usado no ecossistema JavaScript."
-  },
-  {
-    "term": "Framework",
-    "translation": "Estrutura / Framework",
-    "definition": "Conjunto de bibliotecas e ferramentas pré-moldadas que servem de base para construir softwares.",
-    "example": "O Next.js é um framework construído sobre o React."
-  },
-  {
-    "term": "Frontend",
-    "translation": "Interface do Usuário / Front-end",
-    "definition": "Toda a parte de um software com a qual o usuário interage visualmente.",
-    "example": "O frontend deste dicionário foi feito com Tailwind CSS para ser responsivo."
-  },
-  {
-    "term": "Full-stack",
-    "translation": "Full-stack",
-    "definition": "Desenvolvedor que domina tanto o frontend (visual) quanto o backend (servidor e banco de dados).",
-    "example": "Um desenvolvedor full-stack consegue criar o site e a API de ponta a ponta."
-  },
-  {
-    "term": "Function",
-    "translation": "Função",
-    "definition": "Bloco de código reutilizável que executa uma tarefa específica quando é chamado.",
-    "example": "Criei uma função chamada 'calcularSoma' para evitar repetir o código."
-  },
-  {
-    "term": "Functional Programming",
-    "translation": "Programação Funcional",
-    "definition": "Paradigma de programação baseado em funções matemáticas puras, evitando a mudança de estado.",
-    "example": "Imutabilidade e funções de alta ordem são pilares da programação funcional."
-  },
-  {
-    "term": "Fuzzing",
-    "translation": "Teste de Fuzzing",
-    "definition": "Técnica de teste que consiste em enviar dados aleatórios ou inválidos para um programa para encontrar bugs.",
-    "example": "O especialista em segurança usou fuzzing para encontrar uma falha de estouro de buffer."
-  },
-  {
-    "term": "FTP (File Transfer Protocol)",
-    "translation": "Protocolo de Transferência de Arquivos",
-    "definition": "Protocolo padrão para transferir arquivos entre um cliente e um servidor na rede.",
-    "example": " la usei o FileZilla para subir as imagens do site via FTP."
-  },
-  {
-    "term": "Frontend Engineer",
-    "translation": "Engenheiro de Frontend",
-    "definition": "Profissional focado na implementação técnica da interface, performance de renderização e acessibilidade.",
-    "example": "O engenheiro de frontend otimizou o tempo de carregamento da página inicial."
-  },
-  {
-    "term": "Garbage Collection",
-    "translation": "Coleta de Lixo",
-    "definition": "Processo automático de liberar memória que não está mais sendo usada pelo programa.",
-    "example": "O Java possui um Garbage Collector eficiente que evita vazamentos de memória."
-  },
-  {
-    "term": "Gateway",
-    "translation": "Gateway / Portal",
-    "definition": "Dispositivo ou software que serve como porta de entrada entre duas redes diferentes.",
-    "example": "O API Gateway distribui as requisições para os microserviços corretos."
-  },
-  {
-    "term": "Generic",
-    "translation": "Genérico",
-    "definition": "Técnica de programação que permite definir classes ou funções que funcionam com qualquer tipo de dado.",
-    "example": "Usei um tipo genérico <T> para que minha lista pudesse aceitar tanto números quanto strings."
-  },
-  {
-    "term": "GET Request",
-    "translation": "Requisição GET",
-    "definition": "Método HTTP usado para solicitar a recuperação de dados de um servidor.",
-    "example": "Ao digitar a URL no navegador, você está fazendo uma requisição GET."
-  },
-  {
-    "term": "Gherkin",
-    "translation": "Gherkin",
-    "definition": "Linguagem estruturada usada para escrever cenários de testes BDD (Behavior Driven Development).",
-    "example": "O cenário escrito em Gherkin começa com as palavras 'Dado que', 'Quando' e 'Então'."
-  },
-  {
-    "term": "Git",
-    "translation": "Git",
-    "definition": "Sistema de controle de versão distribuído usado para rastrear alterações no código-fonte.",
-    "example": "O Git permite que vários programadores trabalhem no mesmo arquivo sem sobrescrever as mudanças uns dos outros."
-  },
-  {
-    "term": "Global Variable",
-    "translation": "Variável Global",
-    "definition": "Variável declarada fora de qualquer função e que pode ser acessada de qualquer lugar do código.",
-    "example": "Evite usar variáveis globais, pois elas podem causar bugs difíceis de rastrear."
-  },
-  {
-    "term": "Go (Golang)",
-    "translation": "Go",
-    "definition": "Linguagem de programação criada pelo Google, focada em simplicidade, performance e concorrência.",
-    "example": "O Go é excelente para construir microserviços de alta performance."
-  },
-  {
-    "term": "GPU (Graphics Processing Unit)",
-    "translation": "Unidade de Processamento Gráfico",
-    "definition": "Processador especializado em cálculos matemáticos paralelos, usado para gráficos e IA.",
-    "example": "Placas de vídeo potentes usam a GPU para renderizar jogos em 4K."
-  },
-  {
-    "term": "GraphQL",
-    "translation": "GraphQL",
-    "definition": "Linguagem de consulta para APIs que permite ao cliente pedir exatamente os dados que precisa.",
-    "example": "Com GraphQL, não preciso fazer três requisições REST para pegar o nome, a foto e os posts do usuário."
-  },
-  {
-    "term": "Grid",
-    "translation": "Grid / Grade",
-    "definition": "Sistema de layout do CSS que permite organizar elementos em colunas e linhas.",
-    "example": "Usei CSS Grid para criar a galeria de imagens do meu portfólio."
-  },
-  {
-    "term": "GUI (Graphical User Interface)",
-    "translation": "Interface Gráfica do Usuário",
-    "definition": "Interface que permite a interação com o computador através de ícones e janelas, em vez de texto.",
-    "example": "O Windows é a GUI mais popular do mundo para computadores desktop."
-  },
-  {
-    "term": "Gulp",
-    "translation": "Gulp",
-    "definition": "Ferramenta de automação de tarefas (Task Runner) usada para minificar CSS e compilar JS.",
-    "example": "Configurei o Gulp para otimizar todas as imagens do site automaticamente."
-  },
-  {
-    "term": "Gzip",
-    "translation": "Gzip",
-    "definition": "Algoritmo de compressão de dados usado para reduzir o tamanho dos arquivos enviados via HTTP.",
-    "example": "Ativei o Gzip no servidor para que o site carregue mais rápido no mobile."
-  },
-  {
-    "term": "Gunicorn",
-    "translation": "Gunicorn",
-    "definition": "Servidor HTTP WSGI usado para colocar aplicações Python (como Django ou Flask) em produção.",
-    "example": "Rodei meu app Python usando Gunicorn para aguentar mais requisições simultâneas."
-  },
-  {
-    "term": "Greedy Algorithm",
-    "translation": "Algoritmo Ganancioso",
-    "definition": "Algoritmo que faz a escolha que parece ser a melhor no momento, sem olhar para o futuro.",
-    "example": "O algoritmo de troco para moedas geralmente usa uma abordagem gananciosa."
-  },
-  {
-    "term": "Group By",
-    "translation": "Agrupar Por",
-    "definition": "Cláusula de SQL usada para agrupar linhas que possuem valores iguais em colunas específicas.",
-    "example": "Usei o GROUP BY para contar quantos usuários existem em cada cidade."
-  },
-  {
-    "term": "Gatsby",
-    "translation": "Gatsby",
-    "definition": "Framework baseado em React focado em gerar sites estáticos (SSG) extremamente rápidos.",
-    "example": "Criei meu blog com Gatsby para ter um SEO excelente."
-  },
-  {
-    "term": "Gist",
-    "translation": "Gist",
-    "definition": "Serviço do GitHub para compartilhar trechos simples de código (snippets) sem criar um repositório completo.",
-    "example": "Mandei o Gist com a configuração do meu VS Code para o meu colega."
-  },
-  {
-    "term": "Glitch",
-    "translation": "Glitch / Falha",
-    "definition": "Um erro temporário e inesperado no funcionamento de um software ou hardware.",
-    "example": "Houve um glitch na animação do personagem que o fez atravessar a parede."
-  },
-  {
-    "term": "Hash",
-    "translation": "Hash / Resumo",
-    "definition": "Resultado de um algoritmo que transforma qualquer dado em uma string de tamanho fixo e única.",
-    "example": "Nunca salve senhas em texto puro; salve o hash da senha usando Bcrypt."
-  },
-  {
-    "term": "HashMap",
-    "translation": "Mapa de Hash",
-    "definition": "Estrutura de dados que armazena pares de chave e valor, permitindo acesso quase instantâneo.",
-    "example": "Usei um HashMap para mapear o ID do usuário ao seu objeto de perfil."
-  },
-  {
-    "term": "Hashing",
-    "translation": "Hashing",
-    "definition": "O processo de aplicar uma função de hash a um conjunto de dados.",
-    "example": "O hashing é fundamental para garantir a integridade de arquivos baixados."
-  },
-  {
-    "term": "Header",
-    "translation": "Cabeçalho",
-    "definition": "Seção de uma requisição HTTP que contém metadados como tipo de conteúdo e autenticação.",
-    "example": "Enviei o token de acesso no Header da requisição como 'Authorization: Bearer ...'."
-  },
-  {
-    "term": "Headless",
-    "translation": "Headless (Sem Cabeça)",
-    "definition": "Software que possui backend, mas não tem interface de usuário própria (ex: Headless CMS).",
-    "example": "Usamos um Headless CMS para gerenciar o conteúdo e entregá-lo via API para o site e app."
-  },
-  {
-    "term": "Heap",
-    "translation": "Heap / Monte",
-    "definition": "Região da memória do computador usada para alocação dinâmica de objetos.",
-    "example": "Objetos grandes são armazenados no Heap para não sobrecarregar a Stack."
-  },
-  {
-    "term": "Heroku",
-    "translation": "Heroku",
-    "definition": "Plataforma de nuvem (PaaS) que simplifica o deploy de aplicações sem precisar gerenciar o servidor.",
-    "example": "Fiz o deploy do meu primeiro bot de Telegram usando o Heroku."
-  },
-  {
-    "term": "Hexadecimal",
-    "translation": "Hexadecimal",
-    "definition": "Sistema numérico de base 16, usado para representar cores em CSS e endereços de memória.",
-    "example": "A cor branca em hexadecimal é representada por #FFFFFF."
-  },
-  {
-    "term": "High Availability",
-    "translation": "Alta Disponibilidade",
-    "definition": "Sistemas projetados para estarem operacionais a maior parte do tempo, sem interrupções.",
-    "example": "A arquitetura de alta disponibilidade usa múltiplos servidores em regiões diferentes."
-  },
-  {
-    "term": "HOC (Higher Order Component)",
-    "translation": "Componente de Ordem Superior",
-    "definition": "No React, é uma função que recebe um componente e retorna um novo componente com superpoderes.",
-    "example": "Criei um HOC chamado 'withAuth' para proteger páginas que exigem login."
-  },
-  {
-    "term": "Hooks",
-    "translation": "Hooks",
-    "definition": "Funções do React que permitem 'enganchar' no ciclo de vida do componente (ex: useState, useEffect).",
-    "example": "Usei o useEffect para carregar a lista de termos assim que a página abriu."
-  },
-  {
-    "term": "Hop",
+ [
+  { "term": "Face Recognition", "translation": "Reconhecimento Facial", "definition": "Tecnologia de biometria que identifica pessoas através de imagens do rosto.", "example": "O Face ID da Apple usa reconhecimento facial para segurança." },
+  { "term": "Facade Pattern", "translation": "Padrão Fachada", "definition": "Padrão de design que fornece uma interface simplificada para um sistema complexo.", "example": "A Facade esconde a complexidade de várias APIs internas." },
+  { "term": "Failover", "translation": "Recuperação de Falhas", "definition": "Alternância automática para um servidor redundante quando o principal falha.", "example": "O failover garantiu que o site não caísse durante a pane do servidor." },
+  { "term": "Fake Data", "translation": "Dados Falsos / Mockados", "definition": "Dados simulados usados para testar aplicações antes de ter acesso aos reais.", "example": "Usei a biblioteca Faker para gerar 100 usuários fictícios." },
+  { "term": "FaaS (Function as a Service)", "translation": "Função como Serviço", "definition": "Modelo de nuvem onde o desenvolvedor escreve apenas a função e a nuvem cuida do resto.", "example": "AWS Lambda é o exemplo mais famoso de FaaS." },
+  { "term": "Feature Flag", "translation": "Bandeira de Recurso", "definition": "Técnica para ativar ou desativar funções do software sem novo deploy.", "example": "Ativamos a Feature Flag do Modo Escuro apenas para beta testers." },
+  { "term": "Fetch API", "translation": "API de Requisição", "definition": "Interface moderna do JavaScript para fazer requisições HTTP assíncronas.", "example": "Usei o fetch() para buscar dados do servidor." },
+  { "term": "Fiber", "translation": "Fibra Óptica", "definition": "Meio de transmissão que usa pulsos de luz para enviar dados em alta velocidade.", "example": "A internet de fibra reduziu a latência do meu jogo." },
+  { "term": "Figma", "translation": "Figma", "definition": "Ferramenta de design colaborativa para criar interfaces de usuário e protótipos.", "example": "O designer enviou o link do Figma com o layout do app." },
+  { "term": "File System", "translation": "Sistema de Arquivos", "definition": "Método que o SO usa para organizar e gerenciar arquivos no disco.", "example": "O NTFS é o sistema de arquivos padrão do Windows." },
+  { "term": "Filter", "translation": "Filtro", "definition": "Método de array que cria uma nova lista com elementos que passam em um teste.", "example": "Usei o .filter() para remover usuários inativos." },
+  { "term": "Finalizer", "translation": "Finalizador", "definition": "Método executado antes de um objeto ser removido da memória pelo Garbage Collector.", "example": "O finalizer fecha a conexão com o banco antes de deletar o objeto." },
+  { "term": "Firewall", "translation": "Parede de Fogo / Firewall", "definition": "Sistema de segurança que monitora e controla o tráfego de rede.", "example": "O firewall bloqueou o acesso à porta 80 para evitar ataques." },
+  { "term": "First-In, First-Out (FIFO)", "translation": "Primeiro a Entrar, Primeiro a Sair", "definition": "Método de processamento onde o primeiro item a entrar é o primeiro a sair.", "example": "Uma fila de impressão funciona no modelo FIFO." },
+  { "term": "Flat Design", "translation": "Design Plano", "definition": "Estilo de design minimalista que evita sombras e texturas 3D.", "example": "O Windows 8 introduziu o Flat Design para modernizar o visual." },
+  { "term": "Float", "translation": "Ponto Flutuante", "definition": "Tipo de dado numérico que permite casas decimais.", "example": " la usei float para armazenar o preço do produto." },
+  { "term": "Flux", "translation": "Flux", "definition": "Arquitetura de fluxo de dados unidirecional para gerenciar estados no React.", "example": "O Flux evita que os dados mudem de forma imprevisível." },
+  { "term": "Flyweight Pattern", "translation": "Padrão Peso-Mosca", "definition": "Padrão de design usado para economizar memória compartilhando estados entre objetos.", "example": "Em um jogo, todas as árvores compartilham a mesma textura via Flyweight." },
+  { "term": "For-loop", "translation": "Laço de Repetição For", "definition": "Estrutura que repete um bloco de código um número determinado de vezes.", "example": "Usei um for-loop para imprimir a lista de termos." },
+  { "term": "Force Push", "translation": "Envio Forçado", "definition": "Comando Git que sobrescreve o histórico do servidor com o local.", "example": "Cuidado ao dar force push em branches compartilhadas." },
+  { "term": "Fork", "translation": "Bifurcação / Fork", "definition": "Criar uma cópia exata de um repositório para trabalhar sem afetar o original.", "example": "Fiz um fork do projeto open source para adicionar melhorias." },
+  { "term": "Formatter", "translation": "Formatador", "definition": "Ferramenta que ajusta a indentação e o estilo do código automaticamente.", "example": "O Prettier é o formatador de código mais usado no JS." },
+  { "term": "Framework", "translation": "Estrutura / Framework", "e-definition": "Conjunto de ferramentas pré-moldadas que servem de base para construir softwares.", "example": "O Next.js é um framework construído sobre o React." },
+  { "term": "Frontend", "translation": "Interface do Usuário / Front-end", "definition": "Toda a parte de um software com a qual o usuário interage visualivamente.", "example": "O frontend foi feito com Tailwind CSS." },
+  { "term": "Full-stack", "translation": "Full-stack", "definition": "Desenvolvedor que domina tanto o frontend quanto o backend.", "example": "Um dev full-stack cria o site e a API de ponta a ponta." },
+  { "term": "Function", "translation": "Função", "definition": "Bloco de código reutilizável que executa uma tarefa específica.", "example": "Criei uma função para calcular a soma dos termos." },
+  { "term": "Functional Programming", "translation": "Programação Funcional", "definition": "Paradigma baseado em funções puras, evitando a mudança de estado.", "example": "A imutabilidade é um pilar da programação funcional." },
+  { "term": "Fuzzing", "translation": "Teste de Fuzzing", "definition": "Técnica de enviar dados aleatórios a um programa para encontrar bugs.", "example": "O especialista usou fuzzing para achar falhas de estouro de buffer." },
+  { "term": "FTP (File Transfer Protocol)", "translation": "Protocolo de Transferência de Arquivos", "definition": "Protocolo padrão para transferir arquivos entre cliente e servidor.", "example": " la usei o FileZilla para subir as imagens via FTP." },
+  { "term": "Frontend Engineer", "translation": "Engenheiro de Frontend", "definition": "Profissional focado na implementação técnica e performance da interface.", "example": "O engenheiro de frontend otimizou o tempo de carregamento." },
+
+  { "term": "Garbage Collection", "translation": "Coleta de Lixo", "definition": "Processo automático de liberar memória que não está mais sendo usada.", "example": "O Java possui um Garbage Collector eficiente." },
+  { "term": "Gateway", "translation": "Gateway / Portal", "definition": "Dispositivo ou software que serve como porta de entrada entre redes.", "example": "O API Gateway distribui requisições para os microserviços." },
+  { "term": "Generic", "translation": "Genérico", "definition": "Técnica de programação que permite definir funções que funcionam com qualquer tipo de dado.", "example": "Usei um tipo genérico <T> para a lista de termos." },
+  { "term": "GET Request", "translation": "Requisição GET", "definition": "Método HTTP usado para solicitar a recuperação de dados de um servidor.", "example": "Ao digitar a URL no navegador, você faz um GET." },
+  { "term": "Gherkin", "translation": "Gherkin", "definition": "Linguagem estruturada usada para escrever cenários de testes BDD.", "example": "Cenários em Gherkin começam com 'Dado que', 'Quando' e 'Então'." },
+  { "term": "Git", "translation": "Git", "definition": "Sistema de controle de versão distribuído para rastrear alterações no código.", "example": "O Git permite que vários devs trabalhem no mesmo arquivo." },
+  { "term": "Global Variable", "translation": "Variável Global", "definition": "Variável declarada fora de funções e acessível de qualquer lugar do código.", "example": "Evite variáveis globais para não causar bugs imprevistos." },
+  { "term": "Go (Golang)", "translation": "Go", "definition": "Linguagem criada pelo Google, focada em performance e concorrência.", "example": "O Go é excelente para microserviços de alta performance." },
+  { "term": "GPU (Graphics Processing Unit)", "translation": "Unidade de Processamento Gráfico", "definition": "Processador especializado em cálculos paralelos, usado para gráficos e IA.", "example": " la usei a GPU para treinar meu modelo de rede neural." },
+  { "term": "GraphQL", "translation": "GraphQL", "definition": "Linguagem de consulta que permite ao cliente pedir exatamente os dados que precisa.", "example": "Com GraphQL, evito fazer múltiplas requisições REST." },
+  { "term": "Grid", "translation": "Grid / Grade", "definition": "Sistema de layout do CSS para organizar elementos em colunas e linhas.", "example": "Usei CSS Grid para a navegação alfabética do site." },
+  { "term": "GUI (Graphical User Interface)", "translation": "Interface Gráfica do Usuário", "definition": "Interface que permite a interação via ícones e janelas, não apenas texto.", "example": "O Windows é a GUI mais popular do mundo." },
+  { "term": "Gulp", "translation": "Gulp", "definition": "Ferramenta de automação de tarefas para minificar CSS e compilar JS.", "example": " la configurei o Gulp para otimizar as imagens automaticamente." },
+  { "term": "Gzip", "translation": "Gzip", "definition": "Algoritmo de compressão usado para reduzir o tamanho de arquivos no HTTP.", "example": "Ativei o Gzip para o site carregar mais rápido no mobile." },
+  { "term": "Gunicorn", "translation": "Gunicorn", "definition": "Servidor HTTP WSGI usado para colocar aplicações Python em produção.", "example": "Rodei meu app Python usando Gunicorn para aguentar mais acessos." },
+  { "term": "Greedy Algorithm", "translation": "Algoritmo Ganancioso", "definition": "Algoritmo que faz a escolha que parece melhor no momento, sem olhar o futuro.", "example": "O algoritmo de troco de moedas usa abordagem gananciosa." },
+  { "term": "Group By", "translation": "Agrupar Por", "definition": "Cláusula de SQL usada para agrupar linhas com valores iguais.", "example": "Usei GROUP BY para contar usuários por cidade." },
+  { "term": "Gatsby", "translation": "Gatsby", "definition": "Framework React focado em gerar sites estáticos (SSG) ultra rápidos.", "example": "Criei meu blog com Gatsby para ter um SEO excelente." },
+  { "term": "Gist", "translation": "Gist", "definition": "Serviço do GitHub para compartilhar trechos simples de código (snippets).", "example": "Mandei o Gist com as configurações do VS Code." },
+  { "term": "Glitch", "translation": "Glitch / Falha", "definition": "Erro temporário e inesperado no funcionamento de um software ou hardware.", "example": "Houve um glitch na animação do personagem." },
+  { "term": "Gated Recurrent Unit (GRU)", "translation": "GRU", "definition": "Tipo de rede neural recorrente usada em processamento de linguagem natural.", "example": "A GRU é uma alternativa mais simples que a LSTM." },
+  { "term": "Generic Type", "translation": "Tipo Genérico", "definition": "Técnica que permite definir classes que funcionam com qualquer tipo de dado.", "example": "Usei <T> para criar uma lista que aceita números ou strings." },
+  { "term": "Geometry", "translation": "Geometria Computacional", "definition": "Estudo de algoritmos para resolver problemas geométricos em computação.", "example": " la usei geometria computacional para detectar colisões no jogo." },
+  { "term": "Git Flow", "translation": "Git Flow", "definition": "Modelo de gerenciamento de branches para organizar o desenvolvimento do software.", "example": "Seguimos o Git Flow usando branches de feature e hotfix." },
+  { "term": "GObject", "translation": "GObject", "definition": "Sistema de objetos usado em bibliotecas como GTK para criar interfaces gráficas.", "example": "O GObject permite herança em linguagens como C." },
+  { "term": "Go-routine", "translation": "Goroutine", "definition": "Função leve e concorrente da linguagem Go, gerenciada pelo runtime.", "example": "Iniciei mil goroutines para processar requisições simultâneas." },
+  { "term": "G-code", "translation": "G-code", "definition": "Linguagem de programação usada para controlar máquinas CNC e impressoras 3D.", "exampleP": " la converti o desenho em G-code para a impressora 3D." },
+  { "term": "Gopher", "translation": "Gopher", "definition": "Protocolo antigo de distribuição de documentos, precursor da Web (HTTP).", "example": " la explorei o protocolo Gopher por curiosidade histórica." },
+  { "term": "Graph Theory", "translation": "Teoria dos Grafos", "definition": "Estudo de estruturas compostas por nós e arestas, essencial para redes e mapas.", "example": "O algoritmo de Dijkstra usa teoria dos grafos para achar o caminho mais curto." },
+
+  { "term": "Hash", "translation": "Hash / Resumo", "definition": "Resultado de um algoritmo que transforma qualquer dado em uma string de tamanho fixo.", "example": "Nunca salve senhas em texto puro; salve o hash da senha." },
+  { "term": "HashMap", "translation": "Mapa de Hash", "definition": "Estrutura que armazena pares de chave e valor para acesso instantâneo.", "example": "Usei um HashMap para ligar o ID do usuário ao seu perfil." },
+  { "term": "Hashing", "translation": "Hashing", "definition": "O processo de aplicar uma função de hash a um conjunto de dados.", "example": "O hashing garante a integridade de arquivos baixados." },
+  { "term": "Header", "translation": "Cabeçalho", "definition": "Seção de uma requisição HTTP que contém metadados e autenticação.", "example": "Enviei o token no Header da requisição." },
+  { "term": "Headless", "translation": "Headless (Sem Cabeça)", "definition": "Software que possui backend, mas não tem interface de usuário própria.", "example": "Usamos um Headless CMS para gerenciar o conteúdo via API." },
+  { "term": "Heap", "translation": "Heap / Monte", "definition": "Região da memória usada para alocação dinâmica de objetos.", "example": "Objetos grandes ficam no Heap para não travar a Stack." },
+  { "term": "Heroku", "translation": "Heroku", "definition": "Plataforma de nuvem (PaaS) que simplifica o deploy de aplicações.", "example": " la usei o Heroku para hospedar meu primeiro bot de Telegram." },
+  { "term": "Hexadecimal", "translation": "Hexadecimal", "definition": "Sistema numérico de base 16, usado para cores em CSS e endereços de memória.", "example": "A cor branca em hexadecimal é #FFFFFF." },
+  { "term": "High Availability", "translation": "Alta Disponibilidade", "definition": "Sistemas projetados para estarem online a maior parte do tempo, sem interrupções.", "example": "A alta disponibilidade usa múltiplos servidores em regiões diferentes." },
+  { "term": "HOC (Higher Order Component)", "translation": "Componente de Ordem Superior", "definition": "No React, função que recebe um componente e retorna um novo com mais funções.", "example": "Criei um HOC 'withAuth' para proteger páginas privadas." },
+  { "term": "Hooks", "translation": "Hooks", "definition": "Funções do React que permitem 'enganchar' no ciclo de vida do componente.", "example": "Usei o useState para controlar o texto da busca." },
+  { "term": "Hop",
     "translation": "Hop / Salto",
-    "definition": "Cada vez que um pacote de dados passa por um roteador no caminho entre a origem e o destino.",
-    "example": "O comando traceroute mostra quantos hops o pacote deu até chegar ao servidor."
+    "definition": "Cada vez que um pacote de dados passa por um roteador no caminho até o destino.",
+    "example": "O traceroute mostra quantos hops o pacote deu."
   },
-  {
-    "term": "Host",
-    "translation": "Hospedeiro / Host",
-    "definition": "Qualquer dispositivo conectado a uma rede que possui um endereço IP.",
-    "example": "O servidor de banco de dados é o host principal da aplicação."
-  },
-  {
-    "term": "Hot Reloading",
-    "translation": "Recarregamento a Quente",
-    "definition": "Técnica que atualiza a interface do site instantaneamente enquanto você digita o código, sem recarregar a página.",
-    "example": "Graças ao hot reloading do Next.js, vejo as mudanças no CSS na hora."
-  },
-  {
-    "term": "HTML (HyperText Markup Language)",
-    "translation": "Linguagem de Marcação de Hipertexto",
-    "definition": "Linguagem básica usada para estruturar o conteúdo de páginas na web.",
-    "example": "Usei a tag <h1> para definir o título principal do meu dicionário."
-  },
-  {
-    "term": "HTTP (HyperText Transfer Protocol)",
-    "translation": "Protocolo de Transferência de Hipertexto",
-    "definition": "Protocolo de comunicação da web usado para transferir dados entre cliente e servidor.",
-    "example": "O HTTP é a base de todas as trocas de informações na internet."
-  },
-  {
-    "term": "HTTPS (HTTP Secure)",
-    "translation": "HTTP Seguro",
-    "definition": "Versão segura do HTTP que utiliza criptografia SSL/TLS para proteger os dados.",
-    "example": "Sempre use HTTPS para evitar que senhas sejam interceptadas por hackers."
-  },
-  {
-    "term": "HTTP/2",
-    "translation": "HTTP Versão 2",
-    "definition": "Evolução do protocolo HTTP que permite enviar múltiplos arquivos em uma única conexão (multiplexação).",
-    "example": "O HTTP/2 tornou o carregamento de sites com muitas imagens muito mais rápido."
-  },
-  {
-    "term": "HTTP/3",
-    "translation": "HTTP Versão 3",
-    "definition": "Versão mais recente do protocolo, baseada no protocolo QUIC, para reduzir a latência em redes instáveis.",
-    "example": "O HTTP/3 melhora a navegação em redes 4G e 5G."
-  },
-  {
-    "term": "Hyperlink",
-    "translation": "Hiperlink",
-    "definition": "Um link que conecta um documento a outro recurso na web.",
-    "example": "Clique no hyperlink para ler a documentação completa do React."
-  },
-  {
-    "term": "Hypertext",
-    "translation": "Hipertexto",
-    "definition": "Texto que contém links para outros textos, permitindo a navegação não linear.",
-    "example": "A Web é essencialmente um vasto sistema de hipertextos interconectados."
-  },
-  {
-    "term": "Hypervisor",
-    "translation": "Hipervisor",
-    "definition": "Software que cria e gerencia máquinas virtuais (VMs), separando o hardware do sistema operacional.",
-    "example": "O VMware é um hipervisor que permite rodar Windows e Linux no mesmo PC."
-  },
-  {
-    "term": "Hybrid Cloud",
-    "translation": "Nuvem Híbrida",
-    "definition": "Ambiente que combina nuvem pública (ex: AWS) com nuvem privada ou servidores locais.",
-    "example": "A empresa guarda dados sensíveis no servidor local e usa a nuvem para escala."
-  },
-  {
-    "term": "HSTS (HTTP Strict Transport Security)",
-    "translation": "Segurança de Transporte Estrita HTTP",
-    "definition": "Mecanismo de segurança que força o navegador a usar apenas HTTPS, ignorando requisições HTTP.",
-    "example": "O HSTS previne ataques de 'downgrade' onde o hacker tenta forçar o site a usar HTTP."
-  },
-  {
-    "term": "Idempotency",
-    "translation": "Idempotência",
-    "definition": "Propriedade de uma operação que produz o mesmo resultado, não importa quantas vezes seja executada.",
-    "example": "Uma requisição PUT é idempotente; atualizar o nome do usuário 10 vezes resulta no mesmo nome."
-  },
-  {
-    "term": "IDE (Integrated Development Environment)",
-    "translation": "Ambiente de Desenvolvimento Integrado",
-    "definition": "Software que combina editor de texto, depurador e compilador em uma única ferramenta.",
-    "example": "O VS Code e o IntelliJ são as IDEs mais populares atualmente."
-  },
-  {
-    "term": "IaaS (Infrastructure as a Service)",
-    "translation": "Infraestrutura como Serviço",
-    "definition": "Modelo de nuvem onde você aluga o hardware virtual (servidores, discos, rede) e gerencia o SO.",
-    "example": "O EC2 da AWS é um serviço de IaaS."
-  },
-  {
-    "term": "ICMP (Internet Control Message Protocol)",
-    "translation": "Protocolo de Mensagens de Controle de Internet",
-    "definition": "Protocolo usado para enviar mensagens de erro e diagnósticos de rede (como o comando ping).",
-    "example": "O comando ping usa o protocolo ICMP para testar a conectividade com um servidor."
-  },
-  {
-    "term": "Icon",
-    "translation": "Ícone",
-    "definition": "Representação gráfica simplificada de um arquivo, pasta ou programa.",
-    "example": "Usei a biblioteca Lucide React para adicionar ícones de lupa e calendário."
-  },
-  {
-    "term": "IFrame",
-    "translation": "Frame Interno",
-    "definition": "Elemento HTML que permite incorporar outra página web dentro da página atual.",
-    "example": "Vídeos do YouTube são incorporados em sites através de IFrames."
-  },
-  {
-    "term": "Immutable",
-    "translation": "Imutável",
-    "definition": "Um objeto ou variável cujo valor não pode ser alterado após ter sido criado.",
-    "example": "No React, o estado deve ser imutável; você cria um novo objeto em vez de alterar o antigo."
-  },
-  {
-    "term": "Index",
-    "translation": "Índice",
-    "definition": "Estrutura de dados em bancos de dados que acelera a busca por registros específicos.",
-    "example": "Criei um índice na coluna 'email' para que a busca de usuários seja instantânea."
-  },
-  {
-    "term": "In-memory",
-    "translation": "Em Memória",
-    "definition": "Banco de dados ou processamento que armazena os dados na RAM para máxima velocidade.",
-    "example": "O Redis é um banco de dados in-memory usado para cache de alta performance."
-  },
-  {
-    "term": "Injection",
-    "translation": "Injeção",
-    "definition": "Tipo de ataque onde o hacker insere código malicioso em campos de entrada para manipular o sistema.",
-    "example": "O SQL Injection acontece quando o desenvolvedor não limpa as entradas do usuário."
-  },
-  {
-    "term": "Inheritance",
-    "translation": "Herança",
-    "definition": "Recurso da OOP onde uma classe filha herda atributos e métodos de uma classe pai.",
-    "example": "A classe 'Cachorro' herda a função 'latir()' da classe 'Animal'."
-  },
-  {
-    "term": "Inline Style",
-    "translation": "Estilo Inline",
-    "definition": "CSS aplicado diretamente no elemento HTML através do atributo 'style'.",
-    "example": "Evite inline styles; prefira classes CSS para manter o código organizado."
-  },
-  {
-    "term": "Input",
-    "translation": "Entrada",
-    "definition": "Campo onde o usuário insere dados em um formulário ou dispositivo de entrada de dados.",
-    "example": "O input de e-mail deve ter a validação de formato correta."
-  },
-  {
-    "term": "Instance",
-    "translation": "Instância",
-    "definition": "A materialização de uma classe; um objeto real criado a partir de um molde.",
-    "example": "Criei três instâncias da classe 'Usuario' para representar três pessoas diferentes."
-  },
-  {
-    "term": "Integration",
-    "translation": "Integração",
-    "definition": "Processo de conectar diferentes sistemas ou módulos para que trabalhem juntos.",
-    "example": "Fizemos a integração do site com o sistema de pagamentos do Stripe."
-  },
-  {
-    "term": "Interface",
-    "translation": "Interface",
-    "definition": "Contrato que define quais métodos e propriedades uma classe deve obrigatoriamente implementar.",
-    "example": "Criei a interface 'IPagamento' para que qualquer método de pagamento tenha a função 'processar()'."
-  },
-  {
-    "term": "Interpreter",
-    "translation": "Intérprete",
-    "definition": "Programa que executa o código linha por linha, sem a necessidade de compilar tudo primeiro.",
-    "example": "O Python é uma linguagem interpretada."
-  },
-  {
-    "term": "Intranet",
-    "translation": "Intranet",
-    "definition": "Rede privada de computadores usada exclusivamente dentro de uma empresa ou organização.",
-    "example": "Os funcionários acessam as folhas de pagamento através da intranet da empresa."
-  },
-  {
-    "term": "IP Address",
-    "translation": "Endereço IP",
-    "definition": "Identificador único de cada dispositivo conectado a uma rede baseada no protocolo IP.",
-    "example": "O endereço IP do servidor é 192.168.1.1."
-  },
-  {
-    "term": "IPv4",
-    "translation": "IPv4",
-    "definition": "Versão 4 do protocolo IP, composta por 4 octetos (ex: 172.16.254.1).",
-    "example": "O IPv4 ficou pequeno para a quantidade de dispositivos no mundo, por isso surgiu o IPv6."
-  },
-  {
-    "term": "IPv6",
-    "translation": "IPv6",
-    "definition": "Versão 6 do protocolo IP, com endereços muito maiores, escritos em hexadecimal.",
-    "example": "O IPv6 permite que cada grão de areia da Terra tenha seu próprio endereço IP."
-  },
-  {
-    "term": "IPFS (InterPlanetary File System)",
-    "translation": "Sistema de Arquivos Interplanetário",
-    "definition": "Protocolo de rede descentralizado para armazenar e compartilhar arquivos.",
-    "example": "O IPFS evita que arquivos sumam se o servidor central for deletado."
-  },
-  {
-    "term": "Iteration",
-    "translation": "Iteração",
-    "definition": "O ato de repetir um processo ou percorrer os elementos de uma lista.",
-    "example": "A iteração sobre a lista de termos levou menos de 1 milissegundo."
-  },
-  {
-    "term": "Iterative",
-    "translation": "Iterativo",
-    "definition": "Processo de desenvolvimento baseado em repetições e melhorias graduais.",
-    "example": "O design do app foi feito de forma iterativa, mudando a cada feedback do cliente."
-  },
-  {
-    "term": "I/O (Input/Output)",
-    "translation": "Entrada e Saída",
-    "e-definition": "Comunicação entre um sistema computacional e o mundo exterior (teclado, tela, disco).",
-    "example": "Operações de I/O de disco são muito mais lentas que operações de memória RAM."
-  },
-  {
-    "term": "Increment",
-    "translation": "Incremento",
-    "definition": "Ato de aumentar o valor de uma variável em uma quantidade específica (geralmente +1).",
-    "example": "Usei o operador i++ para fazer o incremento do contador no loop."
-  },
-  {
-    "term": "Inverse",
-    "translation": "Inverso",
-    "definition": "Operação que reverte o estado ou o valor de algo.",
-    "example": "Usei a função de inversão para transformar a lista de termos de A-Z para Z-A."
-  },
-  {
-    "term": "JavaScript",
-    "translation": "JavaScript",
-    "definition": "Linguagem de programação dinâmica e versátil, fundamental para a interatividade da web.",
-    "example": "JavaScript permite criar animações, validar formulários e fazer requisições API."
-  },
-  {
-    "term": "JSON (JavaScript Object Notation)",
-    "translation": "Notação de Objeto JavaScript",
-    "definition": "Formato leve de intercâmbio de dados, fácil de ler para humanos e máquinas.",
-    "example": "O dicionário armazena todas as palavras no formato JSON."
-  },
-  {
-    "term": "JSDoc",
-    "translation": "JSDoc",
-    "definition": "Padrão de anotação de comentários em JavaScript para documentar funções e tipos.",
-    "example": "Usei JSDoc para explicar que a função searchTerms retorna um array de objetos."
-  },
-  {
-    "term": "JIT (Just-In-Time)",
-    "translation": "Compilação Just-in-Time",
-    "definition": "Técnica onde o código é compilado para linguagem de máquina no momento da execução.",
-    "example": "A V8 do Chrome usa JIT para tornar o JavaScript extremamente rápido."
-  },
-  {
-    "term": "Join",
-    "translation": "Junção / Join",
-    "definition": "Operação de SQL que combina linhas de duas ou mais tabelas com base em uma coluna comum.",
-    "example": "Usei um INNER JOIN para ligar a tabela de 'Termos' com a tabela de 'Categorias'."
-  },
-  {
-    "term": "Job",
-    "translation": "Tarefa / Job",
-    "definition": "Um processo programado para ser executado automaticamente em um determinado horário.",
-    "example": "Criei um cron job para fazer o backup do banco de dados todas as madrugadas."
-  },
-  {
-    "term": "JSX (JavaScript XML)",
-    "translation": "JSX",
-    "definition": "Sintaxe que permite escrever HTML dentro do código JavaScript, amplamente usada no React.",
-    "example": "No JSX, escrevemos <div> em vez de usar a função document.createElement."
-  },
-  {
-    "term": "JSON-LD",
-    "translation": "JSON para Dados Vinculados",
-    "definition": "Formato de JSON usado para estruturar dados para SEO, ajudando o Google a entender o site.",
-    "example": "Adicionei JSON-LD para que meu dicionário aparecesse com estrelinhas na busca do Google."
-  },
-  {
-    "term": "JSONP",
-    "translation": "JSON with Padding",
-    "definition": "Técnica antiga usada para contornar restrições de CORS em navegadores velhos.",
-    "example": "Hoje em dia, o JSONP foi substituído pelo padrão CORS moderno."
-  },
-  {
-    "term": "JWT (JSON Web Token)",
-    "translation": "Token Web JSON",
-    "e-definition": "Padrão de token compacto e seguro para transmitir informações entre as partes como um objeto JSON.",
-    "example": "Após o login, o servidor envia um JWT que o cliente guarda para acessar rotas protegidas."
-  },
-  {
-    "term": "JUnit",
-    "translation": "JUnit",
-    "definition": "Framework de testes unitários para a linguagem Java.",
-    "example": "Escrevi 20 testes no JUnit para garantir que o cálculo de impostos estava correto."
-  },
-  {
-    "term": "JVM (Java Virtual Machine)",
-    "translation": "Máquina Virtual Java",
-    "definition": "O software que executa o bytecode do Java, permitindo que ele rode em qualquer sistema operacional.",
-    "example": "A JVM é o que torna o Java 'portável' (Write Once, Run Anywhere)."
-  },
-  {
-    "term": "JMeter",
-    "translation": "Apache JMeter",
-    "definition": "Ferramenta de código aberto usada para testar a performance e a carga de servidores web.",
-    "example": "Usei o JMeter para simular 1.000 usuários acessando o site ao mesmo tempo."
-  },
-  {
-    "term": "JPEG",
-    "translation": "Joint Photographic Experts Group",
-    "definition": "Formato de compressão de imagem com perda, ideal para fotografias na web.",
-    "example": "Converta suas imagens para JPEG para reduzir o tempo de carregamento da página."
-  },
-  {
-    "term": "Jumper",
-    "translation": "Jumper",
-    "definition": "Pequena peça de plástico com metal usada em placas-mãe para configurar opções de hardware.",
-    "example": "Mudei o jumper da placa-mãe para resetar a BIOS do computador."
-  },
-  {
-    "term": "Just-in-time compilation",
-    "translation": "Compilação em Tempo Real",
-    "definition": "Processo de compilar partes do código apenas quando elas são realmente chamadas durante a execução.",
-    "example": "A compilação JIT reduz o tempo de inicialização do programa."
-  },
-  {
-    "term": "Jargon",
-    "translation": "Jargão",
-    "definition": "Vocabulário técnico específico de uma profissão ou grupo, muitas vezes difícil para leigos.",
-    "example": "Este dicionário ajuda iniciantes a entender o jargão do desenvolvimento de software."
-  },
+  { "term": "Host", "translation": "Hospedeiro / Host", "definition": "Qualquer dispositivo conectado a uma rede que possui um endereço IP.", "example": "O servidor de banco de dados é o host principal." },
+  { "term": "Hot Reloading", "translation": "Recarregamento a Quente", "definition": "Técnica que atualiza a interface do site instantaneamente sem recarregar a página.", "example": "O hot reloading do Next.js agiliza muito o desenvolvimento." },
+  { "term": "HTML (HyperText Markup Language)", "translation": "Linguagem de Marcação de Hipertexto", "definition": "Linguagem básica usada para estruturar o conteúdo de páginas na web.", "example": "Usei a tag <h1> para definir o título do site." },
+  { "term": "HTTP (HyperText Transfer Protocol)", "translation": "Protocolo de Transferência de Hipertexto", "definition": "Protocolo de comunicação da web usado para trocar dados entre cliente e servidor.", "example": "O HTTP é a base de todas as trocas de informações na internet." },
+  { "term": "HTTPS (HTTP Secure)", "translation": "HTTP Seguro", "definition": "Versão segura do HTTP que utiliza criptografia SSL/TLS.", "example": "Sempre use HTTPS para proteger senhas dos usuários." },
+  { "term": "HTTP/2", "translation": "HTTP Versão 2", "definition": "Evolução do HTTP que permite enviar múltiplos arquivos em uma única conexão.", "example": "O HTTP/2 torna o carregamento de imagens muito mais rápido." },
+  { "term": "HTTP/3", "translation": "HTTP Versão 3", "definition": "Versão mais recente do protocolo, baseada no QUIC para reduzir a latência.", "example": "O HTTP/3 melhora a navegação em redes 5G." },
+  { "term": "Hyperlink", "translation": "Hiperlink", "definition": "Um link que conecta um documento a outro recurso na web.", "example": "Clique no hyperlink para ler a documentação do React." },
+  { "term": "Hypertext", "translation": "Hipertexto", "definition": "Texto que contém links para outros textos, permitindo a navegação não linear.", "example": "A Web é um vasto sistema de hipertextos interconectados." },
+  { "term": "Hypervisor", "translation": "Hipervisor", "definition": "Software que cria e gerencia máquinas virtuais (VMs).", "example": "O VMware é um hipervisor que permite rodar Windows no Mac." },
+  { "term": "Hybrid Cloud", "translation": "Nuvem Híbrida", "definition": "Ambiente que combina nuvem pública com nuvem privada ou servidores locais.", "example": " la usei nuvem híbrida para manter dados sensíveis em servidor local." },
+  { "term": "HSTS (HTTP Strict Transport Security)", "translation": "Segurança de Transporte Estrita HTTP", "definition": "Mecanismo que força o navegador a usar apenas HTTPS.", "example": "O HSTS previne ataques que tentam forçar o site a usar HTTP." },
+  { "term": "Heuristic", "translation": "Heurística", "definition": "Abordagem de resolução de problemas baseada em regras práticas em vez de algoritmos perfeitos.", "example": "O antivírus usa heurística para detectar vírus novos que ainda não têm assinatura." },
+  { "term": "Hardware", "translation": "Hardware", "definition": "A parte física do computador, como CPU, RAM, Disco e Placa-mãe.", "example": "Limpando o hardware do PC, a temperatura do processador baixou." },
+  { "term": "Hard Disk", "translation": "Disco Rígido / HD", "definition": "Dispositivo de armazenamento magnético não volátil de longa capacidade.", "example": "Troquei meu HD por um SSD para o Windows ligar mais rápido." },
+  { "term": "Half-duplex", "translation": "Half-duplex", "definition": "Comunicação onde os dados fluem em ambas as direções, mas não ao mesmo tempo.", "example": "O rádio Walkie-talkie opera em modo half-duplex." },
+  { "term": "Handshake", "translation": "Aperto de Mão / Handshake", "definition": "Processo de negociação inicial entre dois dispositivos para estabelecer uma conexão.", "example": "O handshake do TCP define a velocidade de transmissão dos dados." },
+  { "term": "Hash Table", "translation": "Tabela de Hash", "definition": "Estrutura de dados que usa uma função de hash para mapear chaves a valores.", "example": "Tabelas de hash permitem buscas extremamente rápidas." },
+
+  { "term": "Idempotency", "translation": "Idempotência", "definition": "Propriedade de uma operação que produz o mesmo resultado não importa quantas vezes seja feita.", "example": "Uma requisição PUT é idempotente; atualizar o nome 10 vezes gera o mesmo resultado." },
+  { "term": "IDE (Integrated Development Environment)", "translation": "Ambiente de Desenvolvimento Integrado", "definition": "Software que combina editor, depurador e compilador (ex: VS Code).", "example": "A IDE facilita a escrita de código com autocompletar." },
+  { "term": "IaaS (Infrastructure as a Service)", "translation": "Infraestrutura como Serviço", "definition": "Modelo de nuvem onde você aluga o hardware virtual e gerencia o SO.", "example": "O EC2 da AWS é um serviço de IaaS." },
+  { "term": "ICMP (Internet Control Message Protocol)", "translation": "Protocolo de Mensagens de Controle de Internet", "definition": "Protocolo usado para enviar mensagens de erro e diagnósticos de rede.", "example": "O comando ping utiliza o protocolo ICMP." },
+  { "term": "Icon", "translation": "Ícone", "definition": "Representação gráfica simplificada de um arquivo, pasta ou programa.", "example": "Usei a biblioteca Lucide para adicionar ícones ao site." },
+  { "term": "IFrame", "translation": "Frame Interno", "definition": "Elemento HTML que permite incorporar outra página web dentro da atual.", "example": "Vídeos do YouTube são inseridos via IFrames." },
+  { "term": "Immutable", "translation": "Imutável", "definition": "Um objeto ou variável cujo valor não pode ser alterado após a criação.", "example": "No React, o estado deve ser imutável para evitar bugs de renderização." },
+  { "term": "Index", "translation": "Índice", "definition": "Estrutura de dados que acelera a busca por registros em bancos de dados.", "example": "Criei um índice no e-mail para a busca ser instantânea." },
+  { "term": "In-memory", "translation": "Em Memória", "definition": "Banco de dados ou processamento que armazena dados na RAM para máxima velocidade.", "example": "O Redis é um banco in-memory usado para cache." },
+  { "term": "Injection", "translation": "Injeção", "definition": "Ataque onde o hacker insere código malicioso em campos de entrada.", "example": "O SQL Injection permite que hackers roubem dados de tabelas." },
+  { "term": "Inheritance", "translation": "Herança", "definition": "Recurso da OOP onde uma classe filha herda atributos e métodos de uma classe pai.", "example": "A classe 'Gato' herda a função 'respirar' da classe 'Animal'." },
+  { "term": "Inline Style", "translation": "Estilo Inline", "definition": "CSS aplicado diretamente no elemento HTML via atributo style.", "example": "Evite inline styles para manter o código organizado." },
+  { "term": "Input", "translation": "Entrada", "definition": "Campo onde o usuário insere dados em um formulário.", "example": "O input de e-mail deve ter validação de formato." },
+  { "term": "Instance", "translation": "Instância", "definition": "A materialização de uma classe; um objeto real criado a partir de um molde.", "example": "Criei três instâncias da classe 'Usuario' no código." },
+  { "term": "Integration", "translation": "Integração", "definition": "Processo de conectar diferentes sistemas para que trabalhem juntos.", "example": "Fizemos a integração do site com o Stripe." },
+  { "term": "Interface", "translation": "Interface", "definition": "Contrato que define quais métodos uma classe deve obrigatoriamente implementar.", "example": "A interface 'IPagamento' obriga a ter a função 'processar'." },
+  { "term": "Interpreter", "translation": "Intérprete", "definition": "Programa que executa o código linha por linha, sem compilar tudo antes.", "example": "O Python é uma linguagem interpretada." },
+  { "term": "Intranet", "translation": "Intranet", "definition": "Rede privada de computadores usada exclusivamente dentro de uma empresa.", "example": "A folha de pagamento fica na intranet da empresa." },
+  { "term": "IP Address", "translation": "Endereço IP", "definition": "Identificador único de cada dispositivo conectado a uma rede IP.", "example": "O endereço IP do servidor é 192.168.1.1." },
+  { "term": "IPv4", "translation": "IPv4", "definition": "Versão 4 do protocolo IP, composta por 4 octetos.", "example": "O IPv4 ficou pequeno para a quantidade de dispositivos no mundo." },
+  { "term": "IPv6", "translation": "IPv6", "definition": "Versão 6 do protocolo IP, com endereços muito maiores em hexadecimal.", "example": "O IPv6 permite bilhões de novos endereços de rede." },
+  { "term": "IPFS (InterPlanetary File System)", "translation": "Sistema de Arquivos Interplanetário", "definition": "Protocolo de rede descentralizado para armazenar e compartilhar arquivos.", "example": "O IPFS evita que arquivos sumam se o servidor central cair." },
+  { "term": "Iteration", "translation": "Iteração", "definition": "O ato de repetir um processo ou percorrer os elementos de uma lista.", "example": "A iteração sobre os termos levou menos de 1ms." },
+  { "term": "Iterative", "translation": "Iterativo", "definition": "Processo de desenvolvimento baseado em repetições e melhorias graduais.", "example": "O design foi feito de forma iterativa com feedbacks do cliente." },
+  { "term": "I/O (Input/Output)", "translation": "Entrada e Saída", "definition": "Comunicação entre um sistema computacional e o mundo exterior.", "example": "Operações de I/O de disco são mais lentas que as de RAM." },
+  { "term": "Increment", "translation": "Incremento", "definition": "Ato de aumentar o valor de uma variável em uma quantidade específica.", "example": "Usei o operador i++ para fazer o incremento do loop." },
+  { "term": "Inverse", "translation": "Inverso", "definition": "Operação que reverte o estado ou o valor de algo.", "example": "Usei a função de inversão para listar os termos de Z-A." },
+  { "term": "ISA (Instruction Set Architecture)", "translation": "Arquitetura de Conjunto de Instruções", "definition": " la definição de quais instruções o hardware de um processador consegue executar.", "example": "A arquitetura x86 é diferente da arquitetura ARM." },
+  { "term": "ISP (Internet Service Provider)", "translation": "Provedor de Serviços de Internet", "definition": "Empresa que fornece a conexão de rede para o usuário final.", "example": "Meu ISP está com instabilidade na região hoje." },
+  { "term": "IoT (Internet of Things)", "translation": "Internet das Coisas", "definition": "Rede de objetos físicos integrados com sensores e software conectados à web.", "example": "Lâmpadas inteligentes fazem parte do ecossistema de IoT." },
+
+  { "term": "JavaScript", "translation": "JavaScript", "definition": "Linguagem dinâmica e versátil, fundamental para a interatividade da web.", "example": "JS permite criar animações e validar formulários." },
+  { "term": "JSON (JavaScript Object Notation)", "translation": "Notação de Objeto JavaScript", "definition": "Formato leve de intercâmbio de dados, fácil de ler para humanos e máquinas.", "example": "O dicionário armazena as palavras no formato JSON." },
+  { "term": "JSDoc", "translation": "JSDoc", "definition": "Padrão de comentários em JS para documentar funções e tipos.", "example": "Usei JSDoc para explicar o retorno da função searchTerms." },
+  { "term": "JIT (Just-In-Time)", "translation": "Compilação Just-in-Time", "definition": "Técnica onde o código é compilado para linguagem de máquina durante a execução.", "example": "A V8 do Chrome usa JIT para acelerar o JavaScript." },
+  { "term": "Join", "translation": "Junção / Join", "definition": "Operação de SQL que combina linhas de duas ou mais tabelas.", "example": "Usei INNER JOIN para ligar a tabela de termos e categorias." },
+  { "term": "Job", "translation": "Tarefa / Job", "definition": "Processo programado para ser executado automaticamente em um horário.", "example": "Criei um cron job para fazer o backup diário." },
+  { "term": "JSX (JavaScript XML)", "translation": "JSX", "definition": "Sintaxe que permite escrever HTML dentro do JavaScript, usada no React.", "example": "No JSX, escrevemos <div> em vez de criar elementos via JS puro." },
+  { "term": "JSON-LD", "translation": "JSON para Dados Vinculados", "definition": "Formato de JSON usado para estruturar dados para SEO do Google.", "example": "Adicionei JSON-LD para exibir estrelas na busca do Google." },
+  { "term": "JSONP", "translation": "JSON with Padding", "definition": "Técnica antiga para contornar restrições de CORS em navegadores velhos.", "example": "Hoje o JSONP foi substituído pelo padrão CORS." },
+  { "term": "JWT (JSON Web Token)", "translation": "Token Web JSON", "definition": "Padrão de token seguro para transmitir informações entre partes como JSON.", "example": "O servidor envia um JWT após o login do usuário." },
+  { "term": "JUnit", "translation": "JUnit", "definition": "Framework de testes unitários para a linguagem Java.", "example": "Escrevi 20 testes no JUnit para validar a lógica de impostos." },
+  { "term": "JVM (Java Virtual Machine)", "translation": "Máquina Virtual Java", "definition": "Software que executa o bytecode Java, permitindo que ele rode em qualquer SO.", "example": "A JVM torna o Java portável entre Windows e Linux." },
+  { "term": "JMeter", "translation": "Apache JMeter", "definition": "Ferramenta de código aberto usada para testar a performance e carga de sites.", "example": " la usei o JMeter para simular 1.000 acessos simultâneos." },
+  { "term": "JPEG", "translation": "Joint Photographic Experts Group", "definition": "Formato de compressão de imagem com perda, ideal para fotos na web.", "example": "Converta fotos para JPEG para carregar a página mais rápido." },
+  { "term": "Jumper", "translation": "Jumper", "definition": "Pequena peça de plástico com metal usada em placas-mãe para configurações.", "example": "Mudei o jumper para resetar a BIOS do computador." },
+  { "term": "Just-in-time compilation", "translation": "Compilação em Tempo Real", "definition": "Compilação de partes do código apenas quando são chamadas na execução.", "example": "A compilação JIT reduz o tempo de início do programa." },
+  { "term": "Jargon", "translation": "Jargão", "definition": "Vocabulário técnico específico de uma profissão, difícil para leigos.", "example": "Este dicionário ajuda a entender o jargão de TI." },
+  { "term": "Java", "translation": "Java", "definition": "Linguagem de programação robusta e orientada a objetos, amplamente usada em empresas.", "example": "O sistema do banco foi todo desenvolvido em Java." },
+  { "term": "JQuery", "translation": "jQuery", "definition": "Biblioteca JavaScript clássica que simplificava a manipulação do DOM e eventos.", "example": "Antigamente usávamos jQuery para fazer animações simples no site." },
+  { "term": "JShell", "translation": "JShell", "definition": "Ferramenta interativa (REPL) introduzida no Java 9 para testar trechos de código.", "example": "Usei o JShell para testar a lógica de soma sem precisar de uma classe." },
+  { "term": "JCL (Job Control Language)", "translation": "Linguagem de Controle de Jobs", "definition": "Linguagem usada em mainframes para instruir o sistema operacional sobre a execução de jobs.", "example": "O JCL define qual dataset deve ser usado no processamento do banco." },
+  { "term": "JMX (Java Management Extensions)", "translation": "Extensões de Gerenciamento Java", "definition": "Tecnologia para monitorar e gerenciar aplicações Java em tempo real.", "example": " la usei o JMX para monitorar o uso de memória da JVM." },
+  { "term": "JNDI (Java Naming and Directory Interface)", "translation": "Interface de Nomes e Diretórios Java", "definition": "API para descobrir e olhar dados em serviços de nomes e diretórios.", "example": "Usei JNDI para localizar a URL do banco de dados no servidor." },
+  { "term": "JSP (JavaServer Pages)", "translation": "Páginas Java do Servidor", "definition": "Tecnologia para criar páginas web dinâmicas usando Java no servidor.", "example": "O JSP permitia injetar lógica Java diretamente no HTML." },
+  { "term": "JScript", "translation": "JScript", "definition": "A implementação da Microsoft do JavaScript para o Internet Explorer.", "example": "O JScript era usado em scripts para Windows antigo." },
+  { "term": "JSON-RPC", "translation": "JSON Remote Procedure Call", "definition": "Protocolo leve para chamadas de função remotas usando JSON.", "example": " la usei JSON-RPC para controlar o servidor de mineração de Bitcoin." },
+  { "term": "Jizo", "translation": "Jizo", "definition": "Implementação leve de servidores HTTP usada em sistemas embarcados.", "example": " la usei o servidor Jizo para configurar o roteador via web." },
+  { "term": "J-Tree", "translation": "J-Tree", "definition": "Componente de interface gráfica do Java Swing para exibir dados em árvore.", "example": "Usei o JTree para criar a navegação de pastas do software." },
+  { "term": "J la (No-Op)", "translation": "No-Operation", "definition": "Instrução de computador que não realiza nenhuma operação, usada para temporização.", "example": " O processador executa um NOP para esperar o hardware responder." },
+  { "term": "JavaFX", "translation": "JavaFX", "definition": "Framework para criar interfaces gráficas ricas e modernas com a linguagem Java.", "example": " a aplicação de desktop foi feita com JavaFX para ter um visual moderno." },
   {
     "term": "K-Means",
     "translation": "K-Means",
