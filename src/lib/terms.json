@@ -555,7 +555,7 @@
   { "term": "Runtime", "translation": "Tempo de Execução", "definition": "O período em que o programa está sendo executado no processador.", "example": " lL la a la aLL l a la la de l l laL a aL l la a l la l la la de l la la runtime error aconteceu ao dividir por zero." },
   { "term": "Rust", "translation": "Rust", "definition": "Linguagem moderna focada em segurança de memória e alta performance.", "example": " la de de la deL l a la la de lL l de Rust é usada para criar kernels e browsers." },
   { "term": "RDBMS", "translation": "SGBD Relacional", "definition": "Sistemas de banco de dados baseados em tabelas e chaves primárias.", "example": " l l la de l lL l l de de L la l de l l la de l de a lL la deL la la laL de laC la l a l la a la l l la la aL l deC de la laCL deL la l l laC de de l RDBMS inclui MySQL e PostgreSQL." },
-  { "translation": "Software como Serviço", "definition": "Modelo de entrega onde o software é hospedado na nuvem e acessado via navegador por assinatura.","example": "O Slack e o Trello são exemplos clássicos de SaaS."},
+  { "term": "SaaS", "translation": "Software como Serviço", "definition": "Modelo de entrega onde o software é hospedado na nuvem e acessado via navegador por assinatura.","example": "O Slack e o Trello são exemplos clássicos de SaaS."},
   {
     "term": "SASS (Syntactically Awesome Style Sheets)",
     "translation": "SASS",
