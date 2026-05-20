@@ -38,3 +38,37 @@ body {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+/* Garante que as imagens e inputs não estourem a largura da tela */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 20px; /* Espaçamento lateral para não colar nas bordas do celular */
+}
+
+/* Ajustes para telas de até 600px (Celulares) */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem; /* Diminui um pouco o título */
+  }
+
+  .search-container {
+    flex-direction: column; /* Se você usa flexbox, empilha o input e o botão */
+    gap: 10px;
+  }
+
+  input {
+    width: 100%; /* Input ocupa toda a largura disponível */
+    font-size: 16px; /* Evita que o iOS faça "zoom" automático ao clicar no input */
+  }
+
+  button {
+    width: 100%; /* Botão ocupa toda a largura no mobile */
+    padding: 12px;
+  }
+
+  .result-content {
+    font-size: 0.9rem; /* Texto levemente menor para caber mais conteúdo */
+  }
+}
