@@ -152,9 +152,7 @@
   { "term": "Exact match", "translation": "Correspondência Exata", "definition": "Busca que retorna resultados apenas se o termo for idêntico ao pesquisado, sem variações.", "example": "A busca por 'iPhone 13' em correspondência exata não retorna 'iPhone 14'." },
   { "term": "Exception handling", "translation": "Tratamento de Exceções", "definition": "Prática de prever erros e criar fluxos para que o sistema não trave quando eles ocorrerem.", "example": "Um bom tratamento de exceções exibe uma mensagem amigável em vez de um erro técnico." },
   { "term": "Execution", "translation": "Execução", "definition": "O processo de rodar as instruções de um programa no processador.", "example": "A execução do script levou apenas 2 milissegundos." },
-  { "term": "Exponent", "translation": "Expoente", "definition": "Número que indica quantas vezes a base deve ser multiplicada por si mesma.", "example": "A complexidade de tempo O(2^n) possui um crescimento exponencial." }
-]
-
+  { "term": "Exponent", "translation": "Expoente", "definition": "Número que indica quantas vezes a base deve ser multiplicada por si mesma.", "example": "A complexidade de tempo O(2^n) possui um crescimento exponencial." },
   {
     "term": "Face Recognition",
     "translation": "Reconhecimento Facial",
