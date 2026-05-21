@@ -167,7 +167,7 @@ export default function Home() {
               {l}
             </button>
           ))}
-        </div
+        </div>
       </section>
     </GlossaryLayout>
   );
