@@ -99,7 +99,7 @@ function HomeContent() {
             >
               Buscar
             </button>
-          </div_
+          </div>
 
           {results.length > 0 && (
             <div className="mt-6 animate-in fade-in slide-in-from-top-4 duration-500">
@@ -120,16 +120,16 @@ function HomeContent() {
                     </button>
                   </li>
                 ))}
-              </ul_
-            </div_
+              </ul>
+            </div>
           )}
           
           {queryFromUrl && results.length === 0 && (
             <div className="mt-6 text-center p-4 rounded-xl bg-white/[0.02] border border-white/5 text-zinc-500 text-sm">
               Nenhum termo encontrado para "{queryFromUrl}".
-            </div_
+            </div>
           )}
-        </div_
+        </div>
       </section>
 
       {selectedTerm && (
@@ -145,8 +145,8 @@ function HomeContent() {
             <p className="text-zinc-300 italic mb-4">{selectedTerm.translation}</p>
             <div className="text-zinc-400 leading-relaxed">
               {selectedTerm.definition}
-            </div_
-          </div_
+            </div>
+          </div>
         </section>
       )}
 
