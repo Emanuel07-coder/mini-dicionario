@@ -14,61 +14,54 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #09090b; /* Cor exata do zinc-950 para evitar diferenças */
     --foreground: #ededed;
   }
 }
 
+/* 
+   Saneamento Global: 
+   Removemos todas as margens e paddings padrão do navegador 
+*/
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--background);
+  overflow-x: hidden; /* Evita que o site "dance" para os lados no mobile */
+}
+
 body {
-  background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  /* Removi o padding: 0 20px que estava causando o erro */
 }
+
+/* --- UTILITÁRIOS --- */
+
 .loader {
-  border: 4px solid #f3f3f3; /* Cor do fundo do círculo */
-  border-top: 4px solid #3498db; /* Cor principal do spinner */
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
   border-radius: 50%;
   width: 40px;
   height: 40px;
   animation: spin 1s linear infinite;
-  margin: 20px auto; /* Centraliza o spinner */
+  margin: 20px auto;
 }
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-/* Garante que as imagens e inputs não estourem a largura da tela */
+
 * {
   box-sizing: border-box;
 }
 
-body {
-  padding: 0 20px; /* Espaçamento lateral para não colar nas bordas do celular */
-}
+/* 
+   Removi as Media Queries de h1, input e button daqui 
+   porque você já está usando as classes do Tailwind no HTML 
+   (ex: sm:grid-cols-6, px-4, etc), o que é muito mais eficiente.
+*/
 
-/* Ajustes para telas de até 600px (Celulares) */
-@media (max-width: 600px) {
-  h1 {
-    font-size: 1.8rem; /* Diminui um pouco o título */
-  }
-
-  .search-container {
-    flex-direction: column; /* Se você usa flexbox, empilha o input e o botão */
-    gap: 10px;
-  }
-
-  input {
-    width: 100%; /* Input ocupa toda a largura disponível */
-    font-size: 16px; /* Evita que o iOS faça "zoom" automático ao clicar no input */
-  }
-
-  button {
-    width: 100%; /* Botão ocupa toda a largura no mobile */
-    padding: 12px;
-  }
-
-  .result-content {
-    font-size: 0.9rem; /* Texto levemente menor para caber mais conteúdo */
-  }
-}
