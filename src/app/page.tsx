@@ -99,7 +99,7 @@ function HomeContent() {
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-zinc-500 group-focus-within:text-cyan-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
-            </div_
+            </div>
             
             <input
               value={inputValue}
@@ -115,7 +115,7 @@ function HomeContent() {
             >
               Buscar
             </button>
-          </div_
+          </div>
 
           {results.length > 0 && (
             <div className="mt-6 animate-in fade-in slide-in-from-top-4 duration-500">
@@ -131,21 +131,21 @@ function HomeContent() {
                       onClick={() => setSelectedTerm(entry)}
                       className="w-full text-left rounded-xl border border-white/5 bg-white/[0.02] px-4 py-3 hover:border-cyan-500/30 hover:bg-white/[0.05] transition-all group"
                     >
-                      <div className="text-sm font-bold text-cyan-200 group-hover:text-cyan-100">{entry.term}</div_
-                      <div className="text-xs text-zinc-500">{entry.translation}</div_
+                      <div className="text-sm font-bold text-cyan-200 group-hover:text-cyan-100">{entry.term}</div>
+                      <div className="text-xs text-zinc-500">{entry.translation}</div>
                     </button>
                   </li>
                 ))}
-              </ul_
-            </div_
+              </ul>
+            </div>
           )}
           
           {queryFromUrl && results.length === 0 && (
             <div className="mt-6 text-center p-4 rounded-xl bg-white/[0.02] border border-white/5 text-zinc-500 text-sm">
               Nenhum termo encontrado para "{queryFromUrl}".
-            </div_
+            </div>
           )}
-        </div_
+        </div>
       </section>
 
       {/* DETALHES DO TERMO - AGORA COM A REF */}
@@ -165,8 +165,8 @@ function HomeContent() {
             <p className="text-zinc-300 italic mb-4">{selectedTerm.translation}</p>
             <div className="text-zinc-400 leading-relaxed">
               {selectedTerm.definition}
-            </div_
-          </div_
+            </div>
+          </div>
         </section>
       )}
 
@@ -184,7 +184,7 @@ function HomeContent() {
               {l}
             </button>
           ))}
-        </div_
+        </div>
       </section>
     </GlossaryLayout>
   );
