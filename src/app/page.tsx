@@ -1,7 +1,18 @@
 import Link from "next/link";
 import GlossaryLayout from "@/components/GlossaryLayout";
 import { LETTERS, getAllTerms, searchTerms } from "@/lib/terms";
-import SearchForm from "@/components/SearchForm"; // Importe o novo componente
+import type { TermEntry } from "@/lib/terms"; // <--- Importante: isso define o que é TermEntry
+import SearchForm from "@/components/SearchForm";
+
+// Definimos o tipo de resultado da busca logo após os imports
+type SearchResult = {
+  letter: string;
+  entry: TermEntry;
+};
+
+type HomeSearchParams = {
+  q?: string | string[];
+};
 
 function TermsCountHint({ total }: { total: number }) {
   return (
@@ -15,12 +26,6 @@ function TermsCountHint({ total }: { total: number }) {
   );
 }
 
-// Adicione este tipo para definir a estrutura de cada resultado de busca
-type SearchResult = {
-  letter: string;
-  entry: TermEntry;
-};
-
 export default async function Home(props: { searchParams: Promise<HomeSearchParams> }) {
   const searchParams = await props.searchParams;
   return <HomeContent searchParams={searchParams} />;
@@ -31,11 +36,10 @@ function HomeContent({ searchParams }: { searchParams: HomeSearchParams }) {
   const letters = LETTERS;
   const qRaw = searchParams?.q;
   
-  // 1. Saneamento rigoroso do termo de busca
   const q = Array.isArray(qRaw) ? qRaw[0] ?? "" : qRaw ?? "";
-  const searchTerm = q.trim(); // Remove espaços inúteis no início e fim
+  const searchTerm = q.trim();
 
-   // 2. Busca protegida com tipagem explícita para evitar erro de Build
+  // Agora o TypeScript sabe que 'results' é um array de 'SearchResult'
   let results: SearchResult[] = []; 
   try {
     if (searchTerm) {
@@ -48,7 +52,7 @@ function HomeContent({ searchParams }: { searchParams: HomeSearchParams }) {
 
   return (
     <GlossaryLayout>
-      {/* ... restante do código (o JSX permanece igual) ... */}
+      {/* ... o resto do seu código JSX (section, SearchForm, etc) continua igual ... */}
       <section className="mb-12 text-center sm:text-left">
         <h1 className="font-mono text-4xl tracking-tight text-cyan-200">
           Mini-dicionário <span className="text-zinc-500">Tech</span>
