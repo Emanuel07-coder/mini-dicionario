@@ -1,10 +1,9 @@
-"use client"; // Agora a página é cliente para permitir interatividade instantânea
+"use client";
 
 import { useState } from "react";
 import GlossaryLayout from "@/components/GlossaryLayout";
 import { LETTERS, getAllTerms, searchTerms } from "@/lib/terms";
 import type { TermEntry } from "@/lib/terms";
-import SearchForm from "@/components/SearchForm";
 
 type SearchResult = {
   letter: string;
@@ -12,15 +11,50 @@ type SearchResult = {
 };
 
 export default function Home() {
-  // Estado para controlar qual termo está sendo visualizado
+  const [inputValue, setInputValue] = useState(""); 
+  const [query, setQuery] = useState("");           
   const [selectedTerm, setSelectedTerm] = useState<TermEntry | null>(null);
   
-  // Estado para a busca (já que não usaremos mais o reload da página para resultados)
-  const [query, setQuery] = useState("");
+  // NOVO: Estado para saber se estamos filtrando por letra ou por busca global
+  const [isLetterFilter, setIsLetterFilter] = useState(false);
 
   const total = getAllTerms().length;
   const letters = LETTERS;
-  const results = query ? searchTerms(query) : [];
+  const allTerms = getAllTerms();
+
+  // Lógica de filtragem separada e rigorosa
+  const getResults = () => {
+    if (!query) return [];
+
+    if (isLetterFilter) {
+      // FILTRO RIGOROSO POR LETRA: 
+      // Apenas termos que COMEÇAM com a letra selecionada
+      return allTerms
+        .filter(term => term.term.toUpperCase().startsWith(query.toUpperCase()))
+        .map(term => ({
+          letter: query,
+          entry: term
+        }));
+    } else {
+      // BUSCA GLOBAL: Usa a função do seu lib/terms.ts
+      return searchTerms(query);
+    }
+  };
+
+  const results = getResults();
+
+  const handleSearch = () => {
+    setQuery(inputValue);
+    setIsLetterFilter(false); // Se usou o botão buscar, desativa o modo de letra
+    setSelectedTerm(null);
+  };
+
+  const handleLetterClick = (l: string) => {
+    setInputValue(l);      // Atualiza o texto do input
+    setQuery(l);           // Atualiza a query de busca
+    setIsLetterFilter(true); // ATIVA o modo de filtro por letra
+    setSelectedTerm(null);   // Fecha definições abertas
+  };
 
   return (
     <GlossaryLayout>
@@ -36,29 +70,47 @@ export default function Home() {
         </p>
       </section>
 
-      {/* BUSCA */}
+      {/* BUSCA GLOBAL */}
       <section className="mb-12">
         <div className="max-w-2xl mx-auto">
-          {/* Adaptamos o SearchForm para atualizar o estado local em vez de recarregar a página */}
           <div className="relative group">
             <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-zinc-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                className="h-5 w-5 text-zinc-500 group-focus-within:text-cyan-400 transition-colors" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
+              >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
             </div>
+            
             <input
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder="Pesquisar termo..."
-              className="w-full rounded-2xl border border-white/10 bg-zinc-900/50 pl-11 pr-4 py-4 text-zinc-100 outline-none focus:ring-2 focus:ring-cyan-500/50 transition-all"
+              value={inputValue}
+              onChange={(e) => setInputValue(e.target.value)}
+              onKeyDown={(e) => e.key === 'Enter' && handleSearch()}
+              placeholder="Pesquisar termo, tradução ou definição..."
+              className="w-full rounded-2xl border border-white/10 bg-zinc-900/50 pl-11 pr-24 py-4 text-zinc-100 outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-cyan-500/50 transition-all placeholder:text-zinc-600"
             />
+            
+            <button 
+              onClick={handleSearch}
+              className="absolute right-2 top-2 bottom-2 px-4 bg-cyan-500 hover:bg-cyan-400 text-zinc-950 font-bold rounded-xl transition-colors text-sm"
+            >
+              Buscar
+            </button>
           </div>
 
           {results.length > 0 && (
             <div className="mt-6 animate-in fade-in slide-in-from-top-4 duration-500">
-              <h2 className="text-sm font-semibold text-zinc-400 mb-3 ml-1">Resultados encontrados:</h2>
+              <h2 className="text-sm font-semibold text-zinc-400 mb-3 ml-1">
+                {isLetterFilter 
+                  ? `Termos começando com ${query}:` 
+                  : "Resultados encontrados:"}
+              </h2>
               <ul className="grid gap-3 grid-cols-1 sm:grid-cols-2">
-                {results.slice(0, 10).map(({ entry }) => (
+                {results.slice(0, 50).map(({ entry }) => (
                   <li key={entry.term}>
                     <button
                       onClick={() => setSelectedTerm(entry)}
@@ -72,10 +124,16 @@ export default function Home() {
               </ul>
             </div>
           )}
+          
+          {query && results.length === 0 && (
+            <div className="mt-6 text-center p-4 rounded-xl bg-white/[0.02] border border-white/5 text-zinc-500 text-sm">
+              Nenhum termo encontrado para "{query}".
+            </div>
+          )}
         </div>
       </section>
 
-      {/* DETALHES DO TERMO (O "HIDDEN" COM ANIMAÇÃO) */}
+      {/* DETALHES DO TERMO */}
       {selectedTerm && (
         <section className="mb-12 max-w-2xl mx-auto animate-in zoom-in-95 fade-in duration-300">
           <div className="p-6 rounded-2xl border border-cyan-500/30 bg-cyan-500/5 relative">
@@ -103,17 +161,13 @@ export default function Home() {
           {letters.map((l) => (
             <button
               key={l}
-              onClick={() => {
-                // Ao clicar na letra, podemos filtrar a busca automaticamente
-                setQuery(l);
-                setSelectedTerm(null);
-              }}
+              onClick={() => handleLetterClick(l)}
               className="flex items-center justify-center rounded-lg border border-white/5 bg-white/[0.02] py-3 text-sm font-medium text-zinc-400 hover:border-cyan-500/50 hover:text-cyan-200 hover:bg-cyan-500/10 transition-all"
             >
               {l}
             </button>
           ))}
-        </div>
+        </div
       </section>
     </GlossaryLayout>
   );
