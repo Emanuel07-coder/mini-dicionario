@@ -164,7 +164,7 @@ function HomeContent() {
               {l}
             </button>
           ))}
-        </div_
+        </div>
       </section>
     </GlossaryLayout>
   );
