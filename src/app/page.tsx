@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, Suspense } from "react"; // Adicionado Suspense
+import { useState, useEffect, Suspense, useRef } from "react"; // Adicionado useRef
 import { useRouter, useSearchParams } from "next/navigation";
 import GlossaryLayout from "@/components/GlossaryLayout";
 import { LETTERS, getAllTerms, searchTerms } from "@/lib/terms";
@@ -11,10 +11,12 @@ type SearchResult = {
   entry: TermEntry;
 };
 
-// 1. Movemos toda a lógica para este componente interno
 function HomeContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
+  
+  // REF para a seção de detalhes
+  const detailsRef = useRef<HTMLElement>(null);
 
   const [inputValue, setInputValue] = useState(""); 
   const [selectedTerm, setSelectedTerm] = useState<TermEntry | null>(null);
@@ -30,35 +32,31 @@ function HomeContent() {
     setInputValue(queryFromUrl);
   }, [queryFromUrl]);
 
-    const getResults = () => {
+  // --- EFEITO DE SCROLL SUAVE ---
+  useEffect(() => {
+    if (selectedTerm && detailsRef.current) {
+      // Pequeno delay para garantir que o elemento já foi renderizado no DOM
+      setTimeout(() => {
+        detailsRef.current?.scrollIntoView({ 
+          behavior: "smooth", 
+          block: "start", 
+          inline: "nearest" 
+        });
+      }, 100);
+    }
+  }, [selectedTerm]); // Sempre que selectedTerm mudar, ele tenta rolar a página
+
+  const getResults = () => {
     const currentQuery = queryFromUrl;
     if (!currentQuery) return [];
 
     if (typeFromUrl === "letter") {
       return allTerms
-        .filter(term => {
-          // VERIFICAÇÃO DE SEGURANÇA:
-          // Garante que o objeto 'term' existe E que a propriedade 'term' dentro dele existe
-          if (!term || !term.term) return false; 
-          
-          return term.term.toUpperCase().startsWith(currentQuery.toUpperCase());
-        })
-        .map(term => ({ 
-          letter: currentQuery, 
-          entry: term 
-        }));
+        .filter(term => term.term?.toUpperCase().startsWith(currentQuery.toUpperCase()))
+        .map(term => ({ letter: currentQuery, entry: term }));
     }
-
-    // Para a busca global, vamos envolver em um try-catch para garantir 
-    // que qualquer erro interno da searchTerms não derrube o site.
-    try {
-      return searchTerms(currentQuery);
-    } catch (e) {
-      console.error("Erro na busca global:", e);
-      return [];
-    }
+    return searchTerms(currentQuery);
   };
-
 
   const results = getResults();
 
@@ -101,7 +99,7 @@ function HomeContent() {
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-zinc-500 group-focus-within:text-cyan-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
-            </div>
+            </div_
             
             <input
               value={inputValue}
@@ -117,7 +115,7 @@ function HomeContent() {
             >
               Buscar
             </button>
-          </div>
+          </div_
 
           {results.length > 0 && (
             <div className="mt-6 animate-in fade-in slide-in-from-top-4 duration-500">
@@ -133,25 +131,29 @@ function HomeContent() {
                       onClick={() => setSelectedTerm(entry)}
                       className="w-full text-left rounded-xl border border-white/5 bg-white/[0.02] px-4 py-3 hover:border-cyan-500/30 hover:bg-white/[0.05] transition-all group"
                     >
-                      <div className="text-sm font-bold text-cyan-200 group-hover:text-cyan-100">{entry.term}</div>
-                      <div className="text-xs text-zinc-500">{entry.translation}</div>
+                      <div className="text-sm font-bold text-cyan-200 group-hover:text-cyan-100">{entry.term}</div_
+                      <div className="text-xs text-zinc-500">{entry.translation}</div_
                     </button>
                   </li>
                 ))}
-              </ul>
-            </div>
+              </ul_
+            </div_
           )}
           
           {queryFromUrl && results.length === 0 && (
             <div className="mt-6 text-center p-4 rounded-xl bg-white/[0.02] border border-white/5 text-zinc-500 text-sm">
               Nenhum termo encontrado para "{queryFromUrl}".
-            </div>
+            </div_
           )}
-        </div>
+        </div_
       </section>
 
+      {/* DETALHES DO TERMO - AGORA COM A REF */}
       {selectedTerm && (
-        <section className="mb-12 max-w-2xl mx-auto animate-in zoom-in-95 fade-in duration-300">
+        <section 
+          ref={detailsRef} // <--- ATENÇÃO: A ref está aqui agora!
+          className="mb-12 max-w-2xl mx-auto animate-in zoom-in-95 fade-in duration-300"
+        >
           <div className="p-6 rounded-2xl border border-cyan-500/30 bg-cyan-500/5 relative">
             <button 
               onClick={() => setSelectedTerm(null)}
@@ -163,8 +165,8 @@ function HomeContent() {
             <p className="text-zinc-300 italic mb-4">{selectedTerm.translation}</p>
             <div className="text-zinc-400 leading-relaxed">
               {selectedTerm.definition}
-            </div>
-          </div>
+            </div_
+          </div_
         </section>
       )}
 
@@ -182,13 +184,12 @@ function HomeContent() {
               {l}
             </button>
           ))}
-        </div>
+        </div_
       </section>
     </GlossaryLayout>
   );
 }
 
-// 2. A função principal agora é apenas um wrapper com Suspense
 export default function Home() {
   return (
     <Suspense fallback={
