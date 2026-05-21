@@ -1,6 +1,7 @@
-"use client";
+"use client"; // Marca a página como 100% Cliente
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import GlossaryLayout from "@/components/GlossaryLayout";
 import { LETTERS, getAllTerms, searchTerms } from "@/lib/terms";
 import type { TermEntry } from "@/lib/terms";
@@ -10,50 +11,63 @@ type SearchResult = {
   entry: TermEntry;
 };
 
+// REMOVEMOS o 'async' e os 'props' do servidor. 
+// Agora a função é simples e não quebra o Next.js.
 export default function Home() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  // Estados
   const [inputValue, setInputValue] = useState(""); 
-  const [query, setQuery] = useState("");           
   const [selectedTerm, setSelectedTerm] = useState<TermEntry | null>(null);
-  
-  // NOVO: Estado para saber se estamos filtrando por letra ou por busca global
   const [isLetterFilter, setIsLetterFilter] = useState(false);
+
+  // Pegamos a query da URL para manter o estado ao atualizar a página
+  const queryFromUrl = searchParams.get("q") || "";
+  const typeFromUrl = searchParams.get("type");
 
   const total = getAllTerms().length;
   const letters = LETTERS;
   const allTerms = getAllTerms();
 
-  // Lógica de filtragem separada e rigorosa
-  const getResults = () => {
-    if (!query) return [];
+  // Sincroniza o input com a URL quando a página carrega
+  useEffect(() => {
+    setInputValue(queryFromUrl);
+  }, [queryFromUrl]);
 
-    if (isLetterFilter) {
-      // FILTRO RIGOROSO POR LETRA: 
-      // Apenas termos que COMEÇAM com a letra selecionada
+  // LÓGICA DE FILTRAGEM (Base Sólida)
+  const getResults = () => {
+    const currentQuery = queryFromUrl; // Usamos a query da URL como fonte da verdade
+    if (!currentQuery) return [];
+
+    if (typeFromUrl === "letter") {
       return allTerms
-        .filter(term => term.term.toUpperCase().startsWith(query.toUpperCase()))
-        .map(term => ({
-          letter: query,
-          entry: term
-        }));
-    } else {
-      // BUSCA GLOBAL: Usa a função do seu lib/terms.ts
-      return searchTerms(query);
+        .filter(term => term.term.toUpperCase().startsWith(currentQuery.toUpperCase()))
+        .map(term => ({ letter: currentQuery, entry: term }));
     }
+
+    return searchTerms(currentQuery);
   };
 
   const results = getResults();
 
+  // Função para atualizar a URL sem recarregar a página
+  const updateUrl = (q: string, type: string) => {
+    const params = new URLSearchParams();
+    if (q) params.set("q", q);
+    if (type) params.set("type", type);
+    router.push(`?${params.toString()}`, { scroll: false });
+  };
+
   const handleSearch = () => {
-    setQuery(inputValue);
-    setIsLetterFilter(false); // Se usou o botão buscar, desativa o modo de letra
+    updateUrl(inputValue, "global");
     setSelectedTerm(null);
   };
 
   const handleLetterClick = (l: string) => {
-    setInputValue(l);      // Atualiza o texto do input
-    setQuery(l);           // Atualiza a query de busca
-    setIsLetterFilter(true); // ATIVA o modo de filtro por letra
-    setSelectedTerm(null);   // Fecha definições abertas
+    setInputValue(l);
+    updateUrl(l, "letter");
+    setSelectedTerm(null);
   };
 
   return (
@@ -70,18 +84,11 @@ export default function Home() {
         </p>
       </section>
 
-      {/* BUSCA GLOBAL */}
       <section className="mb-12">
         <div className="max-w-2xl mx-auto">
           <div className="relative group">
             <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-              <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                className="h-5 w-5 text-zinc-500 group-focus-within:text-cyan-400 transition-colors" 
-                fill="none" 
-                viewBox="0 0 24 24" 
-                stroke="currentColor"
-              >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-zinc-500 group-focus-within:text-cyan-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
             </div>
@@ -105,8 +112,8 @@ export default function Home() {
           {results.length > 0 && (
             <div className="mt-6 animate-in fade-in slide-in-from-top-4 duration-500">
               <h2 className="text-sm font-semibold text-zinc-400 mb-3 ml-1">
-                {isLetterFilter 
-                  ? `Termos começando com ${query}:` 
+                {typeFromUrl === "letter" 
+                  ? `Termos começando com ${queryFromUrl}:` 
                   : "Resultados encontrados:"}
               </h2>
               <ul className="grid gap-3 grid-cols-1 sm:grid-cols-2">
@@ -125,15 +132,14 @@ export default function Home() {
             </div>
           )}
           
-          {query && results.length === 0 && (
+          {queryFromUrl && results.length === 0 && (
             <div className="mt-6 text-center p-4 rounded-xl bg-white/[0.02] border border-white/5 text-zinc-500 text-sm">
-              Nenhum termo encontrado para "{query}".
+              Nenhum termo encontrado para "{queryFromUrl}".
             </div>
           )}
         </div>
       </section>
 
-      {/* DETALHES DO TERMO */}
       {selectedTerm && (
         <section className="mb-12 max-w-2xl mx-auto animate-in zoom-in-95 fade-in duration-300">
           <div className="p-6 rounded-2xl border border-cyan-500/30 bg-cyan-500/5 relative">
@@ -152,7 +158,6 @@ export default function Home() {
         </section>
       )}
 
-      {/* NAVEGAÇÃO ALFABÉTICA */}
       <section>
         <h2 className="mb-6 font-mono text-xs uppercase tracking-widest text-zinc-500 text-center">
           Navegação Alfabética
