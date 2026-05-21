@@ -19,14 +19,19 @@ export function searchTerms(query: string) {
   const q = query.toLowerCase();
   const data = getAllTerms();
   
-  const filtered = data.filter(entry => 
-    entry.term.toLowerCase().includes(q) || 
-    entry.translation.toLowerCase().includes(q) || 
-    entry.definition.toLowerCase().includes(q)
-  );
+  const filtered = data.filter(entry => {
+    // Usamos o operador ?. para evitar crash se a propriedade for undefined
+    // E usamos || "" para garantir que tenhamos uma string para chamar o .includes()
+    const term = (entry.term || "").toLowerCase();
+    const translation = (entry.translation || "").toLowerCase();
+    const definition = (entry.definition || "").toLowerCase();
+
+    return term.includes(q) || translation.includes(q) || definition.includes(q);
+  });
 
   return filtered.map(entry => ({
-    letter: entry.term[0].toUpperCase(),
+    // Segurança extra ao pegar a primeira letra
+    letter: entry.term ? entry.term[0].toUpperCase() : " ",
     entry: entry
   }));
 }
@@ -35,13 +40,17 @@ export function searchTerms(query: string) {
 export function getTermsForLetter(letter: string): TermEntry[] {
   const targetLetter = letter.toUpperCase();
   return getAllTerms().filter(entry => 
-    entry.term.toUpperCase().startsWith(targetLetter)
+    // Segurança: verifica se entry.term existe antes de usar startWith
+    entry.term?.toUpperCase().startsWith(targetLetter)
   );
 }
 
-// BUSCA CORRIGIDA: Agora aceita (letter, slug) e retorna o objeto com .entry
+// BUSCA CORRIGIDA
 export function findTerm(_letter: string, slug: string): { letter: string, entry: TermEntry } | undefined {
   const term = getAllTerms().find(entry => {
+    // Segurança: Se entry.term não existir, pula este item
+    if (!entry.term) return false;
+
     const termSlug = entry.term
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, "-");
@@ -50,8 +59,6 @@ export function findTerm(_letter: string, slug: string): { letter: string, entry
 
   if (!term) return undefined;
 
-  // Retornamos no formato que a sua página [termSlug]/page.tsx espera:
-  // { letter: "A", entry: { term: "API", ... } }
   return {
     letter: _letter.toUpperCase(),
     entry: term
