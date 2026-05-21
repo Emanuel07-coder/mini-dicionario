@@ -115,8 +115,8 @@ function HomeContent() {
                       onClick={() => setSelectedTerm(entry)}
                       className="w-full text-left rounded-xl border border-white/5 bg-white/[0.02] px-4 py-3 hover:border-cyan-500/30 hover:bg-white/[0.05] transition-all group"
                     >
-                      <div className="text-sm font-bold text-cyan-200 group-hover:text-cyan-100">{entry.term}</div_
-                      <div className="text-xs text-zinc-500">{entry.translation}</div_
+                      <div className="text-sm font-bold text-cyan-200 group-hover:text-cyan-100">{entry.term}</div>
+                      <div className="text-xs text-zinc-500">{entry.translation}</div>
                     </button>
                   </li>
                 ))}
