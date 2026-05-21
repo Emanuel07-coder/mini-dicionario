@@ -30,17 +30,35 @@ function HomeContent() {
     setInputValue(queryFromUrl);
   }, [queryFromUrl]);
 
-  const getResults = () => {
+    const getResults = () => {
     const currentQuery = queryFromUrl;
     if (!currentQuery) return [];
 
     if (typeFromUrl === "letter") {
       return allTerms
-        .filter(term => term.term.toUpperCase().startsWith(currentQuery.toUpperCase()))
-        .map(term => ({ letter: currentQuery, entry: term }));
+        .filter(term => {
+          // VERIFICAÇÃO DE SEGURANÇA:
+          // Garante que o objeto 'term' existe E que a propriedade 'term' dentro dele existe
+          if (!term || !term.term) return false; 
+          
+          return term.term.toUpperCase().startsWith(currentQuery.toUpperCase());
+        })
+        .map(term => ({ 
+          letter: currentQuery, 
+          entry: term 
+        }));
     }
-    return searchTerms(currentQuery);
+
+    // Para a busca global, vamos envolver em um try-catch para garantir 
+    // que qualquer erro interno da searchTerms não derrube o site.
+    try {
+      return searchTerms(currentQuery);
+    } catch (e) {
+      console.error("Erro na busca global:", e);
+      return [];
+    }
   };
+
 
   const results = getResults();
 
