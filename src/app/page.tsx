@@ -15,8 +15,10 @@ function TermsCountHint({ total }: { total: number }) {
   );
 }
 
-type HomeSearchParams = {
-  q?: string | string[];
+// Adicione este tipo para definir a estrutura de cada resultado de busca
+type SearchResult = {
+  letter: string;
+  entry: TermEntry;
 };
 
 export default async function Home(props: { searchParams: Promise<HomeSearchParams> }) {
@@ -33,15 +35,15 @@ function HomeContent({ searchParams }: { searchParams: HomeSearchParams }) {
   const q = Array.isArray(qRaw) ? qRaw[0] ?? "" : qRaw ?? "";
   const searchTerm = q.trim(); // Remove espaços inúteis no início e fim
 
-  // 2. Busca protegida para evitar erro de servidor
-  let results = [];
+   // 2. Busca protegida com tipagem explícita para evitar erro de Build
+  let results: SearchResult[] = []; 
   try {
     if (searchTerm) {
       results = searchTerms(searchTerm);
     }
   } catch (error) {
     console.error("Erro ao buscar termos no servidor:", error);
-    results = []; // Se der erro, retorna lista vazia em vez de derrubar o site
+    results = []; 
   }
 
   return (
