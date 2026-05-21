@@ -1,6 +1,6 @@
-"use client"; // Marca a página como 100% Cliente
+"use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react"; // Adicionado Suspense
 import { useRouter, useSearchParams } from "next/navigation";
 import GlossaryLayout from "@/components/GlossaryLayout";
 import { LETTERS, getAllTerms, searchTerms } from "@/lib/terms";
@@ -11,18 +11,14 @@ type SearchResult = {
   entry: TermEntry;
 };
 
-// REMOVEMOS o 'async' e os 'props' do servidor. 
-// Agora a função é simples e não quebra o Next.js.
-export default function Home() {
+// 1. Movemos toda a lógica para este componente interno
+function HomeContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
-  // Estados
   const [inputValue, setInputValue] = useState(""); 
   const [selectedTerm, setSelectedTerm] = useState<TermEntry | null>(null);
-  const [isLetterFilter, setIsLetterFilter] = useState(false);
 
-  // Pegamos a query da URL para manter o estado ao atualizar a página
   const queryFromUrl = searchParams.get("q") || "";
   const typeFromUrl = searchParams.get("type");
 
@@ -30,14 +26,12 @@ export default function Home() {
   const letters = LETTERS;
   const allTerms = getAllTerms();
 
-  // Sincroniza o input com a URL quando a página carrega
   useEffect(() => {
     setInputValue(queryFromUrl);
   }, [queryFromUrl]);
 
-  // LÓGICA DE FILTRAGEM (Base Sólida)
   const getResults = () => {
-    const currentQuery = queryFromUrl; // Usamos a query da URL como fonte da verdade
+    const currentQuery = queryFromUrl;
     if (!currentQuery) return [];
 
     if (typeFromUrl === "letter") {
@@ -45,13 +39,11 @@ export default function Home() {
         .filter(term => term.term.toUpperCase().startsWith(currentQuery.toUpperCase()))
         .map(term => ({ letter: currentQuery, entry: term }));
     }
-
     return searchTerms(currentQuery);
   };
 
   const results = getResults();
 
-  // Função para atualizar a URL sem recarregar a página
   const updateUrl = (q: string, type: string) => {
     const params = new URLSearchParams();
     if (q) params.set("q", q);
@@ -91,7 +83,7 @@ export default function Home() {
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-zinc-500 group-focus-within:text-cyan-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
-            </div>
+            </div_
             
             <input
               value={inputValue}
@@ -107,7 +99,7 @@ export default function Home() {
             >
               Buscar
             </button>
-          </div>
+          </div_
 
           {results.length > 0 && (
             <div className="mt-6 animate-in fade-in slide-in-from-top-4 duration-500">
@@ -123,21 +115,21 @@ export default function Home() {
                       onClick={() => setSelectedTerm(entry)}
                       className="w-full text-left rounded-xl border border-white/5 bg-white/[0.02] px-4 py-3 hover:border-cyan-500/30 hover:bg-white/[0.05] transition-all group"
                     >
-                      <div className="text-sm font-bold text-cyan-200 group-hover:text-cyan-100">{entry.term}</div>
-                      <div className="text-xs text-zinc-500">{entry.translation}</div>
+                      <div className="text-sm font-bold text-cyan-200 group-hover:text-cyan-100">{entry.term}</div_
+                      <div className="text-xs text-zinc-500">{entry.translation}</div_
                     </button>
                   </li>
                 ))}
-              </ul>
-            </div>
+              </ul_
+            </div_
           )}
           
           {queryFromUrl && results.length === 0 && (
             <div className="mt-6 text-center p-4 rounded-xl bg-white/[0.02] border border-white/5 text-zinc-500 text-sm">
               Nenhum termo encontrado para "{queryFromUrl}".
-            </div>
+            </div_
           )}
-        </div>
+        </div_
       </section>
 
       {selectedTerm && (
@@ -153,8 +145,8 @@ export default function Home() {
             <p className="text-zinc-300 italic mb-4">{selectedTerm.translation}</p>
             <div className="text-zinc-400 leading-relaxed">
               {selectedTerm.definition}
-            </div>
-          </div>
+            </div_
+          </div_
         </section>
       )}
 
@@ -172,8 +164,21 @@ export default function Home() {
               {l}
             </button>
           ))}
-        </div>
+        </div_
       </section>
     </GlossaryLayout>
+  );
+}
+
+// 2. A função principal agora é apenas um wrapper com Suspense
+export default function Home() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-zinc-950 flex items-center justify-center text-zinc-500 font-mono">
+        Carregando dicionário...
+      </div>
+    }>
+      <HomeContent />
+    </Suspense>
   );
 }
